@@ -2963,6 +2963,15 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
+          "name": "Grinder Coffee Table Oct",
+          "type": "video",
+          "format": "MP4",
+          "url": "https://www.dropbox.com/scl/fi/x5zkle9vw41mm4j5mx5oo/Grinder-Coffee-Table-Oct.mp4?rlkey=entg1ltqliif54glusssff5q5&dl=0",
+          "thumb": "assets/synced/slim-3-piece-grinder/def245cba3cc2edf0addb4c0d178b318953978f305bd35de7c16746fe0530e80.jpg",
+          "thumbS": "assets/synced/slim-3-piece-grinder/def245cba3cc2edf0addb4c0d178b318953978f305bd35de7c16746fe0530e80-s.jpg",
+          "file": null
+        },
+        {
           "name": "Grinder Dash II Larry Venice",
           "type": "video",
           "format": "MP4",
@@ -3237,7 +3246,7 @@ window.PORTAL_SYNCED = {
       "In Store Marketing Materials": "https://www.dropbox.com/scl/fo/eiroju8uf0q8ntzldvhh8/AChK_rv3bd7FHjp8YymEX5M?rlkey=eu289oru99vvqr8ucia5ba8jq&dl=1",
       "UGC Videos": "https://www.dropbox.com/scl/fo/3juvd5kglchxn6i4l14rr/ADq-xqFwZLgkBZVyzwlwJiY?rlkey=2983drldxo785ws5lvvhzjyqm&dl=1"
     },
-    "updated": "2026-10-02"
+    "updated": "2026-10-21"
   },
   "510 Original": {
     "folders": {
