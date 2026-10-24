@@ -2698,6 +2698,15 @@ window.PORTAL_SYNCED = {
       ],
       "UGC Videos": [
         {
+          "name": "blazinbara888 micro ii oct",
+          "type": "video",
+          "format": "MP4",
+          "url": "https://www.dropbox.com/scl/fi/6py9cyndmv0wxekkr7si0/blazinbara888-micro-ii-oct.mp4?rlkey=4fawzd61obmxn7fiouss21y79&dl=0",
+          "thumb": "assets/synced/micro-ii/a8cea20bb0edd72f0ab32025f166940c409d256a904d846b40218500270701d9.jpg",
+          "thumbS": "assets/synced/micro-ii/a8cea20bb0edd72f0ab32025f166940c409d256a904d846b40218500270701d9-s.jpg",
+          "file": null
+        },
+        {
           "name": "coco.bakesss_ micro 2 sept",
           "type": "video",
           "format": "MP4",
@@ -2741,6 +2750,15 @@ window.PORTAL_SYNCED = {
           "thumb": "assets/synced/micro-ii/de79a768427380eae83b84423b2a883f72197b4a6619ccfc6e429bfef1c26383.jpg",
           "thumbS": "assets/synced/micro-ii/de79a768427380eae83b84423b2a883f72197b4a6619ccfc6e429bfef1c26383-s.jpg",
           "file": null
+        },
+        {
+          "name": "yonki.rolls micro II octt",
+          "type": "video",
+          "format": "MP4",
+          "url": "https://www.dropbox.com/scl/fi/bd0ragnb9d3k4su8ji2lw/yonki.rolls-micro-II-octt.mp4?rlkey=1enn0u1ipz5s16s024gul8a3j&dl=0",
+          "thumb": "assets/synced/micro-ii/f8ab5dbe514931a65633c3a1d500e227ded4579552881152da987dfc20d2d9ce.jpg",
+          "thumbS": "assets/synced/micro-ii/f8ab5dbe514931a65633c3a1d500e227ded4579552881152da987dfc20d2d9ce-s.jpg",
+          "file": null
         }
       ]
     },
@@ -2755,7 +2773,7 @@ window.PORTAL_SYNCED = {
       "In Store Marketing Materials": "https://www.dropbox.com/scl/fo/wpkywovfwqzht61fi3iy7/AD1h_pWNcg3PtII1wxhJnGo?rlkey=x5ilflreeyywtx9y7uh47i95e&dl=1",
       "UGC Videos": "https://www.dropbox.com/scl/fo/urvini9ktpj70lajmdi7m/ADgh9jVSGzmpuaYZHebibj0?rlkey=jgkiorvg1ghy8anucm8dus18r&dl=1"
     },
-    "updated": "2026-10-01"
+    "updated": "2026-10-24"
   },
   "Slim 3-Piece Grinder": {
     "folders": {
