@@ -82,6 +82,8 @@ window.PORTAL_BRANDS = {
 window.PORTAL_CURRENT = {
   gpen: [
     "Dash II",
+    "Dash II — Retro Neon Green",
+    "Dash II — Retro Purple",
     "Dash+",
     "Slim 3-Piece Grinder",
     "Micro II",
@@ -110,6 +112,24 @@ window.PORTAL_PRODUCTS = [
     // Real Dropbox shared folder for Dash II (TEST). "Download all" pulls this
     // folder as a .zip. Full per-file sync comes via the Dropbox API job.
     dropbox: "https://www.dropbox.com/scl/fo/5hz9ej94k16g5fdv87gtj/AKc2Ts1QEgWfRugLZ_GoFvM?rlkey=9ueqe3ucvu30dgp6hlgixclpq&dl=0",
+    folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
+  },
+  {
+    // Dash II Retro Collection colorways (launched 2026-10-28). Both share one Dropbox
+    // folder, split by the color in each filename (see dashRetroPick in the sync).
+    // Covers: transparent cutouts of the Dropbox product shots, sized like the Dash II's.
+    // Purple has only back 3/4 shots so far — swap in a front shot when one arrives.
+    name: "Dash II — Retro Neon Green", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
+    cover: "assets/img/dash-ii-retro-neon-green.webp?v=20261028",
+    added: "2026-10-28", newBadge: "green",
+    oneSheet: "#",
+    folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
+  },
+  {
+    name: "Dash II — Retro Purple", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
+    cover: "assets/img/dash-ii-retro-purple.webp?v=20261028",
+    added: "2026-10-28", newBadge: "purple",
+    oneSheet: "#",
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
   },
   {
@@ -363,6 +383,10 @@ var PRODUCT_VIDEOS = {
   ],
 };
 
+// The Dash II Retro colorways are the same device: same how-to videos.
+PRODUCT_VIDEOS["Dash II — Retro Neon Green"] = PRODUCT_VIDEOS["Dash II"];
+PRODUCT_VIDEOS["Dash II — Retro Purple"] = PRODUCT_VIDEOS["Dash II"];
+
 // Inject videos into a product-level `videos` array (the educational video hub,
 // SEPARATE from the downloadable file folders). The "Video" folder stays for
 // real downloadable video files (placeholder for now).
@@ -423,6 +447,24 @@ var PRODUCT_INFO = {
     manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20260309_GPen_Dash2_Manual.pdf?v=1773074467",
     faqUrl: "https://gpen.com/pages/dash-ii-faq",
     productUrl: "https://www.gpen.com/products/g-pen-dash-ii-vaporizer",
+  },
+  "Dash II — Retro Neon Green": {
+    // Same device as the Dash II in a Retro Collection colorway: its specs, warranty,
+    // manual and FAQ carry over. No gpen.com product page yet (add productUrl once live).
+    description: "The Retro Collection edition of the G Pen Dash II wraps the same pocket-sized dry herb vaporizer in a see-through, 90s-inspired Neon Green shell, with a 30-second heat-up, precise temperature control, and an upgraded 0.4g ceramic chamber.",
+    highlights: ["Translucent Neon Green retro finish", "30-second heat-up", "Precise temperature control", "OLED display", "Upgraded 0.4g ceramic chamber (easier loading)", "Pick Tool", "1,100mAh battery", "USB-C pass-through charging"],
+    warranty: "6-month limited warranty, extended to 1 year if registered",
+    manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20260309_GPen_Dash2_Manual.pdf?v=1773074467",
+    faqUrl: "https://gpen.com/pages/dash-ii-faq",
+  },
+  "Dash II — Retro Purple": {
+    // Same device as the Dash II in a Retro Collection colorway: its specs, warranty,
+    // manual and FAQ carry over. No gpen.com product page yet (add productUrl once live).
+    description: "The Retro Collection edition of the G Pen Dash II wraps the same pocket-sized dry herb vaporizer in a see-through, 90s-inspired Purple shell, with a 30-second heat-up, precise temperature control, and an upgraded 0.4g ceramic chamber.",
+    highlights: ["Translucent Purple retro finish", "30-second heat-up", "Precise temperature control", "OLED display", "Upgraded 0.4g ceramic chamber (easier loading)", "Pick Tool", "1,100mAh battery", "USB-C pass-through charging"],
+    warranty: "6-month limited warranty, extended to 1 year if registered",
+    manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20260309_GPen_Dash2_Manual.pdf?v=1773074467",
+    faqUrl: "https://gpen.com/pages/dash-ii-faq",
   },
   "Connect": {
     description: "A torchless concentrate vaporizer that turns any glass-on-glass water pipe into the ultimate dab rig — no torch or exposed nail required.",
@@ -727,6 +769,8 @@ var PRODUCT_INFO = {
    e.g. confirm a price). Shown in the product hub. */
 var PRODUCT_MSRP = {
   "Dash II": "$49.95",
+  "Dash II — Retro Neon Green": "$49.95",
+  "Dash II — Retro Purple": "$49.95",
   "Connect": "$74.95",
   "Roam": "$49.95",
   "Hyer": "$149.95",
@@ -746,6 +790,22 @@ var PRODUCT_DESCRIPTION = {
     "The next evolution of our best-selling Dash vaporizer — upgraded across the board and now just $49.95.",
     "The G Pen Dash II is a pocket-sized dry herb vaporizer featuring precise temperature control, an OLED display, and an upgraded 0.4g ceramic chamber designed for improved performance and easier loading. Powered by an upgraded longer lasting 1,100mAh battery, Dash II delivers smooth, reliable sessions with 30-second heat-up and USB-C pass-through charging capability.",
     "More control. Easier loading. Better performance.",
+  ],
+  "Dash II — Retro Neon Green": [
+    "Dash II. Upgraded. Retro.",
+    "The Dash II you know, now in a see-through Neon Green retro finish.",
+    "The Retro Collection G Pen Dash II pairs nostalgic, 90s-inspired transparent design with a bold translucent Neon Green colorway. Under the retro shell, it’s the same Dash II in every way, with all of its upgraded performance.",
+    "The G Pen Dash II is a pocket-sized dry herb vaporizer with precise temperature control, an OLED display, and an upgraded 0.4g ceramic chamber designed for better performance and easier loading. A longer-lasting 1,100mAh battery delivers smooth, reliable sessions with a 30-second heat-up, and USB-C pass-through charging keeps it ready to use even while it’s plugged in.",
+    "With its translucent Neon Green shell and modern dry herb performance, the Dash II Retro is a smooth mix of vintage style and everyday function.",
+    "More control. Easier loading. Retro style.",
+  ],
+  "Dash II — Retro Purple": [
+    "Dash II. Upgraded. Retro.",
+    "The Dash II you know, now in a see-through Purple retro finish.",
+    "The Retro Collection G Pen Dash II pairs nostalgic, 90s-inspired transparent design with a bold translucent Purple colorway. Under the retro shell, it’s the same Dash II in every way, with all of its upgraded performance.",
+    "The G Pen Dash II is a pocket-sized dry herb vaporizer with precise temperature control, an OLED display, and an upgraded 0.4g ceramic chamber designed for better performance and easier loading. A longer-lasting 1,100mAh battery delivers smooth, reliable sessions with a 30-second heat-up, and USB-C pass-through charging keeps it ready to use even while it’s plugged in.",
+    "With its translucent Purple shell and modern dry herb performance, the Dash II Retro is a smooth mix of vintage style and everyday function.",
+    "More control. Easier loading. Retro style.",
   ],
   "Connect": [
     "The best torchless dab vaporizer alternative to traditional rigs. The G Pen Connect is a revolutionary concentrate vaporizer for water pipes that eliminates the need for a torch and exposed nail. This fast heating concentrate vaporizer reaches optimal temperature within five seconds, delivering premium vapor quality with zero hassle.",
@@ -848,6 +908,10 @@ var PRODUCT_SKU = {
   // innerPack/masterCarton/caseWeight/caseDimensions = retail packaging. Retro
   // rows use the collection-level POP SKU/UPC (per-colour SKUs live in the sheet).
   "Dash II":              { sku: "GPD-001-APZZ", pop: true,  fullName: "DASH II VAPORIZER", upc: "852570004441", popSku: "GPD-001-APZZ-Inner Pack", popUpc: "10852570004448", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", masterCarton: "200", caseWeight: "16.07 kg", caseDimensions: "580 × 280 × 245 mm", htsCode: "8543.70.9940", boxImg: "assets/materials/dash-ii-retail-packaging.png", popImg: "assets/materials/dash-ii-pop-display.png" },
+  // Dash II Retro: the unit's own specs match the Dash II. SKU/UPC and POP/case
+  // packaging aren't confirmed yet, so they show as "still to be confirmed".
+  "Dash II — Retro Neon Green": { fullName: "DASH II — RETRO NEON GREEN", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", htsCode: "8543.70.9940" },
+  "Dash II — Retro Purple": { fullName: "DASH II — RETRO PURPLE", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", htsCode: "8543.70.9940" },
   "Dash+":                { sku: "GPD-001-AMZZ", pop: false, fullName: "DASH+ VAPORIZER", upc: "811736027489", dimensions: "135 × 100 × 35 mm", unitWeight: "276 g", innerPack: "N/A", masterCarton: "48", caseWeight: "14.3 kg", caseDimensions: "330 × 320 × 320 mm", htsCode: "8543.70.9940" },
   "Melt Hot Knife":       { sku: "GHK-001-AOZZ", pop: true,  fullName: "MELT", upc: "811736029711", popSku: "GHK-001-AOZZ-Inner Pack", popUpc: "10811736029718", dimensions: "122.5 × 42 × 12 mm", unitWeight: "17 g", innerPack: "20", masterCarton: "720", caseWeight: "14.74 kg", caseDimensions: "513 × 482 × 262 mm", htsCode: "8543.70.9940" },
   "Hydout":               { sku: "GHO-001-AOZZ", pop: true,  fullName: "HYDOUT", upc: "811736029254", popSku: "GHO-001-AOZZ-Inner Pack", popUpc: "10811736029251", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
@@ -880,6 +944,9 @@ var PRODUCT_BOX = {
     image: CDN + "dash2_thumb_011.jpg?v=1772834595",
     contents: ["G Pen Dash II Dry Herb Vape", "Built-in loading tool", "Silicone Mouthpiece Sleeve", "*USB-C Charging Cable Not Included"],
   },
+  // Dash II Retro: same box as the Dash II (no colorway components image yet).
+  "Dash II — Retro Neon Green": { contents: ["G Pen Dash II Dry Herb Vape", "Built-in loading tool", "Silicone Mouthpiece Sleeve", "*USB-C Charging Cable Not Included"] },
+  "Dash II — Retro Purple": { contents: ["G Pen Dash II Dry Herb Vape", "Built-in loading tool", "Silicone Mouthpiece Sleeve", "*USB-C Charging Cable Not Included"] },
   "Dash+": {
     image: CDN + "dash_what_inc.png?v=1692903153",
     contents: ["Dash+ Vaporizer", "Dash+ Mouthpiece Silicone Sleeve", "Loading Tool with Keychain", "USB-C Charging Cable"],
@@ -927,6 +994,7 @@ window.PORTAL_PRODUCTS.forEach(function (p) {
       p.folders = s.folders;
       if (s.dropbox) p.dropbox = s.dropbox;
       if (s.folderLinks) p.folderLinks = s.folderLinks;
+      if (s.mixed) p.mixed = true;   // shares its Dropbox folder with another colorway
       p.synced = true;
       p.syncedAt = s.syncedAt;
       if (s.updated && (!p.added || s.updated > p.added)) p.updated = s.updated;
@@ -1233,6 +1301,8 @@ var HYDOUT_RETRO_PHOTOS = [
 (function () {
   var LABELS = {
     "Dash II": "Dry Herb Vape",
+    "Dash II — Retro Neon Green": "Dry Herb Vape",
+    "Dash II — Retro Purple": "Dry Herb Vape",
     "Dash+": "Dry Herb Vape",
     "Micro II": "Concentrate Vaporizer",
     "Melt Hot Knife": "Concentrate Hot Knife",
@@ -1256,6 +1326,8 @@ var HYDOUT_RETRO_PHOTOS = [
 window.PORTAL_TRAINING_SITE = "https://training.gpen.com/";
 window.PORTAL_TRAINING_COURSES = {
   "Dash II":              "dash-ii",
+  "Dash II — Retro Neon Green": "dash-ii",
+  "Dash II — Retro Purple": "dash-ii",
   "Dash+":                "dash-plus",
   "Slim 3-Piece Grinder": "grinder",
   "Micro II":             "micro-ii",
@@ -1277,6 +1349,8 @@ window.PORTAL_TRAINING_COURSES = {
 window.PORTAL_HELP_SITE = "https://help.gpen.com/";
 window.PORTAL_HELP_PAGES = {
   "Dash II":              "dash-ii",
+  "Dash II — Retro Neon Green": "dash-ii",
+  "Dash II — Retro Purple": "dash-ii",
   "Dash+":                "dash-plus",
   "Slim 3-Piece Grinder": "grinder",
   "Micro II":             "micro-ii",

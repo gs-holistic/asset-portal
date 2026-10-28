@@ -26,7 +26,7 @@
   var LANGS = { en: "English", es: "Español", de: "Deutsch", it: "Italiano", fr: "Français", pt: "Português (Brasil)",
                 sv: "Svenska", pl: "Polski", da: "Dansk" };
   function isLang(l) { return Object.prototype.hasOwnProperty.call(LANGS, l); }
-  var LANG_VER = "20261013a";   // bump with the other asset tokens
+  var LANG_VER = "20261028a";   // bump with the other asset tokens
   // Load a language pack once. English is a no-op (it IS the source).
   var _langLoading = {};
   function loadLangPack(l, cb) {
@@ -3446,7 +3446,7 @@
       window.open(dropboxZipUrl(link), "_blank", "noopener");
       return;
     }
-    downloadFiles((p.folders && p.folders[folderName]) || [], folderName, p.dropbox);
+    downloadFiles((p.folders && p.folders[folderName]) || [], folderName, p.mixed ? null : p.dropbox);
   }
   // Turn a Dropbox shared-folder link into a direct "download whole folder as
   // .zip" URL (forces dl=1).
@@ -3477,7 +3477,9 @@
     // Real Dropbox: download the whole product folder as a .zip from the shared
     // link (works on the static site, no backend). Per-file/zip-of-selection
     // still needs the Dropbox API sync (see GitHub Action) to resolve paths.
-    if (p.dropbox) {
+    // A colorway that shares its Dropbox folder (Dash II Retro) downloads its own
+    // files; the folder .zip would include the other colorway's too.
+    if (p.dropbox && !p.mixed) {
       toast(tr("Opening Dropbox download…"));
       window.open(dropboxZipUrl(p.dropbox), "_blank", "noopener");
       return;

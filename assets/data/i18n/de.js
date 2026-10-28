@@ -670,6 +670,66 @@ window.PORTAL_I18N.de = {
         ]
       }
     },
+    "Dash II — Retro Neon Green": {
+      "description": "Die Retro Collection Edition des G Pen Dash II steckt denselben Trockenkräuter-Vaporizer im Taschenformat in ein transparentes, von den 90ern inspiriertes Gehäuse in Neongrün — mit 30 Sekunden Aufheizzeit, präziser Temperatursteuerung und verbesserter 0,4 g Keramikkammer.",
+      "highlights": [
+        "Transluzentes Retro-Finish in Neongrün",
+        "30 Sekunden Aufheizzeit",
+        "Präzise Temperatursteuerung",
+        "OLED-Display",
+        "Verbesserte 0,4 g Keramikkammer (einfacheres Befüllen)",
+        "Befüllwerkzeug (Pick Tool)",
+        "1.100 mAh Akku",
+        "USB-C Pass-Through-Laden (Nutzung während des Ladens)"
+      ],
+      "warranty": "6 Monate eingeschränkte Garantie, verlängert auf 1 Jahr bei Registrierung",
+      "fullDescription": [
+        "Dash II. Verbessert. Retro.",
+        "Der Dash II, den Sie kennen — jetzt mit transparentem Retro-Finish in Neongrün.",
+        "Der Retro Collection G Pen Dash II verbindet nostalgisches, von den 90ern inspiriertes transparentes Design mit einer auffälligen transluzenten Farbgebung in Neongrün. Unter der Retro-Hülle steckt in jeder Hinsicht derselbe Dash II mit seiner gesamten verbesserten Leistung.",
+        "Der G Pen Dash II ist ein Trockenkräuter-Vaporizer im Taschenformat mit präziser Temperatursteuerung, OLED-Display und einer verbesserten 0,4 g Keramikkammer für mehr Leistung und einfacheres Befüllen. Ein langlebigerer 1.100 mAh Akku liefert gleichmäßige, zuverlässige Sessions mit 30 Sekunden Aufheizzeit, und dank USB-C Pass-Through-Laden (Nutzung während des Ladens) ist er selbst am Kabel einsatzbereit.",
+        "Mit seiner transluzenten Hülle in Neongrün und moderner Trockenkräuter-Leistung liefert der Dash II Retro eine gelungene Mischung aus Vintage-Stil und Alltagstauglichkeit.",
+        "Mehr Kontrolle. Einfacheres Befüllen. Retro-Stil."
+      ],
+      "box": {
+        "contents": [
+          "G Pen Dash II Vaporizer für Trockenkräuter",
+          "Integriertes Befüllwerkzeug",
+          "Silikonhülle für Mundstück",
+          "*USB-C Ladekabel nicht im Lieferumfang enthalten"
+        ]
+      }
+    },
+    "Dash II — Retro Purple": {
+      "description": "Die Retro Collection Edition des G Pen Dash II steckt denselben Trockenkräuter-Vaporizer im Taschenformat in ein transparentes, von den 90ern inspiriertes Gehäuse in Lila — mit 30 Sekunden Aufheizzeit, präziser Temperatursteuerung und verbesserter 0,4 g Keramikkammer.",
+      "highlights": [
+        "Transluzentes Retro-Finish in Lila",
+        "30 Sekunden Aufheizzeit",
+        "Präzise Temperatursteuerung",
+        "OLED-Display",
+        "Verbesserte 0,4 g Keramikkammer (einfacheres Befüllen)",
+        "Befüllwerkzeug (Pick Tool)",
+        "1.100 mAh Akku",
+        "USB-C Pass-Through-Laden (Nutzung während des Ladens)"
+      ],
+      "warranty": "6 Monate eingeschränkte Garantie, verlängert auf 1 Jahr bei Registrierung",
+      "fullDescription": [
+        "Dash II. Verbessert. Retro.",
+        "Der Dash II, den Sie kennen — jetzt mit transparentem Retro-Finish in Lila.",
+        "Der Retro Collection G Pen Dash II verbindet nostalgisches, von den 90ern inspiriertes transparentes Design mit einer auffälligen transluzenten Farbgebung in Lila. Unter der Retro-Hülle steckt in jeder Hinsicht derselbe Dash II mit seiner gesamten verbesserten Leistung.",
+        "Der G Pen Dash II ist ein Trockenkräuter-Vaporizer im Taschenformat mit präziser Temperatursteuerung, OLED-Display und einer verbesserten 0,4 g Keramikkammer für mehr Leistung und einfacheres Befüllen. Ein langlebigerer 1.100 mAh Akku liefert gleichmäßige, zuverlässige Sessions mit 30 Sekunden Aufheizzeit, und dank USB-C Pass-Through-Laden (Nutzung während des Ladens) ist er selbst am Kabel einsatzbereit.",
+        "Mit seiner transluzenten Hülle in Lila und moderner Trockenkräuter-Leistung liefert der Dash II Retro eine gelungene Mischung aus Vintage-Stil und Alltagstauglichkeit.",
+        "Mehr Kontrolle. Einfacheres Befüllen. Retro-Stil."
+      ],
+      "box": {
+        "contents": [
+          "G Pen Dash II Vaporizer für Trockenkräuter",
+          "Integriertes Befüllwerkzeug",
+          "Silikonhülle für Mundstück",
+          "*USB-C Ladekabel nicht im Lieferumfang enthalten"
+        ]
+      }
+    },
     "Hydout — Retro": {
       "description": "Die Retro Edition des G Pen Hydout bringt ein durchsichtiges, von den 90ern inspiriertes transluzentes Finish auf den diskreten Akku für 510-Kartuschen — mit Zugaktivierung, variabler Spannung und USB-C Pass-Through-Laden.",
       "highlights": [

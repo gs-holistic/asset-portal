@@ -680,6 +680,66 @@ window.PORTAL_I18N.da = {
         ]
       }
     },
+    "Dash II — Retro Neon Green": {
+      "description": "Retro Collection-udgaven af G Pen Dash II giver den samme vaporizer til tørrede urter i lommeformat en gennemsigtig, 90'er-inspireret skal i neongrøn, med opvarmning på 30 sekunder, præcis temperaturkontrol og et opgraderet keramisk kammer på 0,4 g.",
+      "highlights": [
+        "Gennemsigtig retrofinish i neongrøn",
+        "Opvarmning på 30 sekunder",
+        "Præcis temperaturkontrol",
+        "OLED-display",
+        "Opgraderet keramisk kammer på 0,4 g (nemmere at fylde)",
+        "Fyldeværktøj",
+        "1.100 mAh batteri",
+        "USB-C med pass-through-opladning"
+      ],
+      "warranty": "6 måneders begrænset garanti, forlænget til 1 år ved registrering",
+      "fullDescription": [
+        "Dash II. Opgraderet. Retro.",
+        "Den Dash II, du kender, nu med en gennemsigtig retrofinish i neongrøn.",
+        "Retro Collection-versionen af G Pen Dash II forener nostalgisk, 90'er-inspireret gennemsigtigt design med en markant, gennemsigtig neongrøn farve. Under retroskallen er det den samme Dash II på alle punkter, med al dens opgraderede ydelse.",
+        "G Pen Dash II er en vaporizer til tørrede urter i lommeformat med præcis temperaturkontrol, OLED-display og et opgraderet keramisk kammer på 0,4 g, der giver bedre ydelse og er nemmere at fylde. Et batteri på 1.100 mAh, der holder længere, giver bløde, pålidelige sessioner med opvarmning på 30 sekunder, og USB-C med pass-through-opladning holder den klar, også mens den er tilsluttet.",
+        "Med sin gennemsigtige neongrønne skal og moderne ydelse til tørrede urter giver Dash II Retro en glidende blanding af vintagestil og hverdagsfunktion.",
+        "Mere kontrol. Nemmere at fylde. Retrostil."
+      ],
+      "box": {
+        "contents": [
+          "G Pen Dash II vape til tørrede urter",
+          "Indbygget fyldeværktøj",
+          "Silikonemuffe til mundstykket",
+          "*USB-C-opladerkabel medfølger ikke"
+        ]
+      }
+    },
+    "Dash II — Retro Purple": {
+      "description": "Retro Collection-udgaven af G Pen Dash II giver den samme vaporizer til tørrede urter i lommeformat en gennemsigtig, 90'er-inspireret skal i lilla, med opvarmning på 30 sekunder, præcis temperaturkontrol og et opgraderet keramisk kammer på 0,4 g.",
+      "highlights": [
+        "Gennemsigtig retrofinish i lilla",
+        "Opvarmning på 30 sekunder",
+        "Præcis temperaturkontrol",
+        "OLED-display",
+        "Opgraderet keramisk kammer på 0,4 g (nemmere at fylde)",
+        "Fyldeværktøj",
+        "1.100 mAh batteri",
+        "USB-C med pass-through-opladning"
+      ],
+      "warranty": "6 måneders begrænset garanti, forlænget til 1 år ved registrering",
+      "fullDescription": [
+        "Dash II. Opgraderet. Retro.",
+        "Den Dash II, du kender, nu med en gennemsigtig retrofinish i lilla.",
+        "Retro Collection-versionen af G Pen Dash II forener nostalgisk, 90'er-inspireret gennemsigtigt design med en markant, gennemsigtig lilla farve. Under retroskallen er det den samme Dash II på alle punkter, med al dens opgraderede ydelse.",
+        "G Pen Dash II er en vaporizer til tørrede urter i lommeformat med præcis temperaturkontrol, OLED-display og et opgraderet keramisk kammer på 0,4 g, der giver bedre ydelse og er nemmere at fylde. Et batteri på 1.100 mAh, der holder længere, giver bløde, pålidelige sessioner med opvarmning på 30 sekunder, og USB-C med pass-through-opladning holder den klar, også mens den er tilsluttet.",
+        "Med sin gennemsigtige lilla skal og moderne ydelse til tørrede urter giver Dash II Retro en glidende blanding af vintagestil og hverdagsfunktion.",
+        "Mere kontrol. Nemmere at fylde. Retrostil."
+      ],
+      "box": {
+        "contents": [
+          "G Pen Dash II vape til tørrede urter",
+          "Indbygget fyldeværktøj",
+          "Silikonemuffe til mundstykket",
+          "*USB-C-opladerkabel medfølger ikke"
+        ]
+      }
+    },
     "Hydout — Retro": {
       "description": "Retro-udgaven af G Pen Hydout giver det diskrete batteri til 510-patroner en gennemsigtig finish inspireret af 90'erne, med åndedrætsaktivering, variabel spænding og USB-C med pass-through-opladning.",
       "highlights": [

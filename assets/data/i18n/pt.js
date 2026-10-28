@@ -674,6 +674,66 @@ window.PORTAL_I18N.pt = {
         ]
       }
     },
+    "Dash II — Retro Neon Green": {
+      "description": "A edição Retro Collection do G Pen Dash II traz o mesmo vaporizador de erva seca de bolso em uma carcaça transparente verde neon inspirada nos anos 90, com aquecimento em 30 segundos, controle preciso de temperatura e câmara cerâmica de 0,4g aprimorada.",
+      "highlights": [
+        "Acabamento retro translúcido verde neon",
+        "Aquecimento em 30 segundos",
+        "Controle preciso de temperatura",
+        "Display OLED",
+        "Câmara cerâmica de 0,4g aprimorada (enchimento mais fácil)",
+        "Ferramenta de enchimento",
+        "Bateria de 1.100mAh",
+        "Carregamento pass-through USB-C"
+      ],
+      "warranty": "Garantia limitada de 6 meses, estendida para 1 ano mediante registro",
+      "fullDescription": [
+        "Dash II. Aprimorado. Retro.",
+        "O Dash II que você conhece, agora com acabamento retro transparente verde neon.",
+        "O G Pen Dash II da Retro Collection combina o design transparente nostálgico, inspirado nos anos 90, com uma cor translúcida verde neon marcante. Por baixo da carcaça retro, é o mesmo Dash II em todos os aspectos, com todo o seu desempenho aprimorado.",
+        "O G Pen Dash II é um vaporizador de erva seca de bolso com controle preciso de temperatura, display OLED e uma câmara cerâmica de 0,4g aprimorada, projetada para melhor desempenho e enchimento mais fácil. A bateria de 1.100mAh de maior duração entrega sessões suaves e confiáveis com aquecimento em 30 segundos, e o carregamento pass-through via USB-C mantém o dispositivo pronto para uso mesmo enquanto ele estiver carregando.",
+        "Com a carcaça translúcida verde neon e o desempenho moderno para erva seca, o Dash II Retro entrega uma mistura equilibrada de estilo vintage e função para o dia a dia.",
+        "Mais controle. Enchimento mais fácil. Estilo retro."
+      ],
+      "box": {
+        "contents": [
+          "Vaporizador de erva seca G Pen Dash II",
+          "Ferramenta de enchimento integrada",
+          "Capa de silicone para a piteira",
+          "*Cabo de carregamento USB-C não incluído"
+        ]
+      }
+    },
+    "Dash II — Retro Purple": {
+      "description": "A edição Retro Collection do G Pen Dash II traz o mesmo vaporizador de erva seca de bolso em uma carcaça transparente roxa inspirada nos anos 90, com aquecimento em 30 segundos, controle preciso de temperatura e câmara cerâmica de 0,4g aprimorada.",
+      "highlights": [
+        "Acabamento retro translúcido roxo",
+        "Aquecimento em 30 segundos",
+        "Controle preciso de temperatura",
+        "Display OLED",
+        "Câmara cerâmica de 0,4g aprimorada (enchimento mais fácil)",
+        "Ferramenta de enchimento",
+        "Bateria de 1.100mAh",
+        "Carregamento pass-through USB-C"
+      ],
+      "warranty": "Garantia limitada de 6 meses, estendida para 1 ano mediante registro",
+      "fullDescription": [
+        "Dash II. Aprimorado. Retro.",
+        "O Dash II que você conhece, agora com acabamento retro transparente roxo.",
+        "O G Pen Dash II da Retro Collection combina o design transparente nostálgico, inspirado nos anos 90, com uma cor translúcida roxa marcante. Por baixo da carcaça retro, é o mesmo Dash II em todos os aspectos, com todo o seu desempenho aprimorado.",
+        "O G Pen Dash II é um vaporizador de erva seca de bolso com controle preciso de temperatura, display OLED e uma câmara cerâmica de 0,4g aprimorada, projetada para melhor desempenho e enchimento mais fácil. A bateria de 1.100mAh de maior duração entrega sessões suaves e confiáveis com aquecimento em 30 segundos, e o carregamento pass-through via USB-C mantém o dispositivo pronto para uso mesmo enquanto ele estiver carregando.",
+        "Com a carcaça translúcida roxa e o desempenho moderno para erva seca, o Dash II Retro entrega uma mistura equilibrada de estilo vintage e função para o dia a dia.",
+        "Mais controle. Enchimento mais fácil. Estilo retro."
+      ],
+      "box": {
+        "contents": [
+          "Vaporizador de erva seca G Pen Dash II",
+          "Ferramenta de enchimento integrada",
+          "Capa de silicone para a piteira",
+          "*Cabo de carregamento USB-C não incluído"
+        ]
+      }
+    },
     "Hydout — Retro": {
       "description": "A edição Retro da G Pen Hydout dá à discreta bateria para cartuchos 510 um acabamento translúcido inspirado nos anos 90, que deixa o interior à vista, com ativação por inalação, voltagem variável e carregamento pass-through USB-C.",
       "warranty": "Garantia limitada — consulte a política",

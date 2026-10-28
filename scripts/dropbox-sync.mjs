@@ -28,7 +28,24 @@ if (!APP_KEY || !APP_SECRET || !REFRESH) {
   process.exit(0);
 }
 
+// The Dash II Retro colorways share one Dropbox folder; every file names its color
+// ("GPEN_Dash-II_Green_Front", "GPEN - Dash 2-65 Purple"). Photos with no color in the
+// name are the Neon Green shoot, "Group" shots show both, and colorless files in the
+// other folders (videos, documents, packaging) belong to both products.
+const DASH_II_RETRO = "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=0";
+function dashRetroPick(color) {
+  return (name, folder) => {
+    const purple = /purple/i.test(name), green = /green/i.test(name);
+    if (purple || green) return color === "purple" ? purple : green;
+    if (/group/i.test(name)) return true;
+    if (/Photos$/.test(folder)) return color === "green";
+    return true;
+  };
+}
+
 // Products to sync: portal product name → its public Dropbox shared-folder link.
+// `pick(fileName, folder)` keeps only some of a shared folder's files; such a product
+// gets no folder .zip links, since those would download the other colorway too.
 const PRODUCTS = [
   {
     // Nothing is hosted on GitHub anymore — every file downloads straight from
@@ -38,6 +55,8 @@ const PRODUCTS = [
     slug: "dash-ii",
     link: "https://www.dropbox.com/scl/fo/5hz9ej94k16g5fdv87gtj/AKc2Ts1QEgWfRugLZ_GoFvM?rlkey=9ueqe3ucvu30dgp6hlgixclpq&dl=0",
   },
+  { name: "Dash II — Retro Neon Green", slug: "dash-ii-retro-neon-green", link: DASH_II_RETRO, pick: dashRetroPick("green") },
+  { name: "Dash II — Retro Purple", slug: "dash-ii-retro-purple", link: DASH_II_RETRO, pick: dashRetroPick("purple") },
   { name: "Micro II", slug: "micro-ii", link: "https://www.dropbox.com/scl/fo/spharop9yvc7bnk5g3w4z/AKUC7ALBupRa8e039bvfNr4?rlkey=5560kr7brds1hco7tgeiafsbx&dl=0" },
   { name: "Slim 3-Piece Grinder", slug: "slim-3-piece-grinder", link: "https://www.dropbox.com/scl/fo/8lfqlq0faeml5pqnvzoys/ADcfy5cYRTh2lHbK13o_I60?rlkey=4jjwd6s48mon6tcpis5uass3x&dl=0" },
   { name: "510 Original", slug: "510-original", link: "https://www.dropbox.com/scl/fo/mtuk2kb73ln5pv0qj68y5/AOnLPmrirA3wsvOdaA0v9rw?rlkey=e8svbeey6dql240rjqzch9qco&st=tvt2s0qf&dl=0" },
@@ -417,12 +436,13 @@ for (const p of PRODUCTS) {
       }
       const entries = await listFolder(tok, p.link, "/" + raw);
       const files = [];
-      for (const e of entries) if (e[".tag"] === "file") { e.relPath = "/" + raw + "/" + e.name; files.push(e); }
+      for (const e of entries) if (e[".tag"] === "file" && (!p.pick || p.pick(e.name, disp))) { e.relPath = "/" + raw + "/" + e.name; files.push(e); }
       // Walk one nested level (e.g. per-color variant folders under Product Photos)
       // and flatten those files into the parent group, labelled by their folder.
       for (const ss of entries.filter((e) => e[".tag"] === "folder")) {
         const nested = (await listFolder(tok, p.link, "/" + raw + "/" + ss.name)).filter((e) => e[".tag"] === "file");
         for (const nf of nested) {
+          if (p.pick && !p.pick(ss.name + " " + nf.name, disp)) continue;
           nf.relPath = "/" + raw + "/" + ss.name + "/" + nf.name;
           nf.displayName = ss.name + " · " + nf.name.replace(/\.[^.]+$/, "");
           files.push(nf);
@@ -449,8 +469,13 @@ for (const p of PRODUCTS) {
     const files = spec.files;
     files.sort((a, b) => (a.displayName || a.name).localeCompare(b.displayName || b.name, undefined, { numeric: true }));
     const out = [];
+    // "Front (1).png" byte-identical to another file in the folder is an accidental
+    // second upload ("Front.png" can sort either side of it, so collect first).
+    const COPY = /\s\(\d+\)\.[^.]+$/;
+    const originals = new Set(files.filter((f) => !COPY.test(f.name)).map((f) => f.content_hash));
     for (const f of files) {
       if (JUNK.test(f.name)) continue;
+      if (COPY.test(f.name) && f.content_hash && originals.has(f.content_hash)) continue;
       const e = ext(f.name), type = typeOf(e), path = f.relPath || (spec.prefix + "/" + f.name);
       const hash = f.content_hash, size = f.size || 0;
       let thumb = null, fileRel = null;
@@ -552,7 +577,7 @@ for (const p of PRODUCTS) {
   // zips exactly that folder. Falls back to the whole-product link when a folder
   // has no id (deep/nested groupings) or the link can't be created.
   const folderLinks = {};
-  for (const spec of folderSpecs) {
+  for (const spec of p.pick ? [] : folderSpecs) {
     if (!folders[spec.name] || folderLinks[spec.name]) continue;
     let fl = spec.id ? linkCache[spec.id] : null;
     if (!fl && spec.id) {
@@ -571,7 +596,7 @@ for (const p of PRODUCTS) {
   // Newest file date in the product, so the portal's "updated …" line tracks
   // Dropbox instead of a hand-set date that never moves.
   const newest = folderSpecs.flatMap((sp) => sp.files).map((f) => f.server_modified || "").sort().pop() || "";
-  synced[p.name] = { folders, dropbox: dlLink(p.link), folderLinks, ...(newest ? { updated: newest.slice(0, 10) } : {}) };
+  synced[p.name] = { folders, dropbox: dlLink(p.link), folderLinks, ...(p.pick ? { mixed: true } : {}), ...(newest ? { updated: newest.slice(0, 10) } : {}) };
   const total = Object.values(folders).reduce((n, a) => n + a.length, 0);
   const withThumb = Object.values(folders).reduce((n, a) => n + a.filter((x) => x.thumb).length, 0);
   const withLink = Object.values(folders).reduce((n, a) => n + a.filter((x) => /scl\/fi\//.test(x.url)).length, 0);
