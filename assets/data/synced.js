@@ -1024,6 +1024,417 @@ window.PORTAL_SYNCED = {
     },
     "updated": "2026-10-01"
   },
+  "Dash II — Retro Neon Green": {
+    "folders": {
+      "Product Photos": [
+        {
+          "name": "GPEN_Dash-II_Green_Back-3Q-Left",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/ea4vx66uas8gpfns4j9gv/GPEN_Dash-II_Green_Back-3Q-Left.png?rlkey=0kb7act0hpn5xkry6rkiej1de&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/49859bf4d6603d7d468d20bd0a870f436cb178434925e2647bc6a592063b788e.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/49859bf4d6603d7d468d20bd0a870f436cb178434925e2647bc6a592063b788e-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Green_Back-3Q-Right",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/m4rkyh40xeazwakr1zswn/GPEN_Dash-II_Green_Back-3Q-Right.png?rlkey=z1lqinnx2roa5cle6pln7cwdj&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/cac6591a375e5a615f792793ad1e70a915ad2de79004a8533cd928e753b6803e.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/cac6591a375e5a615f792793ad1e70a915ad2de79004a8533cd928e753b6803e-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Green_Back",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/9w9d5zi6rduz8onx4ndhr/GPEN_Dash-II_Green_Back.png?rlkey=90bq1h3dllfn207qdas934g4g&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/326732acd87270c5f201fbe4345a8d29b31545a31a41c665daaef4927494226b.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/326732acd87270c5f201fbe4345a8d29b31545a31a41c665daaef4927494226b-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Green_Front-3Q-Left",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/6u1rbaj50sleb6f7llhg9/GPEN_Dash-II_Green_Front-3Q-Left.png?rlkey=gufs6bgc78ugf9zezxg0k69dt&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/5cf2844d6908330cc3cdc0bf138a1e517c4458b4d756b495ffc8cbcf58612e38.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/5cf2844d6908330cc3cdc0bf138a1e517c4458b4d756b495ffc8cbcf58612e38-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Green_Front-3Q-Right",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/sdpddtx42vvg977lmo707/GPEN_Dash-II_Green_Front-3Q-Right.png?rlkey=l5204dgh138ii6qd1uroz8586&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/7bad85a776c6b3ef6ede77a4bdba19150e0c3067ca09a3872cf852555eefe35d.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/7bad85a776c6b3ef6ede77a4bdba19150e0c3067ca09a3872cf852555eefe35d-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Green_Front-Cap-On",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/y55k8f19filneo13qj8wl/GPEN_Dash-II_Green_Front-Cap-On.png?rlkey=zk7l1pdcses60qvgrj2grr8cw&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/cdd4da9bc22c44824b910ffda01153ecf06c491dbdbe068c4d6cc77202525bdc.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/cdd4da9bc22c44824b910ffda01153ecf06c491dbdbe068c4d6cc77202525bdc-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Green_Front",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/rv9y3ltfr7kzjdk6euqm4/GPEN_Dash-II_Green_Front.png?rlkey=mgflgfo5yznl7py76dop8l2yh&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/f3b2d1c76b869df57580b3468a8bfc68b80932866d9b8c3f02cd6f3feaf6efa8.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/f3b2d1c76b869df57580b3468a8bfc68b80932866d9b8c3f02cd6f3feaf6efa8-s.jpg",
+          "file": null
+        }
+      ],
+      "Lifestyle Photos": [
+        {
+          "name": "GPEN - Dash 2-65",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/5n1w0dm3grur3nsehx7rv/GPEN-Dash-2-65.png?rlkey=xt9t1jqr634nqgyznqn8lqmt8&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/260200fd4b44647c9e92c576a277cd8e1731d28a0faa1c76bca11f16e0a3b9d3.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/260200fd4b44647c9e92c576a277cd8e1731d28a0faa1c76bca11f16e0a3b9d3-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-66",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/8mndkyq5zddt7ndxrj4ll/GPEN-Dash-2-66.png?rlkey=6dy6buq1hl8wx9e41r3wo0zfp&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/e02e293024443960e9f0b66f596125189f1f8e1af9ceaa151be349492e9083ce.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/e02e293024443960e9f0b66f596125189f1f8e1af9ceaa151be349492e9083ce-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-67",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/o2z8p42n11kzmlhm28ksm/GPEN-Dash-2-67.png?rlkey=gd2x8lgqpwoyymy4w86jo0ldq&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/28e9f02db38de1133c4c0e69de9f8f853e11e3d10c700da7e0453fd2cb2489e4.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/28e9f02db38de1133c4c0e69de9f8f853e11e3d10c700da7e0453fd2cb2489e4-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-68",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/nogj4s40ls64u342ih609/GPEN-Dash-2-68.png?rlkey=7tlaioygimzz9o1xp09x53agr&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/96aa9e2dcec8e495ce3ca0a156d76f662560ea525936a1eb9f7ed09dedbd92e6.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/96aa9e2dcec8e495ce3ca0a156d76f662560ea525936a1eb9f7ed09dedbd92e6-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-69",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/txr1qspodivylhzu0k9h9/GPEN-Dash-2-69.png?rlkey=cy058z9ongja2rhwy1k2j84q9&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/565ff54eab935c8dbbd9dacce04caa8c127e26325ca344e08699ddcdfc60ef14.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/565ff54eab935c8dbbd9dacce04caa8c127e26325ca344e08699ddcdfc60ef14-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-73",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/dx6axbh016z9a77gstcgn/GPEN-Dash-2-73.png?rlkey=khotpfmzwkfq2cp1akmey3j2s&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/5d75473f5bc36a0d2408e76552cc566298cbdaa19c7a1068036e6d74c83f2ae0.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/5d75473f5bc36a0d2408e76552cc566298cbdaa19c7a1068036e6d74c83f2ae0-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-78",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/msno17707vkp81gunuwi4/GPEN-Dash-2-78.png?rlkey=q0h2h4t8l5nluopk1l24ceox9&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/727f21373ae2fe5503b3460bac31db84162da70e03c3b08a7e667943a378be67.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/727f21373ae2fe5503b3460bac31db84162da70e03c3b08a7e667943a378be67-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-87 Group",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/s3kfjhnoaszz4tveajuat/GPEN-Dash-2-87-Group.png?rlkey=kjq3swr89r2b5s2e4te6y91l8&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/973749e8e2d631788de89f3010da8c22be4e002063d86956d0907141a4e9fc57.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/973749e8e2d631788de89f3010da8c22be4e002063d86956d0907141a4e9fc57-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-88 Group",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/uekhujynymjwfepdpqx0a/GPEN-Dash-2-88-Group.png?rlkey=69tdcaippdwwv9uhd3sz6e6az&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/c332541a893fe2afaa3be466df35ff25962a6f7ef67d3257ddc2d7bf759b3a9d.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/c332541a893fe2afaa3be466df35ff25962a6f7ef67d3257ddc2d7bf759b3a9d-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-88",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/w8p86523bc3i5ro7teaio/GPEN-Dash-2-88.png?rlkey=5cobbobjeq2ju3jybtbbbts8j&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/512b091ce259c6a4efb25d246518c8e71005d9efc0854fef656d412a5c22432e.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/512b091ce259c6a4efb25d246518c8e71005d9efc0854fef656d412a5c22432e-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-89",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/dbb4k9p0810ayzsgg7c97/GPEN-Dash-2-89.png?rlkey=aha50vuispax3uc8kmclc4i80&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/ae0d7e54d5cb613b08b581732d2787d81dbf0bdb67cae9f930352989351943d1.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/ae0d7e54d5cb613b08b581732d2787d81dbf0bdb67cae9f930352989351943d1-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-90",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/58y23qhkvl7y631ulfn76/GPEN-Dash-2-90.png?rlkey=9qql8kzb5zrmmfq13rs0kgaqq&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/2ef194ceff125a4725ce8641a2a979b1356c20038e25f53ac51d40de49af2f20.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/2ef194ceff125a4725ce8641a2a979b1356c20038e25f53ac51d40de49af2f20-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-91",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/jqj67dgwdlofplyapkoi1/GPEN-Dash-2-91.png?rlkey=p9kzepl7qa3w8tpegs0uxwidq&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/fec06441fd1f5f8624cb358835fcaaadbb18979cf28c61d10e3ae19430b6b5f3.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/fec06441fd1f5f8624cb358835fcaaadbb18979cf28c61d10e3ae19430b6b5f3-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-92",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/l5blmlm8tqabarsmfii80/GPEN-Dash-2-92.png?rlkey=zno23ivwrk9np4b5ejb3zcxrv&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/4f3bbcf664b5fbdb4b3a7f6444c02640539bc8e94e1f17b697a3b03497d77aa7.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/4f3bbcf664b5fbdb4b3a7f6444c02640539bc8e94e1f17b697a3b03497d77aa7-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-93",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/una2jg4zbtzi08929nj4c/GPEN-Dash-2-93.png?rlkey=b6clhuzgob0lt7gyr065sr1nk&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/b85b92b8c017026b1f8f999541a872412139e73bca427f5ad774e67fe0637182.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/b85b92b8c017026b1f8f999541a872412139e73bca427f5ad774e67fe0637182-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-95",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/x29jzoxt0kvrtybzsu76j/GPEN-Dash-2-95.png?rlkey=ocls5py0z7ocz579rxzn3zbdj&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/853c2480de577b336971b3ff237e97b77bd39708bcf956c750768bcd1a680fd6.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/853c2480de577b336971b3ff237e97b77bd39708bcf956c750768bcd1a680fd6-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-96",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/vojaatj8xbe3nmlls9ku9/GPEN-Dash-2-96.png?rlkey=pe0pesl9rppqiou0iao7gjtt5&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/8a812f99401a1a947f32f45b94254b272b554148dca83a1d169d0a15ba6d0193.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/8a812f99401a1a947f32f45b94254b272b554148dca83a1d169d0a15ba6d0193-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-98",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/p8ddxpvxzk0bcyojwls8i/GPEN-Dash-2-98.png?rlkey=9ddr7wxts7tplm5ikiqd480b1&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/1eb35ac01b87590ebe0138af729fa8863a3defcd90a758cd25598bc98a5290cf.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/1eb35ac01b87590ebe0138af729fa8863a3defcd90a758cd25598bc98a5290cf-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-99",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/yk82mecv22uyvgowj76im/GPEN-Dash-2-99.png?rlkey=ussllh505ff5maw5o4lb9mn6i&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-neon-green/de0d103beb09d573c598498a42190a1a1d8c698d3d0b595ba633229a0220b0dc.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-neon-green/de0d103beb09d573c598498a42190a1a1d8c698d3d0b595ba633229a0220b0dc-s.jpg",
+          "file": null
+        }
+      ]
+    },
+    "dropbox": "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=1",
+    "folderLinks": {},
+    "mixed": true,
+    "updated": "2026-10-28"
+  },
+  "Dash II — Retro Purple": {
+    "folders": {
+      "Product Photos": [
+        {
+          "name": "GPEN_Dash-II_Purple_Back-3Q-Left",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/yozxb6sqani4wqeqvimoh/GPEN_Dash-II_Purple_Back-3Q-Left.png?rlkey=aj9e9np9xt5qhl5425m3qgsc9&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/db136836efaa3af9648fc5227e203fc891607ca0d286ffc99f2cd35ca5d0cad7.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/db136836efaa3af9648fc5227e203fc891607ca0d286ffc99f2cd35ca5d0cad7-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Back-3Q-Right",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/tv6huzk9kq72gytb9jo1v/GPEN_Dash-II_Purple_Back-3Q-Right.png?rlkey=bro90ifc2y03wg69ddqpy2w6d&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/3303101676f332b86d6da94542b67ff26136c8e7b3d18d5fe33c4f22acfd3658.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/3303101676f332b86d6da94542b67ff26136c8e7b3d18d5fe33c4f22acfd3658-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Back",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/s99p799dhrr0nykvfdmm3/GPEN_Dash-II_Purple_Back.png?rlkey=gpzg70xe7g9xw6yqb6ef74xu8&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/7b0c2c8e7dba58f0868a97d04eeb748bcda6c5c54f8a27b7fa8e7764ff17088e.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/7b0c2c8e7dba58f0868a97d04eeb748bcda6c5c54f8a27b7fa8e7764ff17088e-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Front-3Q-Left",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/4iao5c1mezl71iwyxju1b/GPEN_Dash-II_Purple_Front-3Q-Left.png?rlkey=z92lhifmt76eo4w6xq5z1fzes&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/3f7979c57435358b65d4085c854720cc622487c1f83f74dc787acb9423e49c94.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/3f7979c57435358b65d4085c854720cc622487c1f83f74dc787acb9423e49c94-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Front-3Q-Right",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/kznirpbqdm0srpughaman/GPEN_Dash-II_Purple_Front-3Q-Right.png?rlkey=hc7ztgioyuwbg08jj1alz9pq7&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/c2b8e65d881209fd46269311a192cea3bc92e7eed84d72adcb3703bb7e2011fd.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/c2b8e65d881209fd46269311a192cea3bc92e7eed84d72adcb3703bb7e2011fd-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Front-Cap-On",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/kwn3wdupvkocvjgqg4q2a/GPEN_Dash-II_Purple_Front-Cap-On.png?rlkey=3v315bt213n4gsqrpx5t96gm1&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/eac9e83b539c42a703b4a0ebffa9b408281cbab8e823e7c56fb856248cc81a1a.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/eac9e83b539c42a703b4a0ebffa9b408281cbab8e823e7c56fb856248cc81a1a-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Front",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/z5zrgreapd2qvilygcj6v/GPEN_Dash-II_Purple_Front.png?rlkey=tz2the4iyebpl8xk4h36iy0qk&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/a7336725abf4eeb35e840a67f1eaf6c331eeaac9f51fb4f44457b8e390b9e74c.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/a7336725abf4eeb35e840a67f1eaf6c331eeaac9f51fb4f44457b8e390b9e74c-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Side-Left",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/iknj04exj5kq1gtoi25q8/GPEN_Dash-II_Purple_Side-Left.png?rlkey=cn8nuvcnxwoh08sr80xi8n4ag&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/01e34d7d3b4bbcc732e71d8ec2b0d0eefe33f39c05cb2afa55755f503a81fec6.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/01e34d7d3b4bbcc732e71d8ec2b0d0eefe33f39c05cb2afa55755f503a81fec6-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN_Dash-II_Purple_Side-Right",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/ub6sx4zk52vau50iwjazz/GPEN_Dash-II_Purple_Side-Right.png?rlkey=xjznewfp9gjqetcd0us9h6qhn&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/bb810fe77479015f2e62b47423399cd1afc31a9a8d79e9a1e7d8e949e2554dff.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/bb810fe77479015f2e62b47423399cd1afc31a9a8d79e9a1e7d8e949e2554dff-s.jpg",
+          "file": null
+        }
+      ],
+      "Lifestyle Photos": [
+        {
+          "name": "GPEN - Dash 2-65 Purple",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/h7wwv02yd1subfxaxirhq/GPEN-Dash-2-65-Purple.png?rlkey=9yvhh5kurja6hkif9vjcck1mx&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/36fc0b90f1194c9afd793783df51d8222cb7fe200695b83e23a87edcbf7ac4a6.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/36fc0b90f1194c9afd793783df51d8222cb7fe200695b83e23a87edcbf7ac4a6-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-66 Purple",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/lyv9e2navnkv96de8r9x0/GPEN-Dash-2-66-Purple.png?rlkey=9zaphx6i6tvumw4k3nh56ay2o&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/9dc39978eaf10b67f54ad108481a9ae8d53161283591e7fb89df242d3582c1b0.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/9dc39978eaf10b67f54ad108481a9ae8d53161283591e7fb89df242d3582c1b0-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-67 Purple",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/ox0ute6z18gepmip5nmx6/GPEN-Dash-2-67-Purple.png?rlkey=gvz4b2vbrx495he914vy05a2c&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/37413f593b732bf2878284cd62be5b315ec15a0d1157a436ab4dff07041fae02.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/37413f593b732bf2878284cd62be5b315ec15a0d1157a436ab4dff07041fae02-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-68 Purple",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/6harkossypc8jhwdw1ton/GPEN-Dash-2-68-Purple.png?rlkey=hxdfstxuv3fv42vq3c4dye8tu&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/0bf2114ff491965b177663dd2e51a755938bb36be73929e621407a248b96b1d4.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/0bf2114ff491965b177663dd2e51a755938bb36be73929e621407a248b96b1d4-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-73 Purple",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/99sp8ldvnixgsge12978t/GPEN-Dash-2-73-Purple.png?rlkey=8ox4zurtn8cwxy16u5pbjbr2i&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/8b8673534bc5637e50fcf5938ace84d21f68b622582326e7b78e38cf759eccb9.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/8b8673534bc5637e50fcf5938ace84d21f68b622582326e7b78e38cf759eccb9-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-78 Purple",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/v3lvohleyteqczrlxtzd2/GPEN-Dash-2-78-Purple.png?rlkey=dgs164f8ql6oh35sv5t8fdweh&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/59610b1e5dba3018043feae51ba8d88c85db434dd94730251e320c0a9ec83cd5.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/59610b1e5dba3018043feae51ba8d88c85db434dd94730251e320c0a9ec83cd5-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-87 Group",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/s3kfjhnoaszz4tveajuat/GPEN-Dash-2-87-Group.png?rlkey=kjq3swr89r2b5s2e4te6y91l8&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/973749e8e2d631788de89f3010da8c22be4e002063d86956d0907141a4e9fc57.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/973749e8e2d631788de89f3010da8c22be4e002063d86956d0907141a4e9fc57-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2-88 Group",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/uekhujynymjwfepdpqx0a/GPEN-Dash-2-88-Group.png?rlkey=69tdcaippdwwv9uhd3sz6e6az&dl=0",
+          "thumb": "assets/synced/dash-ii-retro-purple/c332541a893fe2afaa3be466df35ff25962a6f7ef67d3257ddc2d7bf759b3a9d.jpg",
+          "thumbS": "assets/synced/dash-ii-retro-purple/c332541a893fe2afaa3be466df35ff25962a6f7ef67d3257ddc2d7bf759b3a9d-s.jpg",
+          "file": null
+        }
+      ]
+    },
+    "dropbox": "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=1",
+    "folderLinks": {},
+    "mixed": true,
+    "updated": "2026-10-22"
+  },
   "Micro II": {
     "folders": {
       "Product Photos": [
@@ -15178,28 +15589,10 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "Full · 1K2A3869 (1)",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/9t3abvkqwjkt9dn0y8rfw/1K2A3869-1.jpg?rlkey=n0mqdd5fomzz5zmy8ml2gt63p&dl=0",
-          "thumb": "assets/synced/dash/490a02b4eda373d7e209a859ecb4c2266fb4e66bb4edbe1b5559783da51b4822.jpg",
-          "thumbS": "assets/synced/dash/490a02b4eda373d7e209a859ecb4c2266fb4e66bb4edbe1b5559783da51b4822-s.jpg",
-          "file": null
-        },
-        {
           "name": "Full · 1K2A3876",
           "type": "image",
           "format": "JPG",
           "url": "https://www.dropbox.com/scl/fi/jq43ca3f78xxfbk27iqyu/1K2A3876.jpg?rlkey=5ra5l81o39gt5ky49mladbmpg&dl=0",
-          "thumb": "assets/synced/dash/ed2afdace57d90c3ee50fdbd7969d386f487938558277a45ad6baf3792a742b2.jpg",
-          "thumbS": "assets/synced/dash/ed2afdace57d90c3ee50fdbd7969d386f487938558277a45ad6baf3792a742b2-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Full · 1K2A3876 (1)",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/96rx7w32gdi6jcjfeplcu/1K2A3876-1.jpg?rlkey=pgr2wdw8j3p7hkfswnqztx1gs&dl=0",
           "thumb": "assets/synced/dash/ed2afdace57d90c3ee50fdbd7969d386f487938558277a45ad6baf3792a742b2.jpg",
           "thumbS": "assets/synced/dash/ed2afdace57d90c3ee50fdbd7969d386f487938558277a45ad6baf3792a742b2-s.jpg",
           "file": null
@@ -15214,15 +15607,6 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "Full · 1K2A3877 (1)",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/m848qpz1meyao7hzqpawt/1K2A3877-1.jpg?rlkey=6kd42aiw3f7coiuct8ue18qq4&dl=0",
-          "thumb": "assets/synced/dash/982089b4f72bba4f0fa373964998c26118a19619e4c27b4ea0f53288a0623015.jpg",
-          "thumbS": "assets/synced/dash/982089b4f72bba4f0fa373964998c26118a19619e4c27b4ea0f53288a0623015-s.jpg",
-          "file": null
-        },
-        {
           "name": "Full · 1K2A3891",
           "type": "image",
           "format": "JPG",
@@ -15232,28 +15616,10 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "Full · 1K2A3891 (1)",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/qhswdo2h1uzgiydci8smp/1K2A3891-1.jpg?rlkey=gqxh6oi4u6c2fps5a6zx26kry&dl=0",
-          "thumb": "assets/synced/dash/4b8c4d0e7323789866c441ede33ae15ad111560e5d3e2b63bdcbd5a339ea33c5.jpg",
-          "thumbS": "assets/synced/dash/4b8c4d0e7323789866c441ede33ae15ad111560e5d3e2b63bdcbd5a339ea33c5-s.jpg",
-          "file": null
-        },
-        {
           "name": "Full · 1K2A3894",
           "type": "image",
           "format": "JPG",
           "url": "https://www.dropbox.com/scl/fi/srgg7xk80ngcctch3j1v2/1K2A3894.jpg?rlkey=3qe8exegju9x4xin9uryg8itq&dl=0",
-          "thumb": "assets/synced/dash/c7dec2fd416ef68ab20fed20b219ac60a933e89b5c504c5d62df0662904585bf.jpg",
-          "thumbS": "assets/synced/dash/c7dec2fd416ef68ab20fed20b219ac60a933e89b5c504c5d62df0662904585bf-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Full · 1K2A3894 (1)",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/gugae30eu11fwijdspi26/1K2A3894-1.jpg?rlkey=qkjj8o0vuh7mr0z9m47f8asys&dl=0",
           "thumb": "assets/synced/dash/c7dec2fd416ef68ab20fed20b219ac60a933e89b5c504c5d62df0662904585bf.jpg",
           "thumbS": "assets/synced/dash/c7dec2fd416ef68ab20fed20b219ac60a933e89b5c504c5d62df0662904585bf-s.jpg",
           "file": null
@@ -15702,15 +16068,6 @@ window.PORTAL_SYNCED = {
           "type": "video",
           "format": "MP4",
           "url": "https://www.dropbox.com/scl/fi/knyb8jr4d4guhsxtaug2x/Reels_G-Pen-Elite-II-Tess.mp4?rlkey=nxgnnpcwsekvnm28wodg8oszc&dl=0",
-          "thumb": "assets/synced/elite-ii/9d0879ce293baba19df4da5685c0e86cdd1b4b2a09ba537b4c0a460f0efc6118.jpg",
-          "thumbS": "assets/synced/elite-ii/9d0879ce293baba19df4da5685c0e86cdd1b4b2a09ba537b4c0a460f0efc6118-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Reels_G Pen Elite II Tess (1)",
-          "type": "video",
-          "format": "MP4",
-          "url": "https://www.dropbox.com/scl/fi/5f31nrrmedgcpts66er1j/Reels_G-Pen-Elite-II-Tess-1.mp4?rlkey=wk5tl10o9cm1r6mxiqhps16cy&dl=0",
           "thumb": "assets/synced/elite-ii/9d0879ce293baba19df4da5685c0e86cdd1b4b2a09ba537b4c0a460f0efc6118.jpg",
           "thumbS": "assets/synced/elite-ii/9d0879ce293baba19df4da5685c0e86cdd1b4b2a09ba537b4c0a460f0efc6118-s.jpg",
           "file": null
