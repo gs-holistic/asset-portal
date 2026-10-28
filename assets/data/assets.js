@@ -107,7 +107,6 @@ window.PORTAL_PRODUCTS = [
     name: "Dash II", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
     cover: CDN + "Dash2_thumb_01.png?v=1782934099",
     added: "2026-06-02",
-    newBadge: true,   // force the "New" flag on the home card (past the 30-day auto window)
     oneSheet: "#",
     // Real Dropbox shared folder for Dash II (TEST). "Download all" pulls this
     // folder as a .zip. Full per-file sync comes via the Dropbox API job.
@@ -907,10 +906,11 @@ var PRODUCT_SKU = {
   // innerPack/masterCarton/caseWeight/caseDimensions = retail packaging. Retro
   // rows use the collection-level POP SKU/UPC (per-colour SKUs live in the sheet).
   "Dash II":              { sku: "GPD-001-APZZ", pop: true,  fullName: "DASH II VAPORIZER", upc: "852570004441", popSku: "GPD-001-APZZ-Inner Pack", popUpc: "10852570004448", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", masterCarton: "200", caseWeight: "16.07 kg", caseDimensions: "580 × 280 × 245 mm", htsCode: "8543.70.9940", boxImg: "assets/materials/dash-ii-retail-packaging.png", popImg: "assets/materials/dash-ii-pop-display.png" },
-  // Dash II Retro: the unit's own specs match the Dash II. SKU/UPC and POP/case
-  // packaging aren't confirmed yet, so they show as "still to be confirmed".
-  "Dash II — Retro Neon Green": { fullName: "DASH II — RETRO NEON GREEN", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", htsCode: "8543.70.9940" },
-  "Dash II — Retro Purple": { fullName: "DASH II — RETRO PURPLE", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", htsCode: "8543.70.9940" },
+  // Dash II Retro: SKU/UPC and the 10-pack POP SKU from "Retro Dash II - Master SKU
+  // data.xlsx" (2026-10-26); unit specs match the Dash II. POP UPC and case data
+  // weren't in the sheet, so they show as "still to be confirmed".
+  "Dash II — Retro Neon Green": { sku: "GPD-001-APGR", pop: true, fullName: "DASH II VAPORIZER — RETRO COLLECTION — GREEN", upc: "811736020763", popSku: "GPD-001-APGR-Inner Pack", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", htsCode: "8543.70.9940" },
+  "Dash II — Retro Purple":     { sku: "GPD-001-APPU", pop: true, fullName: "DASH II VAPORIZER — RETRO COLLECTION — PURPLE", upc: "811736020565", popSku: "GPD-001-APPU-Inner Pack", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", htsCode: "8543.70.9940" },
   "Dash+":                { sku: "GPD-001-AMZZ", pop: false, fullName: "DASH+ VAPORIZER", upc: "811736027489", dimensions: "135 × 100 × 35 mm", unitWeight: "276 g", innerPack: "N/A", masterCarton: "48", caseWeight: "14.3 kg", caseDimensions: "330 × 320 × 320 mm", htsCode: "8543.70.9940" },
   "Melt Hot Knife":       { sku: "GHK-001-AOZZ", pop: true,  fullName: "MELT", upc: "811736029711", popSku: "GHK-001-AOZZ-Inner Pack", popUpc: "10811736029718", dimensions: "122.5 × 42 × 12 mm", unitWeight: "17 g", innerPack: "20", masterCarton: "720", caseWeight: "14.74 kg", caseDimensions: "513 × 482 × 262 mm", htsCode: "8543.70.9940" },
   "Hydout":               { sku: "GHO-001-AOZZ", pop: true,  fullName: "HYDOUT", upc: "811736029254", popSku: "GHO-001-AOZZ-Inner Pack", popUpc: "10811736029251", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
@@ -1370,6 +1370,8 @@ window.PORTAL_HELP_PAGES = {
 window.PORTAL_FOLDER_COVERS = {
   // User Generated Content: a creator with the product clearly in frame, no edgy captions.
   "Dash II":              { "User Generated Content": "Dash II UGC_01" },                         // "G Pen unboxing"
+  "Dash II — Retro Neon Green": { "Product Photos": "GPEN_Dash-II_Green_Front" },                  // front, display on
+  "Dash II — Retro Purple":     { "Product Photos": "GPEN_Dash-II_Purple_Front" },
   "510 Original":         { "User Generated Content": "UGC 510 Original_01" },                    // "Smallest battery check!"
   "510 Original — Retro": { "User Generated Content": "irielogic420 retro 510 july" },            // red Retro 510 in its box
   "Micro II":             { "User Generated Content": "highwithkay Micro II Sept" },              // "try the gpen micro II with me"
