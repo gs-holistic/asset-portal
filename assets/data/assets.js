@@ -117,8 +117,7 @@ window.PORTAL_PRODUCTS = [
   {
     // Dash II Retro Collection colorways (launched 2026-10-28). Both share one Dropbox
     // folder, split by the color in each filename (see dashRetroPick in the sync).
-    // Covers: transparent cutouts of the Dropbox product shots, sized like the Dash II's.
-    // Purple has only back 3/4 shots so far — swap in a front shot when one arrives.
+    // Covers: transparent cutouts of the Dropbox front shots, sized like the Dash II's.
     name: "Dash II — Retro Neon Green", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
     cover: "assets/img/dash-ii-retro-neon-green.webp?v=20261028",
     added: "2026-10-28", newBadge: "green",
@@ -127,7 +126,7 @@ window.PORTAL_PRODUCTS = [
   },
   {
     name: "Dash II — Retro Purple", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
-    cover: "assets/img/dash-ii-retro-purple.webp?v=20261028",
+    cover: "assets/img/dash-ii-retro-purple.webp?v=20261028b",
     added: "2026-10-28", newBadge: "purple",
     oneSheet: "#",
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)

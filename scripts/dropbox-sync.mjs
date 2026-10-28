@@ -28,24 +28,25 @@ if (!APP_KEY || !APP_SECRET || !REFRESH) {
   process.exit(0);
 }
 
-// The Dash II Retro colorways share one Dropbox folder; every file names its color
-// ("GPEN_Dash-II_Green_Front", "GPEN - Dash 2-65 Purple"). Photos with no color in the
-// name are the Neon Green shoot, "Group" shots show both, and colorless files in the
-// other folders (videos, documents, packaging) belong to both products.
+// The Dash II Retro colorways share one Dropbox folder. A color in the filename
+// ("GPEN_Dash-II_Green_Front", "GPEN - Dash 2-65 Purple") decides; many lifestyle shots
+// name no color ("GPEN - Dash 2-89" is purple), so those images are sorted by the
+// colors in their thumbnail (imageColorway). Everything else (videos, documents,
+// packaging) belongs to both products.
 const DASH_II_RETRO = "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=0";
 function dashRetroPick(color) {
-  return (name, folder) => {
+  // true = keep, false = the other colorway's, null = look at the image.
+  return (name) => {
     const purple = /purple/i.test(name), green = /green/i.test(name);
     if (purple || green) return color === "purple" ? purple : green;
-    if (/group/i.test(name)) return true;
-    if (/Photos$/.test(folder)) return color === "green";
-    return true;
+    return RASTER.test(name) ? null : true;
   };
 }
 
 // Products to sync: portal product name → its public Dropbox shared-folder link.
-// `pick(fileName, folder)` keeps only some of a shared folder's files; such a product
-// gets no folder .zip links, since those would download the other colorway too.
+// `pick(fileName)` keeps only some of a shared folder's files (null = decide from the
+// image's colors against `colorway`); such a product gets no folder .zip links, since
+// those would download the other colorway too.
 const PRODUCTS = [
   {
     // Nothing is hosted on GitHub anymore — every file downloads straight from
@@ -55,8 +56,8 @@ const PRODUCTS = [
     slug: "dash-ii",
     link: "https://www.dropbox.com/scl/fo/5hz9ej94k16g5fdv87gtj/AKc2Ts1QEgWfRugLZ_GoFvM?rlkey=9ueqe3ucvu30dgp6hlgixclpq&dl=0",
   },
-  { name: "Dash II — Retro Neon Green", slug: "dash-ii-retro-neon-green", link: DASH_II_RETRO, pick: dashRetroPick("green") },
-  { name: "Dash II — Retro Purple", slug: "dash-ii-retro-purple", link: DASH_II_RETRO, pick: dashRetroPick("purple") },
+  { name: "Dash II — Retro Neon Green", slug: "dash-ii-retro-neon-green", link: DASH_II_RETRO, pick: dashRetroPick("green"), colorway: "green" },
+  { name: "Dash II — Retro Purple", slug: "dash-ii-retro-purple", link: DASH_II_RETRO, pick: dashRetroPick("purple"), colorway: "purple" },
   { name: "Micro II", slug: "micro-ii", link: "https://www.dropbox.com/scl/fo/spharop9yvc7bnk5g3w4z/AKUC7ALBupRa8e039bvfNr4?rlkey=5560kr7brds1hco7tgeiafsbx&dl=0" },
   { name: "Slim 3-Piece Grinder", slug: "slim-3-piece-grinder", link: "https://www.dropbox.com/scl/fo/8lfqlq0faeml5pqnvzoys/ADcfy5cYRTh2lHbK13o_I60?rlkey=4jjwd6s48mon6tcpis5uass3x&dl=0" },
   { name: "510 Original", slug: "510-original", link: "https://www.dropbox.com/scl/fo/mtuk2kb73ln5pv0qj68y5/AOnLPmrirA3wsvOdaA0v9rw?rlkey=e8svbeey6dql240rjqzch9qco&st=tvt2s0qf&dl=0" },
@@ -355,6 +356,36 @@ function isBlank(file, cache) {
   cache[k] = flat; return flat;
 }
 
+// Which Retro colorway a photo shows: share of saturated neon-green vs purple pixels
+// in a 128px sample. One color clearly ahead (2.5x) wins; otherwise "" (both/neither,
+// e.g. a group shot or a black-and-white one). Tuned on the first 25 lifestyle shots.
+function imageColorway(file) {
+  let buf;
+  try { buf = execFileSync("convert", [file, "-resize", "128x128!", "-depth", "8", "ppm:-"], { maxBuffer: 1 << 22 }); }
+  catch { return ""; }
+  let i = 0, fields = 0;   // skip the "P6 w h 255" header
+  while (fields < 4 && i < buf.length) {
+    while (i < buf.length && /\s/.test(String.fromCharCode(buf[i]))) i++;
+    while (i < buf.length && !/\s/.test(String.fromCharCode(buf[i]))) i++;
+    fields++;
+  }
+  i++;
+  let g = 0, pu = 0, n = 0;
+  for (; i + 2 < buf.length; i += 3, n++) {
+    const r = buf[i] / 255, gr = buf[i + 1] / 255, b = buf[i + 2] / 255;
+    const mx = Math.max(r, gr, b), mn = Math.min(r, gr, b), d = mx - mn;
+    if (!mx || d / mx <= 0.3 || mx <= 0.15) continue;
+    let h = mx === r ? ((gr - b) / d) % 6 : mx === gr ? (b - r) / d + 2 : (r - gr) / d + 4;
+    h = (h * 60 + 360) % 360;
+    if (h >= 70 && h <= 170) g++; else if (h >= 245 && h <= 315) pu++;
+  }
+  if (!n) return "";
+  g /= n; pu /= n;
+  if (g > 0.002 && g >= 2.5 * pu) return "green";
+  if (pu > 0.002 && pu >= 2.5 * g) return "purple";
+  return "";
+}
+
 // A 360px copy of each JPEG thumbnail for the folder file grid (cells are
 // ~150px; the 640px thumb stays for covers and the lightbox). ~14 KB vs ~70 KB.
 function smallThumb(dir, tn) {
@@ -436,13 +467,13 @@ for (const p of PRODUCTS) {
       }
       const entries = await listFolder(tok, p.link, "/" + raw);
       const files = [];
-      for (const e of entries) if (e[".tag"] === "file" && (!p.pick || p.pick(e.name, disp))) { e.relPath = "/" + raw + "/" + e.name; files.push(e); }
+      for (const e of entries) if (e[".tag"] === "file" && (!p.pick || p.pick(e.name) !== false)) { e.relPath = "/" + raw + "/" + e.name; files.push(e); }
       // Walk one nested level (e.g. per-color variant folders under Product Photos)
       // and flatten those files into the parent group, labelled by their folder.
       for (const ss of entries.filter((e) => e[".tag"] === "folder")) {
         const nested = (await listFolder(tok, p.link, "/" + raw + "/" + ss.name)).filter((e) => e[".tag"] === "file");
         for (const nf of nested) {
-          if (p.pick && !p.pick(ss.name + " " + nf.name, disp)) continue;
+          if (p.pick && p.pick(ss.name + " " + nf.name) === false) continue;
           nf.relPath = "/" + raw + "/" + ss.name + "/" + nf.name;
           nf.displayName = ss.name + " · " + nf.name.replace(/\.[^.]+$/, "");
           files.push(nf);
@@ -554,6 +585,12 @@ for (const p of PRODUCTS) {
           if (!fixed) thumb = null;
         }
       } catch (err) { warnOnce("gen-" + type, "asset error (" + f.name + "): " + err.message); }
+      // A colorless filename in a shared colorway folder: keep the image only if its
+      // thumbnail shows this product's color (or neither/both, e.g. a group shot).
+      if (p.pick && p.pick(f.relPath ? f.relPath.split("/").slice(-2).join(" ") : f.name) === null && thumb) {
+        const c = imageColorway(thumb);
+        if (c && c !== p.colorway) { keep.delete(thumb.split("/").pop()); continue; }
+      }
       let thumbS = null;
       if (thumb && /\.jpg$/.test(thumb)) {
         const sn = smallThumb(dir, thumb.split("/").pop());
