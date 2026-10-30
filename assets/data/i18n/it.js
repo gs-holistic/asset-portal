@@ -332,6 +332,8 @@ window.PORTAL_I18N.it = {
     "Open in": "Apri in",
     "Pink": "Rosa",
     "Purple": "Viola",
+    "Neon Green": "Verde neon",
+    "POP SKU": "SKU POP",
     "Red": "Rosso",
     "Regional Catalogs": "Cataloghi regionali",
     "Retail POP display": "Espositore POP per punto vendita",
@@ -523,7 +525,7 @@ window.PORTAL_I18N.it = {
         ]
       }
     },
-    "510 Original — Retro": {
+    "510 Original Retro Collection": {
       "description": "L'edizione Retro Collection della 510 Original unisce una raffinata finitura traslucida vintage alle stesse prestazioni ultraportatili con attivazione a tiro, ispirate alla batteria originale G Pen del 2012.",
       "highlights": [
         "Finitura retro traslucida",
@@ -672,10 +674,10 @@ window.PORTAL_I18N.it = {
         ]
       }
     },
-    "Dash II — Retro Neon Green": {
-      "description": "L'edizione Retro Collection del G Pen Dash II racchiude lo stesso vaporizzatore per erba secca tascabile in un guscio trasparente verde neon ispirato agli anni '90, con riscaldamento in 30 secondi, controllo preciso della temperatura e camera in ceramica da 0,4g migliorata.",
+    "Dash II Retro Collection": {
+      "description": "La Dash II Retro Collection racchiude lo stesso vaporizzatore per erba secca tascabile in un guscio trasparente ispirato agli anni '90, verde neon o viola, con riscaldamento in 30 secondi, controllo preciso della temperatura e camera in ceramica da 0,4g migliorata.",
       "highlights": [
-        "Finitura retro traslucida verde neon",
+        "Finitura retro traslucida verde neon o viola",
         "Riscaldamento in 30 secondi",
         "Controllo preciso della temperatura",
         "Display OLED",
@@ -687,10 +689,10 @@ window.PORTAL_I18N.it = {
       "warranty": "Garanzia limitata di 6 mesi, estesa a 1 anno con la registrazione",
       "fullDescription": [
         "Dash II. Migliorato. Retro.",
-        "Il Dash II che conosce, ora con una finitura retro trasparente verde neon.",
-        "Il G Pen Dash II della Retro Collection unisce un design trasparente nostalgico, ispirato agli anni '90, a una vivace colorazione traslucida verde neon. Sotto il guscio retro è lo stesso Dash II sotto ogni aspetto, con tutte le sue prestazioni migliorate.",
+        "Il Dash II che conosce, ora con una finitura retro trasparente, disponibile in verde neon e viola.",
+        "La Dash II Retro Collection unisce un design trasparente nostalgico, ispirato agli anni '90, a vivaci colorazioni traslucide. Sotto il guscio retro è lo stesso Dash II sotto ogni aspetto, con tutte le sue prestazioni migliorate.",
         "Il G Pen Dash II è un vaporizzatore per erba secca tascabile con controllo preciso della temperatura, display OLED e una camera in ceramica da 0,4g migliorata, progettata per prestazioni superiori e un caricamento più semplice. Una batteria da 1.100mAh a lunga durata offre sessioni fluide e affidabili con riscaldamento in 30 secondi, e la ricarica pass-through USB-C lo mantiene pronto all'uso anche mentre è collegato alla presa.",
-        "Con il suo guscio traslucido verde neon e prestazioni moderne per erba secca, il Dash II Retro offre una perfetta sintesi di stile vintage e funzionalità quotidiana.",
+        "Con il suo guscio traslucido e prestazioni moderne per erba secca, il Dash II Retro offre una perfetta sintesi di stile vintage e funzionalità quotidiana.",
         "Più controllo. Caricamento più semplice. Stile retro."
       ],
       "box": {
@@ -702,37 +704,7 @@ window.PORTAL_I18N.it = {
         ]
       }
     },
-    "Dash II — Retro Purple": {
-      "description": "L'edizione Retro Collection del G Pen Dash II racchiude lo stesso vaporizzatore per erba secca tascabile in un guscio trasparente viola ispirato agli anni '90, con riscaldamento in 30 secondi, controllo preciso della temperatura e camera in ceramica da 0,4g migliorata.",
-      "highlights": [
-        "Finitura retro traslucida viola",
-        "Riscaldamento in 30 secondi",
-        "Controllo preciso della temperatura",
-        "Display OLED",
-        "Camera in ceramica da 0,4g migliorata (caricamento più semplice)",
-        "Strumento di caricamento (Pick Tool)",
-        "Batteria da 1.100mAh",
-        "Ricarica pass-through USB-C (utilizzabile durante la ricarica)"
-      ],
-      "warranty": "Garanzia limitata di 6 mesi, estesa a 1 anno con la registrazione",
-      "fullDescription": [
-        "Dash II. Migliorato. Retro.",
-        "Il Dash II che conosce, ora con una finitura retro trasparente viola.",
-        "Il G Pen Dash II della Retro Collection unisce un design trasparente nostalgico, ispirato agli anni '90, a una vivace colorazione traslucida viola. Sotto il guscio retro è lo stesso Dash II sotto ogni aspetto, con tutte le sue prestazioni migliorate.",
-        "Il G Pen Dash II è un vaporizzatore per erba secca tascabile con controllo preciso della temperatura, display OLED e una camera in ceramica da 0,4g migliorata, progettata per prestazioni superiori e un caricamento più semplice. Una batteria da 1.100mAh a lunga durata offre sessioni fluide e affidabili con riscaldamento in 30 secondi, e la ricarica pass-through USB-C lo mantiene pronto all'uso anche mentre è collegato alla presa.",
-        "Con il suo guscio traslucido viola e prestazioni moderne per erba secca, il Dash II Retro offre una perfetta sintesi di stile vintage e funzionalità quotidiana.",
-        "Più controllo. Caricamento più semplice. Stile retro."
-      ],
-      "box": {
-        "contents": [
-          "Vaporizzatore per erbe secche G Pen Dash II",
-          "Strumento di caricamento integrato",
-          "Copribocchino in silicone",
-          "*Cavo di ricarica USB-C non incluso"
-        ]
-      }
-    },
-    "Hydout — Retro": {
+    "Hydout Retro Collection": {
       "description": "L'edizione Retro della G Pen Hydout porta una finitura traslucida trasparente di ispirazione anni '90 sulla batteria per cartucce 510 più discreta, con attivazione a tiro, voltaggio variabile e ricarica pass-through USB-C.",
       "highlights": [
         "Finitura trasparente di ispirazione anni '90",

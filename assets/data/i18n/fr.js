@@ -332,6 +332,8 @@ window.PORTAL_I18N.fr = {
     "Open in": "Ouvrir dans",
     "Pink": "Rose",
     "Purple": "Violet",
+    "Neon Green": "Vert néon",
+    "POP SKU": "SKU POP",
     "Red": "Rouge",
     "Regional Catalogs": "Catalogues régionaux",
     "Retail POP display": "Présentoir POP de vente",
@@ -523,7 +525,7 @@ window.PORTAL_I18N.fr = {
         ]
       }
     },
-    "510 Original — Retro": {
+    "510 Original Retro Collection": {
       "description": "L'édition Retro Collection du 510 Original associe une finition translucide vintage tout en douceur aux mêmes performances 510 ultra-portables à déclenchement à l'inspiration, inspirées de la toute première batterie G Pen de 2012.",
       "highlights": [
         "Finition rétro translucide",
@@ -672,10 +674,10 @@ window.PORTAL_I18N.fr = {
         ]
       }
     },
-    "Dash II — Retro Neon Green": {
-      "description": "L'édition Retro Collection du G Pen Dash II habille le même vaporisateur à herbes sèches format poche d'une coque transparente vert néon d'inspiration années 90, avec une montée en température en 30 secondes, un contrôle précis de la température et une chambre en céramique 0,4 g améliorée.",
+    "Dash II Retro Collection": {
+      "description": "La Dash II Retro Collection habille le même vaporisateur à herbes sèches format poche d'une coque transparente d'inspiration années 90, vert néon ou violette, avec une montée en température en 30 secondes, un contrôle précis de la température et une chambre en céramique 0,4 g améliorée.",
       "highlights": [
-        "Finition rétro translucide vert néon",
+        "Finition rétro translucide vert néon ou violette",
         "Montée en température en 30 secondes",
         "Contrôle précis de la température",
         "Écran OLED",
@@ -687,10 +689,10 @@ window.PORTAL_I18N.fr = {
       "warranty": "Garantie limitée de 6 mois, étendue à 1 an en cas d'enregistrement",
       "fullDescription": [
         "Dash II. Amélioré. Retro.",
-        "Le Dash II que vous connaissez, désormais avec une finition rétro transparente vert néon.",
-        "Le G Pen Dash II Retro Collection marie un design transparent nostalgique d'inspiration années 90 à un coloris translucide vert néon qui ne passe pas inaperçu. Sous sa coque rétro, c'est le même Dash II en tous points, avec toutes ses performances améliorées.",
+        "Le Dash II que vous connaissez, désormais avec une finition rétro transparente, disponible en vert néon et en violet.",
+        "La Dash II Retro Collection marie un design transparent nostalgique d'inspiration années 90 à des coloris translucides qui ne passent pas inaperçus. Sous sa coque rétro, c'est le même Dash II en tous points, avec toutes ses performances améliorées.",
         "Le G Pen Dash II est un vaporisateur à herbes sèches format poche doté d'un contrôle précis de la température, d'un écran OLED et d'une chambre en céramique 0,4 g améliorée, conçue pour de meilleures performances et un chargement plus facile. Sa batterie 1 100mAh plus endurante offre des sessions douces et fiables avec une montée en température en 30 secondes, et la charge pass-through USB-C le garde prêt à l'emploi, même branché.",
-        "Avec sa coque translucide vert néon et ses performances modernes pour herbes sèches, le Dash II Retro offre un mélange harmonieux de style vintage et d'efficacité au quotidien.",
+        "Avec sa coque translucide et ses performances modernes pour herbes sèches, le Dash II Retro offre un mélange harmonieux de style vintage et d'efficacité au quotidien.",
         "Plus de contrôle. Un chargement plus facile. Un style rétro."
       ],
       "box": {
@@ -702,37 +704,7 @@ window.PORTAL_I18N.fr = {
         ]
       }
     },
-    "Dash II — Retro Purple": {
-      "description": "L'édition Retro Collection du G Pen Dash II habille le même vaporisateur à herbes sèches format poche d'une coque transparente violette d'inspiration années 90, avec une montée en température en 30 secondes, un contrôle précis de la température et une chambre en céramique 0,4 g améliorée.",
-      "highlights": [
-        "Finition rétro translucide violette",
-        "Montée en température en 30 secondes",
-        "Contrôle précis de la température",
-        "Écran OLED",
-        "Chambre en céramique 0,4 g améliorée (chargement facilité)",
-        "Outil de chargement (Pick Tool)",
-        "Batterie 1 100mAh",
-        "Charge pass-through USB-C (utilisable pendant la charge)"
-      ],
-      "warranty": "Garantie limitée de 6 mois, étendue à 1 an en cas d'enregistrement",
-      "fullDescription": [
-        "Dash II. Amélioré. Retro.",
-        "Le Dash II que vous connaissez, désormais avec une finition rétro transparente violette.",
-        "Le G Pen Dash II Retro Collection marie un design transparent nostalgique d'inspiration années 90 à un coloris translucide violet qui ne passe pas inaperçu. Sous sa coque rétro, c'est le même Dash II en tous points, avec toutes ses performances améliorées.",
-        "Le G Pen Dash II est un vaporisateur à herbes sèches format poche doté d'un contrôle précis de la température, d'un écran OLED et d'une chambre en céramique 0,4 g améliorée, conçue pour de meilleures performances et un chargement plus facile. Sa batterie 1 100mAh plus endurante offre des sessions douces et fiables avec une montée en température en 30 secondes, et la charge pass-through USB-C le garde prêt à l'emploi, même branché.",
-        "Avec sa coque translucide violette et ses performances modernes pour herbes sèches, le Dash II Retro offre un mélange harmonieux de style vintage et d'efficacité au quotidien.",
-        "Plus de contrôle. Un chargement plus facile. Un style rétro."
-      ],
-      "box": {
-        "contents": [
-          "Vaporisateur à herbes sèches G Pen Dash II",
-          "Outil de remplissage intégré",
-          "Manchon en silicone pour embout buccal",
-          "*Câble de charge USB-C non inclus"
-        ]
-      }
-    },
-    "Hydout — Retro": {
+    "Hydout Retro Collection": {
       "description": "L'édition Retro du G Pen Hydout apporte une finition translucide transparente d'inspiration années 90 à la batterie 510 la plus discrète, avec déclenchement à l'inspiration, tension variable et charge pass-through USB-C.",
       "highlights": [
         "Finition transparente d'inspiration années 90",

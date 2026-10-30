@@ -334,6 +334,8 @@ window.PORTAL_I18N.sv = {
     "Open in": "Öppna i",
     "Pink": "Rosa",
     "Purple": "Lila",
+    "Neon Green": "Neongrön",
+    "POP SKU": "POP-SKU",
     "Red": "Röd",
     "Regional Catalogs": "Regionala kataloger",
     "Retail POP display": "POP-display för butik",
@@ -531,7 +533,7 @@ window.PORTAL_I18N.sv = {
         ]
       }
     },
-    "510 Original — Retro": {
+    "510 Original Retro Collection": {
       "description": "Retro Collection-utgåvan av 510 Original kombinerar en mjuk, genomskinlig vintagefinish med samma andningsaktiverade, ultraportabla 510-prestanda, inspirerad av G Pens ursprungliga batteri från 2012.",
       "highlights": [
         "Genomskinlig retrofinish",
@@ -680,10 +682,10 @@ window.PORTAL_I18N.sv = {
         ]
       }
     },
-    "Dash II — Retro Neon Green": {
-      "description": "Retro Collection-utgåvan av G Pen Dash II klär samma fickstora vaporizer för torkade örter i ett genomskinligt, 90-talsinspirerat skal i neongrönt, med uppvärmning på 30 sekunder, exakt temperaturkontroll och en uppgraderad keramisk kammare på 0,4 g.",
+    "Dash II Retro Collection": {
+      "description": "Dash II Retro Collection klär samma fickstora vaporizer för torkade örter i ett genomskinligt, 90-talsinspirerat skal i neongrönt eller lila, med uppvärmning på 30 sekunder, exakt temperaturkontroll och en uppgraderad keramisk kammare på 0,4 g.",
       "highlights": [
-        "Genomskinlig retrofinish i neongrönt",
+        "Genomskinlig retrofinish i neongrönt eller lila",
         "Uppvärmning på 30 sekunder",
         "Exakt temperaturkontroll",
         "OLED-display",
@@ -695,10 +697,10 @@ window.PORTAL_I18N.sv = {
       "warranty": "6 månaders begränsad garanti, förlängd till 1 år vid registrering",
       "fullDescription": [
         "Dash II. Uppgraderad. Retro.",
-        "Den Dash II du känner, nu med en genomskinlig retrofinish i neongrönt.",
-        "Retro Collection-versionen av G Pen Dash II förenar nostalgisk, 90-talsinspirerad genomskinlig design med en djärv, genomskinlig neongrön färg. Under retroskalet är det samma Dash II på alla punkter, med all sin uppgraderade prestanda.",
+        "Den Dash II du känner, nu med en genomskinlig retrofinish, i neongrönt och lila.",
+        "Dash II Retro Collection förenar nostalgisk, 90-talsinspirerad genomskinlig design med djärva, genomskinliga färger. Under retroskalet är det samma Dash II på alla punkter, med all sin uppgraderade prestanda.",
         "G Pen Dash II är en fickstor vaporizer för torkade örter med exakt temperaturkontroll, OLED-display och en uppgraderad keramisk kammare på 0,4 g som ger bättre prestanda och är enklare att fylla. Ett mer långvarigt batteri på 1 100 mAh ger mjuka, pålitliga sessioner med uppvärmning på 30 sekunder, och USB-C med genomströmningsladdning håller den redo även medan den är ansluten.",
-        "Med sitt genomskinliga neongröna skal och moderna prestanda för torkade örter ger Dash II Retro en smidig blandning av vintagestil och vardagsfunktion.",
+        "Med sitt genomskinliga skal och moderna prestanda för torkade örter ger Dash II Retro en smidig blandning av vintagestil och vardagsfunktion.",
         "Mer kontroll. Enklare att fylla. Retrostil."
       ],
       "box": {
@@ -710,37 +712,7 @@ window.PORTAL_I18N.sv = {
         ]
       }
     },
-    "Dash II — Retro Purple": {
-      "description": "Retro Collection-utgåvan av G Pen Dash II klär samma fickstora vaporizer för torkade örter i ett genomskinligt, 90-talsinspirerat skal i lila, med uppvärmning på 30 sekunder, exakt temperaturkontroll och en uppgraderad keramisk kammare på 0,4 g.",
-      "highlights": [
-        "Genomskinlig retrofinish i lila",
-        "Uppvärmning på 30 sekunder",
-        "Exakt temperaturkontroll",
-        "OLED-display",
-        "Uppgraderad keramisk kammare på 0,4 g (enklare att fylla)",
-        "Fyllverktyg",
-        "1 100 mAh batteri",
-        "USB-C med genomströmningsladdning"
-      ],
-      "warranty": "6 månaders begränsad garanti, förlängd till 1 år vid registrering",
-      "fullDescription": [
-        "Dash II. Uppgraderad. Retro.",
-        "Den Dash II du känner, nu med en genomskinlig retrofinish i lila.",
-        "Retro Collection-versionen av G Pen Dash II förenar nostalgisk, 90-talsinspirerad genomskinlig design med en djärv, genomskinlig lila färg. Under retroskalet är det samma Dash II på alla punkter, med all sin uppgraderade prestanda.",
-        "G Pen Dash II är en fickstor vaporizer för torkade örter med exakt temperaturkontroll, OLED-display och en uppgraderad keramisk kammare på 0,4 g som ger bättre prestanda och är enklare att fylla. Ett mer långvarigt batteri på 1 100 mAh ger mjuka, pålitliga sessioner med uppvärmning på 30 sekunder, och USB-C med genomströmningsladdning håller den redo även medan den är ansluten.",
-        "Med sitt genomskinliga lila skal och moderna prestanda för torkade örter ger Dash II Retro en smidig blandning av vintagestil och vardagsfunktion.",
-        "Mer kontroll. Enklare att fylla. Retrostil."
-      ],
-      "box": {
-        "contents": [
-          "G Pen Dash II vape för torkade örter",
-          "Inbyggt fyllverktyg",
-          "Hylsa i silikon till munstycket",
-          "*USB-C-laddkabel ingår inte"
-        ]
-      }
-    },
-    "Hydout — Retro": {
+    "Hydout Retro Collection": {
       "description": "Retro-utgåvan av G Pen Hydout ger det diskreta batteriet för 510-patroner en genomskinlig finish inspirerad av 90-talet, med andningsaktivering, variabel spänning och USB-C med genomströmningsladdning.",
       "highlights": [
         "Genomskinlig finish inspirerad av 90-talet",

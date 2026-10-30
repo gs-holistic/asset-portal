@@ -26,7 +26,7 @@
   var LANGS = { en: "English", es: "Español", de: "Deutsch", it: "Italiano", fr: "Français", pt: "Português (Brasil)",
                 sv: "Svenska", pl: "Polski", da: "Dansk" };
   function isLang(l) { return Object.prototype.hasOwnProperty.call(LANGS, l); }
-  var LANG_VER = "20261028b";   // bump with the other asset tokens
+  var LANG_VER = "20261030a";   // bump with the other asset tokens
   // Load a language pack once. English is a no-op (it IS the source).
   var _langLoading = {};
   function loadLangPack(l, cb) {
@@ -524,10 +524,18 @@
   // folder (search results). Loading a page ignores it: folders always open
   // collapsed, and older links that carry one still land on the product.
   function productHash(p, folder) { return "#" + p.brand + "/" + slugify(p.name) + (folder ? "?f=" + encodeURIComponent(folder) : ""); }
+  // Renamed products: links shared under the old names still open the right page.
+  var SLUG_ALIAS = {
+    "510-original-retro": "510-original-retro-collection",
+    "hydout-retro": "hydout-retro-collection",
+    "dash-ii-retro-neon-green": "dash-ii-retro-collection",
+    "dash-ii-retro-purple": "dash-ii-retro-collection",
+  };
   function productFromHash() {
     var h = location.hash.replace(/^#/, "").replace(/\?.*$/, "");
     if (!h) return null;
     var parts = h.split("/"), brand = parts[0], slug = parts.slice(1).join("/");
+    slug = SLUG_ALIAS[slug] || slug;
     return PRODUCTS.filter(function (p) { return p.brand === brand && slugify(p.name) === slug; })[0] || null;
   }
   // When we change the hash ourselves we set this so the hashchange handler
@@ -663,7 +671,7 @@
     var os = (files || []).filter(function (x) { return /one.?sheet/i.test(x.name || ""); });
     if (!os.length) return null;
     // The regional files share a stem ("G Pen - One Sheet - Dash II") and the US
-    // file IS that stem. A folder can hold a stray extra US sheet (Hydout — Retro
+    // file IS that stem. A folder can hold a stray extra US sheet (Hydout Retro Collection
     // also carries the plain Hydout one): prefer the one matching the stem, and
     // leave the other as an ordinary file.
     var stems = os.filter(function (x) { return oneSheetRegion(x.name) !== "USD"; })
@@ -2898,7 +2906,8 @@
       return '<div class="cway-card" style="--c:' + w.hex + '">' +
         '<div class="cway-top"><span class="cway-dot"></span><span class="cway-color">' + tr(w.color) + "</span></div>" +
         '<div class="cway-name">' + escapeHTML(w.name) + "</div>" +
-        '<div class="cway-codes">' + code("SKU", w.sku) + code("UPC", w.upc) + "</div>" +
+        '<div class="cway-codes">' + code("SKU", w.sku) + code("UPC", w.upc) +
+          (w.popSku ? code(tr("POP SKU"), w.popSku) : "") + "</div>" +
       "</div>";
     }).join("");
     return '<div class="section-head cways-head"><h2>' + tr("Collection Colorways") + '</h2>' +
@@ -2936,10 +2945,13 @@
     // duplicating the POP-display codes.
     var colorways = (window.PORTAL_COLORWAYS && window.PORTAL_COLORWAYS[p.name]) || null;
     var multiColor = !!colorways;
+    // Each colorway in its own POP display (Dash II Retro): those codes are on the
+    // colorway cards, so there's no collection-level POP SKU/UPC to show here.
+    var popPerColor = !!(colorways && colorways.some(function (w) { return w.popSku; }));
     // For multi-colour collections, annotate the POP-display count with its
     // colourway breakdown, e.g. "20 (4 × 5 colorways)".
     var perPop = info.innerPack;
-    if (colorways && colorways.length && info.innerPack && info.innerPack !== "N/A") {
+    if (colorways && colorways.length && !popPerColor && info.innerPack && info.innerPack !== "N/A") {
       var nUnits = parseInt(info.innerPack, 10), nCol = colorways.length;
       if (nUnits && nUnits % nCol === 0) perPop = nUnits + " (" + (nUnits / nCol) + " × " + nCol + " " + trn("colorways", nCol) + ")";
     }
@@ -2947,7 +2959,7 @@
       row("Product Name", info.fullName) +
       (multiColor ? "" : row("Product SKU", info.sku) + row("Product UPC", info.upc)) +
       // Retail POP display SKU/UPC only apply to products that ship in a POP display.
-      (info.pop === true
+      (info.pop === true && !popPerColor
         ? row("Retail POP Display SKU", info.popSku) +
           row("Retail POP Display UPC", info.popUpc)
         : "") +
@@ -3446,7 +3458,7 @@
       window.open(dropboxZipUrl(link), "_blank", "noopener");
       return;
     }
-    downloadFiles((p.folders && p.folders[folderName]) || [], folderName, p.mixed ? null : p.dropbox);
+    downloadFiles((p.folders && p.folders[folderName]) || [], folderName, p.dropbox);
   }
   // Turn a Dropbox shared-folder link into a direct "download whole folder as
   // .zip" URL (forces dl=1).
@@ -3477,9 +3489,7 @@
     // Real Dropbox: download the whole product folder as a .zip from the shared
     // link (works on the static site, no backend). Per-file/zip-of-selection
     // still needs the Dropbox API sync (see GitHub Action) to resolve paths.
-    // A colorway that shares its Dropbox folder (Dash II Retro) downloads its own
-    // files; the folder .zip would include the other colorway's too.
-    if (p.dropbox && !p.mixed) {
+    if (p.dropbox) {
       toast(tr("Opening Dropbox download…"));
       window.open(dropboxZipUrl(p.dropbox), "_blank", "noopener");
       return;

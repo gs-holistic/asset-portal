@@ -82,16 +82,15 @@ window.PORTAL_BRANDS = {
 window.PORTAL_CURRENT = {
   gpen: [
     "Dash II",
-    "Dash II — Retro Neon Green",
-    "Dash II — Retro Purple",
+    "Dash II Retro Collection",
     "Dash+",
     "Slim 3-Piece Grinder",
     "Micro II",
     "Melt Hot Knife",
     "Hydout",
     "510 Original",
-    "Hydout — Retro",
-    "510 Original — Retro",
+    "Hydout Retro Collection",
+    "510 Original Retro Collection",
   ],
 };
 
@@ -114,25 +113,18 @@ window.PORTAL_PRODUCTS = [
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
   },
   {
-    // Dash II Retro Collection colorways (launched 2026-10-28). Both share one Dropbox
-    // folder, split by the color in each filename (see dashRetroPick in the sync).
-    // Covers: transparent cutouts of the Dropbox front shots, sized like the Dash II's.
-    name: "Dash II — Retro Neon Green", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
-    cover: "assets/img/dash-ii-retro-neon-green.webp?v=20261028",
+    // The Retro Collections are one product per device, every colorway on one page
+    // (assets, per-color SKUs in PORTAL_COLORWAYS). Covers line up all the colors.
+    // Dash II Retro launched 2026-10-28 in Neon Green and Purple.
+    name: "Dash II Retro Collection", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
+    cover: "assets/img/dash-ii-retro-collection.webp?v=20261030",
     added: "2026-10-28", newBadge: "green",
     oneSheet: "#",
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
   },
   {
-    name: "Dash II — Retro Purple", brand: "gpen", category: "Dry Herb", type: "Dry Herb Vaporizer",
-    cover: "assets/img/dash-ii-retro-purple.webp?v=20261028b",
-    added: "2026-10-28", newBadge: "purple",
-    oneSheet: "#",
-    folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
-  },
-  {
-    name: "510 Original — Retro", brand: "gpen", category: "510 Battery", type: "510 Cartridge Battery",
-    cover: CDN + "Purple510O_thumb_01.png?v=1779898092",
+    name: "510 Original Retro Collection", brand: "gpen", category: "510 Battery", type: "510 Cartridge Battery",
+    cover: "assets/img/510-original-retro-collection.webp?v=20261030",
     added: "2026-05-19", newBadge: "purple",
     oneSheet: "#",
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
@@ -199,8 +191,8 @@ window.PORTAL_PRODUCTS = [
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
   },
   {
-    name: "Hydout — Retro", brand: "gpen", category: "510 Battery", type: "510 Cartridge Battery",
-    cover: CDN + "Green_hydout_01_4b72ac42-025b-430e-937e-244203f17267.png?v=1765490119",
+    name: "Hydout Retro Collection", brand: "gpen", category: "510 Battery", type: "510 Cartridge Battery",
+    cover: "assets/img/hydout-retro-collection.webp?v=20261030",
     added: "2025-12-03",
     oneSheet: "#",
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
@@ -308,7 +300,7 @@ var PRODUCT_VIDEOS = {
   // (Vimeo). Placeholders until Dropbox MP4s arrive so they can be downloaded.
   "510 Original": [
     // Real Dropbox MP4s — play in-browser + downloadable; Vimeo poster thumbs and
-    // (use) YouTube link retained. Same videos used for 510 Original — Retro below.
+    // (use) YouTube link retained. Same videos used for 510 Original Retro Collection below.
     { title: "How to Use: G Pen 510 Original", youtube: "_SF_4zkbZdI",
       thumb: "https://i.vimeocdn.com/video/2099496548-9f356818ba8ca793122dcf45c0911332ea2271f63bb31116c6e0da05b66d0b83-d_640?region=us",
       mp4: "https://www.dropbox.com/scl/fi/i5ydk989oftm54y5n8hty/Bianca-510-How-To-Horizontal.mp4?rlkey=gpkapx6dynv1utt4yya5ksoc9&dl=0" },
@@ -316,7 +308,7 @@ var PRODUCT_VIDEOS = {
       thumb: "https://i.vimeocdn.com/video/2165544391-c70c4c689b5becbd372bd32b6bf431be5c8442a4b1e6875cf85ed96e636747b5-d_640?region=us",
       mp4: "https://www.dropbox.com/scl/fi/xshnmbfruvrc021r6ykqs/510-Original-Cleaning.mp4?rlkey=om0u51vawgzdr4y13rqn3hnfc&dl=0" },
   ],
-  "510 Original — Retro": [
+  "510 Original Retro Collection": [
     // Same how-to videos as 510 Original (Dropbox MP4s: play + download; use has a YouTube link).
     { title: "How to Use: G Pen 510 Original", youtube: "_SF_4zkbZdI",
       thumb: "https://i.vimeocdn.com/video/2099496548-9f356818ba8ca793122dcf45c0911332ea2271f63bb31116c6e0da05b66d0b83-d_640?region=us",
@@ -327,7 +319,7 @@ var PRODUCT_VIDEOS = {
   ],
   "Hydout": [
     // Real Dropbox MP4s — play in-browser + downloadable; Vimeo poster thumbs and
-    // YouTube links retained. Same videos used for Hydout — Retro below.
+    // YouTube links retained. Same videos used for Hydout Retro Collection below.
     { title: "How to Use: G Pen Hydout", youtube: "WK3EXouKwGs",
       thumb: "https://i.vimeocdn.com/video/2042536830-ad33a7ce448923a860282dcd9a0acade12fd6a9a18bf61116b68ea3954b4655c-d_640?region=us",
       mp4: "https://www.dropbox.com/scl/fi/b7g4fnjmk6vmyljiryjr6/Hydout-How-To-Use.mp4?rlkey=7i0r0r10hpanwjcfjrgi5foc6&dl=0" },
@@ -335,7 +327,7 @@ var PRODUCT_VIDEOS = {
       thumb: "https://i.vimeocdn.com/video/2042601767-c1a1df4b3c5e2f524fbdf5eab7af78886897186ff84062dcc1f01a49e8600c9a-d_640?region=us",
       mp4: "https://www.dropbox.com/scl/fi/j1uyo5dqf0nyjucqhjf6b/Hydout-How-To-Clean.mp4?rlkey=xw6pm2gur4rg5zv0effj8xi71&dl=0" },
   ],
-  "Hydout — Retro": [
+  "Hydout Retro Collection": [
     // Same how-to videos as Hydout (Dropbox MP4s: play + download + YouTube links).
     { title: "How to Use: G Pen Hydout", youtube: "WK3EXouKwGs",
       thumb: "https://i.vimeocdn.com/video/2042536830-ad33a7ce448923a860282dcd9a0acade12fd6a9a18bf61116b68ea3954b4655c-d_640?region=us",
@@ -381,9 +373,8 @@ var PRODUCT_VIDEOS = {
   ],
 };
 
-// The Dash II Retro colorways are the same device: same how-to videos.
-PRODUCT_VIDEOS["Dash II — Retro Neon Green"] = PRODUCT_VIDEOS["Dash II"];
-PRODUCT_VIDEOS["Dash II — Retro Purple"] = PRODUCT_VIDEOS["Dash II"];
+// The Dash II Retro Collection is the same device: same how-to videos.
+PRODUCT_VIDEOS["Dash II Retro Collection"] = PRODUCT_VIDEOS["Dash II"];
 
 // Inject videos into a product-level `videos` array (the educational video hub,
 // SEPARATE from the downloadable file folders). The "Video" folder stays for
@@ -446,20 +437,11 @@ var PRODUCT_INFO = {
     faqUrl: "https://gpen.com/pages/dash-ii-faq",
     productUrl: "https://www.gpen.com/products/g-pen-dash-ii-vaporizer",
   },
-  "Dash II — Retro Neon Green": {
-    // Same device as the Dash II in a Retro Collection colorway: its specs, warranty,
+  "Dash II Retro Collection": {
+    // Same device as the Dash II in Retro Collection colorways: its specs, warranty,
     // manual and FAQ carry over. No gpen.com product page yet (add productUrl once live).
-    description: "The Retro Collection edition of the G Pen Dash II wraps the same pocket-sized dry herb vaporizer in a see-through, 90s-inspired Neon Green shell, with a 30-second heat-up, precise temperature control, and an upgraded 0.4g ceramic chamber.",
-    highlights: ["Translucent Neon Green retro finish", "30-second heat-up", "Precise temperature control", "OLED display", "Upgraded 0.4g ceramic chamber (easier loading)", "Pick Tool", "1,100mAh battery", "USB-C pass-through charging"],
-    warranty: "6-month limited warranty, extended to 1 year if registered",
-    manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20260309_GPen_Dash2_Manual.pdf?v=1773074467",
-    faqUrl: "https://gpen.com/pages/dash-ii-faq",
-  },
-  "Dash II — Retro Purple": {
-    // Same device as the Dash II in a Retro Collection colorway: its specs, warranty,
-    // manual and FAQ carry over. No gpen.com product page yet (add productUrl once live).
-    description: "The Retro Collection edition of the G Pen Dash II wraps the same pocket-sized dry herb vaporizer in a see-through, 90s-inspired Purple shell, with a 30-second heat-up, precise temperature control, and an upgraded 0.4g ceramic chamber.",
-    highlights: ["Translucent Purple retro finish", "30-second heat-up", "Precise temperature control", "OLED display", "Upgraded 0.4g ceramic chamber (easier loading)", "Pick Tool", "1,100mAh battery", "USB-C pass-through charging"],
+    description: "The Dash II Retro Collection wraps the same pocket-sized dry herb vaporizer in a see-through, 90s-inspired shell in Neon Green or Purple, with a 30-second heat-up, precise temperature control, and an upgraded 0.4g ceramic chamber.",
+    highlights: ["Translucent retro finish in Neon Green or Purple", "30-second heat-up", "Precise temperature control", "OLED display", "Upgraded 0.4g ceramic chamber (easier loading)", "Pick Tool", "1,100mAh battery", "USB-C pass-through charging"],
     warranty: "6-month limited warranty, extended to 1 year if registered",
     manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20260309_GPen_Dash2_Manual.pdf?v=1773074467",
     faqUrl: "https://gpen.com/pages/dash-ii-faq",
@@ -493,7 +475,7 @@ var PRODUCT_INFO = {
     manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20251218_GPen_510_Original_Manual-2.pdf?v=1767623021",
     productUrl: "https://www.gpen.com/products/g-pen-510-original",
   },
-  "510 Original — Retro": {
+  "510 Original Retro Collection": {
     description: "The Retro Collection edition of the 510 Original pairs a smooth, vintage translucent finish with the same breath-activated, ultra-portable 510 performance inspired by G Pen's original 2012 battery.",
     highlights: ["Translucent retro finish", "Breath activation", "Three preset voltages (3.2 / 3.6 / 3.8V)", "1.8V 10-second pre-heat mode", "400mAh battery", "USB-C pass-through charging", "Digital display", "24 × 21.1 × 56.7 mm"],
     warranty: "Limited warranty — see policy",
@@ -507,7 +489,7 @@ var PRODUCT_INFO = {
     manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20250528_GPen_Hydout_Manual.pdf?v=1749240232",
     productUrl: "https://www.gpen.com/products/g-pen-hydout",
   },
-  "Hydout — Retro": {
+  "Hydout Retro Collection": {
     description: "The Retro edition of the G Pen Hydout brings a see-through, 90s-inspired translucent finish to the discreet 510 cartridge battery, with breath activation, variable voltage and USB-C pass-through charging.",
     highlights: ["See-through 90s-inspired finish", "Breath activation", "Adjustable variable voltage", "1.8V preheat mode", "400mAh rechargeable battery", "USB-C pass-through charging", "Fits most 510 cartridges", "Hidden magnetic mouthpiece cover"],
     warranty: "Limited warranty — see policy",
@@ -767,16 +749,15 @@ var PRODUCT_INFO = {
    e.g. confirm a price). Shown in the product hub. */
 var PRODUCT_MSRP = {
   "Dash II": "$49.95",
-  "Dash II — Retro Neon Green": "$49.95",
-  "Dash II — Retro Purple": "$49.95",
+  "Dash II Retro Collection": "$49.95",
   "Connect": "$74.95",
   "Roam": "$49.95",
   "Hyer": "$149.95",
   "Dash+": "$99.95",
   "510 Original": "$12.95",
-  "510 Original — Retro": "$12.95",
+  "510 Original Retro Collection": "$12.95",
   "Hydout": "$24.95",
-  "Hydout — Retro": "$24.95",
+  "Hydout Retro Collection": "$24.95",
   "Melt Hot Knife": "$24.95",
 };
 
@@ -789,20 +770,12 @@ var PRODUCT_DESCRIPTION = {
     "The G Pen Dash II is a pocket-sized dry herb vaporizer featuring precise temperature control, an OLED display, and an upgraded 0.4g ceramic chamber designed for improved performance and easier loading. Powered by an upgraded longer lasting 1,100mAh battery, Dash II delivers smooth, reliable sessions with 30-second heat-up and USB-C pass-through charging capability.",
     "More control. Easier loading. Better performance.",
   ],
-  "Dash II — Retro Neon Green": [
+  "Dash II Retro Collection": [
     "Dash II. Upgraded. Retro.",
-    "The Dash II you know, now in a see-through Neon Green retro finish.",
-    "The Retro Collection G Pen Dash II pairs nostalgic, 90s-inspired transparent design with a bold translucent Neon Green colorway. Under the retro shell, it’s the same Dash II in every way, with all of its upgraded performance.",
+    "The Dash II you know, now in a see-through retro finish, available in Neon Green and Purple.",
+    "The Dash II Retro Collection pairs nostalgic, 90s-inspired transparent design with bold translucent colorways. Under the retro shell, it’s the same Dash II in every way, with all of its upgraded performance.",
     "The G Pen Dash II is a pocket-sized dry herb vaporizer with precise temperature control, an OLED display, and an upgraded 0.4g ceramic chamber designed for better performance and easier loading. A longer-lasting 1,100mAh battery delivers smooth, reliable sessions with a 30-second heat-up, and USB-C pass-through charging keeps it ready to use even while it’s plugged in.",
-    "With its translucent Neon Green shell and modern dry herb performance, the Dash II Retro is a smooth mix of vintage style and everyday function.",
-    "More control. Easier loading. Retro style.",
-  ],
-  "Dash II — Retro Purple": [
-    "Dash II. Upgraded. Retro.",
-    "The Dash II you know, now in a see-through Purple retro finish.",
-    "The Retro Collection G Pen Dash II pairs nostalgic, 90s-inspired transparent design with a bold translucent Purple colorway. Under the retro shell, it’s the same Dash II in every way, with all of its upgraded performance.",
-    "The G Pen Dash II is a pocket-sized dry herb vaporizer with precise temperature control, an OLED display, and an upgraded 0.4g ceramic chamber designed for better performance and easier loading. A longer-lasting 1,100mAh battery delivers smooth, reliable sessions with a 30-second heat-up, and USB-C pass-through charging keeps it ready to use even while it’s plugged in.",
-    "With its translucent Purple shell and modern dry herb performance, the Dash II Retro is a smooth mix of vintage style and everyday function.",
+    "With its translucent shell and modern dry herb performance, the Dash II Retro is a smooth mix of vintage style and everyday function.",
     "More control. Easier loading. Retro style.",
   ],
   "Connect": [
@@ -853,7 +826,7 @@ var PRODUCT_DESCRIPTION = {
     "*510 Cartridge Not Included",
     "**USB-C Charger Not Included",
   ],
-  "510 Original — Retro": [
+  "510 Original Retro Collection": [
     "Original. Upgraded. Retro.",
     "Back to where it all started—with a smooth retro finish.",
     "The Retro Collection G Pen 510 Original blends nostalgic transparent design with a rich, standout translucent colorway. Inspired by our very first 510 battery from 2012, this upgraded edition keeps the original simple and reliable while refining it for modern, on-the-go sessions.",
@@ -867,7 +840,7 @@ var PRODUCT_DESCRIPTION = {
     "Looking for the best 510 cartridge battery for low-key sessions on the go? Meet the G Pen Hydout 510 Cartridge Battery — a compact, concealed vape battery for 510 cartridges that delivers serious performance without blowing your cover.",
     "This pocket-sized powerhouse features a hidden magnetic mouthpiece cover to keep your cart discreet and protected from light (yes, it helps preserve oil quality), a 400mAh battery, adjustable voltage, and a bright LED display for full control over every hit. Compatible with most 510 thread cartridges up to 2g, the Hydout is perfect for smooth, customizable sessions—wherever you are.",
   ],
-  "Hydout — Retro": [
+  "Hydout Retro Collection": [
     "The G Pen Hydout Retro blends a sleek, see-through 90s-inspired translucent finish with the refined engineering behind G Pen’s most discreet 510 battery. Its magnetic shell wraps around your cartridge to protect it from daily wear while keeping your setup visually minimal and clean.",
     "Designed for versatility, the Hydout includes variable voltage settings for customized heat control and a 1.8V pre-heat function to warm thicker concentrates before use. This Retro edition also adds breath activation, making every pull completely button-free, and USB-C pass-through charging, which keeps the device ready for use even while it’s plugged in.",
     "With fast USB-C charging, a snug no-rattle cartridge chamber, and compatibility with most 510 carts, the Hydout Retro delivers modern performance beneath its nostalgic translucent shell.",
@@ -906,17 +879,16 @@ var PRODUCT_SKU = {
   // innerPack/masterCarton/caseWeight/caseDimensions = retail packaging. Retro
   // rows use the collection-level POP SKU/UPC (per-colour SKUs live in the sheet).
   "Dash II":              { sku: "GPD-001-APZZ", pop: true,  fullName: "DASH II VAPORIZER", upc: "852570004441", popSku: "GPD-001-APZZ-Inner Pack", popUpc: "10852570004448", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", masterCarton: "200", caseWeight: "16.07 kg", caseDimensions: "580 × 280 × 245 mm", htsCode: "8543.70.9940", boxImg: "assets/materials/dash-ii-retail-packaging.png", popImg: "assets/materials/dash-ii-pop-display.png" },
-  // Dash II Retro: SKU/UPC and the 10-pack POP SKU from "Retro Dash II - Master SKU
-  // data.xlsx" (2026-10-26); unit specs match the Dash II. POP UPC and case data
-  // weren't in the sheet, so they show as "still to be confirmed".
-  "Dash II — Retro Neon Green": { sku: "GPD-001-APGR", pop: true, fullName: "DASH II VAPORIZER — RETRO COLLECTION — GREEN", upc: "811736020763", popSku: "GPD-001-APGR-Inner Pack", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", htsCode: "8543.70.9940" },
-  "Dash II — Retro Purple":     { sku: "GPD-001-APPU", pop: true, fullName: "DASH II VAPORIZER — RETRO COLLECTION — PURPLE", upc: "811736020565", popSku: "GPD-001-APPU-Inner Pack", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", htsCode: "8543.70.9940" },
+  // Dash II Retro Collection: per-color SKU/UPC/POP SKU (from "Retro Dash II - Master
+  // SKU data.xlsx", 2026-10-26) are in PORTAL_COLORWAYS; each color ships in its own
+  // 10-pack POP. Unit specs match the Dash II. POP UPC and case data weren't in the sheet.
+  "Dash II Retro Collection": { pop: true, fullName: "DASH II VAPORIZER — RETRO COLLECTION", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", htsCode: "8543.70.9940" },
   "Dash+":                { sku: "GPD-001-AMZZ", pop: false, fullName: "DASH+ VAPORIZER", upc: "811736027489", dimensions: "135 × 100 × 35 mm", unitWeight: "276 g", innerPack: "N/A", masterCarton: "48", caseWeight: "14.3 kg", caseDimensions: "330 × 320 × 320 mm", htsCode: "8543.70.9940" },
   "Melt Hot Knife":       { sku: "GHK-001-AOZZ", pop: true,  fullName: "MELT", upc: "811736029711", popSku: "GHK-001-AOZZ-Inner Pack", popUpc: "10811736029718", dimensions: "122.5 × 42 × 12 mm", unitWeight: "17 g", innerPack: "20", masterCarton: "720", caseWeight: "14.74 kg", caseDimensions: "513 × 482 × 262 mm", htsCode: "8543.70.9940" },
   "Hydout":               { sku: "GHO-001-AOZZ", pop: true,  fullName: "HYDOUT", upc: "811736029254", popSku: "GHO-001-AOZZ-Inner Pack", popUpc: "10811736029251", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
   "510 Original":         { sku: "GSB-001-AOZZ", pop: true,  fullName: "510 ORIGINAL", upc: "811736029742", popSku: "GSB-001-AOZZ-Inner Pack", popUpc: "10811736029749", dimensions: "24 × 21.1 × 56.7 mm", unitWeight: "30 g", innerPack: "20", masterCarton: "400", caseWeight: "13.4 kg", caseDimensions: "510 × 330 × 310 mm", htsCode: "8543.70.9940" },
-  "Hydout — Retro":       { sku: "GHO-006-AOZZ", pop: true,  fullName: "HYDOUT — RETRO COLLECTION", upc: "00811736029889", popSku: "GHO-006-AOZZ", popUpc: "00811736029889", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
-  "510 Original — Retro": { sku: "GSB-006-APZZ", pop: true,  fullName: "510 ORIGINAL — RETRO COLLECTION", upc: "00811736021791", popSku: "GSB-006-APZZ", popUpc: "00811736021791", dimensions: "24 × 21.1 × 56.7 mm", unitWeight: "30 g", innerPack: "20", masterCarton: "400", caseWeight: "13.4 kg", caseDimensions: "510 × 330 × 310 mm", htsCode: "8543.70.9940" },
+  "Hydout Retro Collection":       { sku: "GHO-006-AOZZ", pop: true,  fullName: "HYDOUT — RETRO COLLECTION", upc: "00811736029889", popSku: "GHO-006-AOZZ", popUpc: "00811736029889", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
+  "510 Original Retro Collection": { sku: "GSB-006-APZZ", pop: true,  fullName: "510 ORIGINAL — RETRO COLLECTION", upc: "00811736021791", popSku: "GSB-006-APZZ", popUpc: "00811736021791", dimensions: "24 × 21.1 × 56.7 mm", unitWeight: "30 g", innerPack: "20", masterCarton: "400", caseWeight: "13.4 kg", caseDimensions: "510 × 330 × 310 mm", htsCode: "8543.70.9940" },
   "Connect":              { sku: "GPC-100-AJZZ", pop: false, fullName: "CONNECT", upc: "811736023986", dimensions: "158 × 117 × 48 mm", unitWeight: "362 g", innerPack: "N/A", masterCarton: "50", caseWeight: "19.1 kg", caseDimensions: "625 × 330 × 265 mm", htsCode: "8543.70.9940" },
   "Dash":                 { sku: "GPD-003-ANZZ", pop: false, fullName: "DASH", upc: "811736029025", dimensions: "122 × 78 × 28 mm", unitWeight: "131 g", innerPack: "N/A", masterCarton: "80", caseWeight: "12 kg", caseDimensions: "570 × 320 × 246 mm", htsCode: "8543.70.9940" },
   "Elite II":             { sku: "GPE-001-AKZZ", pop: false, fullName: "ELITE II", upc: "811736026154", dimensions: "190 × 90 × 60 mm", unitWeight: "396 g", innerPack: "N/A", masterCarton: "30", caseWeight: "13.04 kg", caseDimensions: "400 × 310 × 325 mm", htsCode: "8543.70.9940" },
@@ -944,8 +916,7 @@ var PRODUCT_BOX = {
     contents: ["G Pen Dash II Dry Herb Vape", "Built-in loading tool", "Silicone Mouthpiece Sleeve", "*USB-C Charging Cable Not Included"],
   },
   // Dash II Retro: same box as the Dash II (no colorway components image yet).
-  "Dash II — Retro Neon Green": { contents: ["G Pen Dash II Dry Herb Vape", "Built-in loading tool", "Silicone Mouthpiece Sleeve", "*USB-C Charging Cable Not Included"] },
-  "Dash II — Retro Purple": { contents: ["G Pen Dash II Dry Herb Vape", "Built-in loading tool", "Silicone Mouthpiece Sleeve", "*USB-C Charging Cable Not Included"] },
+  "Dash II Retro Collection": { contents: ["G Pen Dash II Dry Herb Vape", "Built-in loading tool", "Silicone Mouthpiece Sleeve", "*USB-C Charging Cable Not Included"] },
   "Dash+": {
     image: CDN + "dash_what_inc.png?v=1692903153",
     contents: ["Dash+ Vaporizer", "Dash+ Mouthpiece Silicone Sleeve", "Loading Tool with Keychain", "USB-C Charging Cable"],
@@ -958,7 +929,7 @@ var PRODUCT_BOX = {
     image: CDN + "510_thumb_01.jpg?v=1765987884",
     contents: ["G Pen 510 Original Battery", "*USB-C Charger Not Included", "*510 Cartridge Not Included"],
   },
-  "510 Original — Retro": {
+  "510 Original Retro Collection": {
     image: CDN + "Purple510O_thumb_01.jpg?v=1779898107",
     contents: ["G Pen 510 Original Battery", "*USB-C Charger Not Included", "*510 Cartridge Not Included"],
   },
@@ -966,7 +937,7 @@ var PRODUCT_BOX = {
     image: CDN + "Hydout_vape_thumb_02.jpg?v=1762461585",
     contents: ["1x G Pen Hydout 510 Cartridge Battery", "1x Magnetic Mouthpiece Cover", "510 Cartridge not included", "USB-C Charging cable not included"],
   },
-  "Hydout — Retro": {
+  "Hydout Retro Collection": {
     image: CDN + "Purple_hydout_07.jpg?v=1765487537",
     contents: ["G Pen Hydout 510 Thread Battery", "Magnetic Mouthpiece", "*USB-C Charging Cable Not Included", "*510 Cartridge Not Included"],
   },
@@ -993,7 +964,6 @@ window.PORTAL_PRODUCTS.forEach(function (p) {
       p.folders = s.folders;
       if (s.dropbox) p.dropbox = s.dropbox;
       if (s.folderLinks) p.folderLinks = s.folderLinks;
-      if (s.mixed) p.mixed = true;   // shares its Dropbox folder with another colorway
       p.synced = true;
       p.syncedAt = s.syncedAt;
       if (s.updated && (!p.added || s.updated > p.added)) p.updated = s.updated;
@@ -1047,14 +1017,19 @@ window.PORTAL_PRODUCTS.forEach(function (p) {
    "Collection Colorways" section on those product pages. `hex` drives the fun,
    colour-coded card design. */
 window.PORTAL_COLORWAYS = {
-  "Hydout — Retro": [
+  // Dash II: each color has its own 10-pack POP display (popSku per card).
+  "Dash II Retro Collection": [
+    { color: "Neon Green", hex: "#7CDA24", sku: "GPD-001-APGR", upc: "811736020763", popSku: "GPD-001-APGR-Inner Pack", name: "Dash II Retro Collection — Neon Green" },
+    { color: "Purple",     hex: "#8B4AD6", sku: "GPD-001-APPU", upc: "811736020565", popSku: "GPD-001-APPU-Inner Pack", name: "Dash II Retro Collection — Purple" },
+  ],
+  "Hydout Retro Collection": [
     { color: "Red",    hex: "#E23B34", sku: "GHO-002-AOZZ", upc: "811736029605", name: "Retro Collection Hydout — Red" },
     { color: "Blue",   hex: "#2F6BE0", sku: "GHO-003-AOZZ", upc: "811736029612", name: "Retro Collection Hydout — Blue" },
     { color: "Green",  hex: "#57B733", sku: "GHO-004-AOZZ", upc: "811736029629", name: "Retro Collection Hydout — Green" },
     { color: "Pink",   hex: "#E8479E", sku: "GHO-005-AOZZ", upc: "811736029636", name: "Retro Collection Hydout — Pink" },
     { color: "Purple", hex: "#8B4AD6", sku: "GHO-006-AOZZ", upc: "811736029643", name: "Retro Collection Hydout — Purple" },
   ],
-  "510 Original — Retro": [
+  "510 Original Retro Collection": [
     { color: "Red",    hex: "#E23B34", sku: "GSB-001-APZZ", upc: "852570004298", name: "Retro Collection 510 Original — Red" },
     { color: "Blue",   hex: "#2F6BE0", sku: "GSB-002-APZZ", upc: "852570004816", name: "Retro Collection 510 Original — Blue" },
     { color: "Green",  hex: "#57B733", sku: "GSB-003-APZZ", upc: "852570004465", name: "Retro Collection 510 Original — Green" },
@@ -1073,7 +1048,7 @@ window.PORTAL_COLORWAYS = {
   Object.keys(POP.folders).forEach(function (f) { (POP.folders[f] || []).forEach(function (x) { pops.push(x); }); });
   var MATCH = {
     "510 Original": /^510-Original-Front-POP/i,
-    "510 Original — Retro": /^510-Retro-Front-POP/i,
+    "510 Original Retro Collection": /^510-Retro-Front-POP/i,
     "Hydout": /^Hydout-Front-POP/i,
     "Melt Hot Knife": /^Melt-Front-POP/i,
     "Dash II": /^Dash-Front-POP/i,
@@ -1234,7 +1209,7 @@ window.PORTAL_INSTORE_GENERAL = (function () {
   ];
 })();
 
-/* Hydout — Retro has no Product Photos in its Dropbox folder yet, so show all
+/* Hydout Retro Collection has no Product Photos in its Dropbox folder yet, so show all
    translucent colorways pulled from gpen.com (Purple / Blue / Pink / Red / Neon
    Green). Replaced automatically once a Dropbox "Product Photos" folder syncs. */
 var HYDOUT_RETRO_PHOTOS = [
@@ -1290,7 +1265,7 @@ var HYDOUT_RETRO_PHOTOS = [
     { name: "Neon Green · 10", type: "image", format: "JPG", thumb: "https://cdn.shopify.com/s/files/1/0185/1576/files/Green_hydout_012.jpg?v=1765487610&width=1000", url: "https://cdn.shopify.com/s/files/1/0185/1576/files/Green_hydout_012.jpg?v=1765487610", file: null },
 ];
 (function () {
-  var p = window.PORTAL_PRODUCTS.filter(function (x) { return x.name === "Hydout — Retro"; })[0];
+  var p = window.PORTAL_PRODUCTS.filter(function (x) { return x.name === "Hydout Retro Collection"; })[0];
   if (p && p.folders && (!p.folders["Product Photos"] || !p.folders["Product Photos"].length)) {
     p.folders["Product Photos"] = HYDOUT_RETRO_PHOTOS;
   }
@@ -1300,15 +1275,14 @@ var HYDOUT_RETRO_PHOTOS = [
 (function () {
   var LABELS = {
     "Dash II": "Dry Herb Vape",
-    "Dash II — Retro Neon Green": "Dry Herb Vape",
-    "Dash II — Retro Purple": "Dry Herb Vape",
+    "Dash II Retro Collection": "Dry Herb Vape",
     "Dash+": "Dry Herb Vape",
     "Micro II": "Concentrate Vaporizer",
     "Melt Hot Knife": "Concentrate Hot Knife",
     "510 Original": "510 Battery",
-    "510 Original — Retro": "510 Battery",
+    "510 Original Retro Collection": "510 Battery",
     "Hydout": "510 Battery",
-    "Hydout — Retro": "510 Battery",
+    "Hydout Retro Collection": "510 Battery",
   };
   window.PORTAL_PRODUCTS.forEach(function (p) { if (LABELS[p.name]) p.label = LABELS[p.name]; });
 })();
@@ -1325,16 +1299,15 @@ var HYDOUT_RETRO_PHOTOS = [
 window.PORTAL_TRAINING_SITE = "https://training.gpen.com/";
 window.PORTAL_TRAINING_COURSES = {
   "Dash II":              "dash-ii",
-  "Dash II — Retro Neon Green": "dash-ii",
-  "Dash II — Retro Purple": "dash-ii",
+  "Dash II Retro Collection": "dash-ii",
   "Dash+":                "dash-plus",
   "Slim 3-Piece Grinder": "grinder",
   "Micro II":             "micro-ii",
   "Melt Hot Knife":       "melt-hot-knife",
   "Hydout":               "hydout",
-  "Hydout — Retro":       "hydout",
+  "Hydout Retro Collection":       "hydout",
   "510 Original":         "510-original",
-  "510 Original — Retro": "510-original",
+  "510 Original Retro Collection": "510-original",
 };
 
 
@@ -1348,16 +1321,15 @@ window.PORTAL_TRAINING_COURSES = {
 window.PORTAL_HELP_SITE = "https://help.gpen.com/";
 window.PORTAL_HELP_PAGES = {
   "Dash II":              "dash-ii",
-  "Dash II — Retro Neon Green": "dash-ii",
-  "Dash II — Retro Purple": "dash-ii",
+  "Dash II Retro Collection": "dash-ii",
   "Dash+":                "dash-plus",
   "Slim 3-Piece Grinder": "grinder",
   "Micro II":             "micro-ii",
   "Melt Hot Knife":       "melt",
   "Hydout":               "hydout",
-  "Hydout — Retro":       "hydout",
+  "Hydout Retro Collection":       "hydout",
   "510 Original":         "510-original",
-  "510 Original — Retro": "510-original",
+  "510 Original Retro Collection": "510-original",
 };
 
 
@@ -1370,14 +1342,14 @@ window.PORTAL_HELP_PAGES = {
 window.PORTAL_FOLDER_COVERS = {
   // User Generated Content: a creator with the product clearly in frame, no edgy captions.
   "Dash II":              { "User Generated Content": "Dash II UGC_01" },                         // "G Pen unboxing"
-  "Dash II — Retro Neon Green": { "Product Photos": "GPEN_Dash-II_Green_Front" },                  // front, display on
-  "Dash II — Retro Purple":     { "Product Photos": "GPEN_Dash-II_Purple_Front" },
+  "Dash II Retro Collection": { "Product Photos": "GPEN_Dash-II_Green_Front",                     // front, display on
+                                  "Lifestyle Photos": "GPEN - Dash 2-87 Group" },                    // both colors
   "510 Original":         { "User Generated Content": "UGC 510 Original_01" },                    // "Smallest battery check!"
-  "510 Original — Retro": { "User Generated Content": "irielogic420 retro 510 july" },            // red Retro 510 in its box
+  "510 Original Retro Collection": { "User Generated Content": "irielogic420 retro 510 july" },            // red Retro 510 in its box
   "Micro II":             { "User Generated Content": "highwithkay Micro II Sept" },              // "try the gpen micro II with me"
   "Slim 3-Piece Grinder": { "User Generated Content": "zach_tha_ripper Grinder trim" },           // grinder close-up
   "Dash+":                { "User Generated Content": "Bentley Rolling Dash+ Review" },           // creator review, device in hand
   "Hydout":               { "User Generated Content": "Grand Illumination Hydout lets_rhi.up" },  // Hydout in hand, colorful house
-  "Hydout — Retro":       { "User Generated Content": "iproch Purple Hydout June" },              // purple Retro outdoors
+  "Hydout Retro Collection":       { "User Generated Content": "iproch Purple Hydout June" },              // purple Retro outdoors
   "Melt Hot Knife":       { "User Generated Content": "blazzedange melt jar march" },             // creator holding the Melt
 };

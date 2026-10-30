@@ -340,6 +340,8 @@ window.PORTAL_I18N.pl = {
     "Open in": "Otwórz w",
     "Pink": "Różowy",
     "Purple": "Fioletowy",
+    "Neon Green": "Neonowy zielony",
+    "POP SKU": "SKU POP",
     "Red": "Czerwony",
     "Regional Catalogs": "Katalogi regionalne",
     "Retail POP display": "Ekspozytor POP",
@@ -549,7 +551,7 @@ window.PORTAL_I18N.pl = {
         ]
       }
     },
-    "510 Original — Retro": {
+    "510 Original Retro Collection": {
       "description": "Edycja Retro Collection modelu 510 Original łączy gładkie, przezroczyste wykończenie w stylu vintage z tą samą aktywowaną wdechem, ultraprzenośną wydajnością 510, inspirowaną pierwszą baterią G Pen z 2012 roku.",
       "highlights": [
         "Przezroczyste wykończenie retro",
@@ -698,10 +700,10 @@ window.PORTAL_I18N.pl = {
         ]
       }
     },
-    "Dash II — Retro Neon Green": {
-      "description": "Edycja Retro Collection modelu G Pen Dash II to ten sam kieszonkowy waporyzator do suszu w przezroczystej obudowie w kolorze neonowej zieleni, inspirowanej latami 90., z nagrzewaniem w 30 sekund, precyzyjną kontrolą temperatury i ulepszoną ceramiczną komorą 0,4 g.",
+    "Dash II Retro Collection": {
+      "description": "Dash II Retro Collection to ten sam kieszonkowy waporyzator do suszu w przezroczystej obudowie inspirowanej latami 90., w kolorze neonowej zieleni lub fioletu, z nagrzewaniem w 30 sekund, precyzyjną kontrolą temperatury i ulepszoną ceramiczną komorą 0,4 g.",
       "highlights": [
-        "Przezroczyste wykończenie retro w kolorze neonowej zieleni",
+        "Przezroczyste wykończenie retro w kolorze neonowej zieleni lub fioletu",
         "Nagrzewanie w 30 sekund",
         "Precyzyjna kontrola temperatury",
         "Wyświetlacz OLED",
@@ -713,10 +715,10 @@ window.PORTAL_I18N.pl = {
       "warranty": "6 miesięcy ograniczonej gwarancji, przedłużonej do 1 roku po rejestracji",
       "fullDescription": [
         "Dash II. Ulepszony. Retro.",
-        "Dash II, który znasz, teraz z przezroczystym wykończeniem retro w kolorze neonowej zieleni.",
-        "G Pen Dash II z kolekcji Retro łączy nostalgiczny, przezroczysty design inspirowany latami 90. z wyrazistym, transparentnym kolorem neonowej zieleni. Pod obudową retro to ten sam Dash II pod każdym względem, z całą jego ulepszoną wydajnością.",
+        "Dash II, który znasz, teraz z przezroczystym wykończeniem retro, w kolorach neonowej zieleni i fioletu.",
+        "Dash II Retro Collection łączy nostalgiczny, przezroczysty design inspirowany latami 90. z wyrazistymi, transparentnymi kolorami. Pod obudową retro to ten sam Dash II pod każdym względem, z całą jego ulepszoną wydajnością.",
         "G Pen Dash II to kieszonkowy waporyzator do suszu z precyzyjną kontrolą temperatury, wyświetlaczem OLED i ulepszoną ceramiczną komorą 0,4 g, zaprojektowaną z myślą o lepszym działaniu i łatwiejszym napełnianiu. Wydajniejszy akumulator 1100 mAh zapewnia płynne, niezawodne sesje z nagrzewaniem w 30 sekund, a ładowanie przelotowe USB-C sprawia, że urządzenie jest gotowe do użycia nawet podczas ładowania.",
-        "Dzięki przezroczystej obudowie w kolorze neonowej zieleni i nowoczesnej wydajności Dash II Retro łączy styl vintage z codzienną funkcjonalnością.",
+        "Dzięki przezroczystej obudowie i nowoczesnej wydajności Dash II Retro łączy styl vintage z codzienną funkcjonalnością.",
         "Więcej kontroli. Łatwiejsze napełnianie. Styl retro."
       ],
       "box": {
@@ -728,37 +730,7 @@ window.PORTAL_I18N.pl = {
         ]
       }
     },
-    "Dash II — Retro Purple": {
-      "description": "Edycja Retro Collection modelu G Pen Dash II to ten sam kieszonkowy waporyzator do suszu w przezroczystej fioletowej obudowie inspirowanej latami 90., z nagrzewaniem w 30 sekund, precyzyjną kontrolą temperatury i ulepszoną ceramiczną komorą 0,4 g.",
-      "highlights": [
-        "Przezroczyste fioletowe wykończenie retro",
-        "Nagrzewanie w 30 sekund",
-        "Precyzyjna kontrola temperatury",
-        "Wyświetlacz OLED",
-        "Ulepszona ceramiczna komora 0,4 g (łatwiejsze napełnianie)",
-        "Narzędzie do napełniania",
-        "Bateria 1100 mAh",
-        "Ładowanie przelotowe USB-C"
-      ],
-      "warranty": "6 miesięcy ograniczonej gwarancji, przedłużonej do 1 roku po rejestracji",
-      "fullDescription": [
-        "Dash II. Ulepszony. Retro.",
-        "Dash II, który znasz, teraz z przezroczystym fioletowym wykończeniem retro.",
-        "G Pen Dash II z kolekcji Retro łączy nostalgiczny, przezroczysty design inspirowany latami 90. z wyrazistym, transparentnym fioletem. Pod obudową retro to ten sam Dash II pod każdym względem, z całą jego ulepszoną wydajnością.",
-        "G Pen Dash II to kieszonkowy waporyzator do suszu z precyzyjną kontrolą temperatury, wyświetlaczem OLED i ulepszoną ceramiczną komorą 0,4 g, zaprojektowaną z myślą o lepszym działaniu i łatwiejszym napełnianiu. Wydajniejszy akumulator 1100 mAh zapewnia płynne, niezawodne sesje z nagrzewaniem w 30 sekund, a ładowanie przelotowe USB-C sprawia, że urządzenie jest gotowe do użycia nawet podczas ładowania.",
-        "Dzięki przezroczystej fioletowej obudowie i nowoczesnej wydajności Dash II Retro łączy styl vintage z codzienną funkcjonalnością.",
-        "Więcej kontroli. Łatwiejsze napełnianie. Styl retro."
-      ],
-      "box": {
-        "contents": [
-          "Waporyzator do suszu G Pen Dash II",
-          "Wbudowane narzędzie do napełniania",
-          "Silikonowa nakładka na ustnik",
-          "*Kabel do ładowania USB-C nie jest dołączony"
-        ]
-      }
-    },
-    "Hydout — Retro": {
+    "Hydout Retro Collection": {
       "description": "Edycja Retro modelu G Pen Hydout nadaje dyskretnej baterii do kartridży 510 przezroczyste wykończenie inspirowane latami 90., z aktywacją wdechem, zmiennym napięciem i ładowaniem przelotowym USB-C.",
       "highlights": [
         "Przezroczyste wykończenie inspirowane latami 90.",
