@@ -81,8 +81,8 @@ window.PORTAL_BRANDS = {
    promote/retire a product — names must match the product `name` exactly. */
 window.PORTAL_CURRENT = {
   gpen: [
-    "Dash II",
     "Dash II Retro Collection",
+    "Dash II",
     "Dash+",
     "Slim 3-Piece Grinder",
     "Micro II",
