@@ -1326,14 +1326,53 @@ window.PORTAL_SYNCED = {
           "thumbS": "assets/synced/dash-ii-retro/039de5318bf011b7d43d1fe6e36a46c115c0ef7b8a4df35fad2d411ab04cdd8f-s.jpg",
           "file": null
         }
+      ],
+      "Packaging": [
+        {
+          "name": "Green Retro Dash II Display Transparent Front",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/2fo1i42qx4o4k3vgql5p2/Green-Retro-Dash-II-Display-Transparent-Front.png?rlkey=ia92g0nxrgi5p5nqlckqj5e5c&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/a7c4093f09aeebb5a7cd039ca1c9c309e5fa99dda694ae6847cb8971a460d3fd.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/a7c4093f09aeebb5a7cd039ca1c9c309e5fa99dda694ae6847cb8971a460d3fd-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Neon Green Retro Dash II Display Transparent Side",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/r42r12f0q8opby15ewl5s/Neon-Green-Retro-Dash-II-Display-Transparent-Side.png?rlkey=ibacgw7fv2oc1ko8xf9ec1xer&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/7325d65d32b777e76c3c86af24e6635da59660e98f40a42bc2e1acf64176ec58.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/7325d65d32b777e76c3c86af24e6635da59660e98f40a42bc2e1acf64176ec58-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purple Retro Dash II Display Transparent Side",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/2vgzih00bgrssfts497ix/Purple-Retro-Dash-II-Display-Transparent-Side.png?rlkey=wtdix9nn2u7jrcnes8wj7tc6s&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/12c85480acd13fdf3788b5076f3573fa29ad1ee0952741341a343e69025a3a07.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/12c85480acd13fdf3788b5076f3573fa29ad1ee0952741341a343e69025a3a07-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Retro Purple Dash II Display Transparent Front",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/qu6ju2hwrqcijpu0572hr/Retro-Purple-Dash-II-Display-Transparent-Front.png?rlkey=0yp1bhzb7kep8zjt4ckhrzk1a&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/5f648b7a61e8993ba7e03d84e3d43c95a84091bfe1674b7f90980600aad7521d.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/5f648b7a61e8993ba7e03d84e3d43c95a84091bfe1674b7f90980600aad7521d-s.jpg",
+          "file": null
+        }
       ]
     },
     "dropbox": "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=1",
     "folderLinks": {
       "Product Photos": "https://www.dropbox.com/scl/fo/yj5v2klst1h5dzgl748n5/ABLIlJG19T83i6MmOa1RLVY?rlkey=93lz0p402hxl4hgbtlhwdeeqs&dl=1",
-      "Lifestyle Photos": "https://www.dropbox.com/scl/fo/6ox1edzqo9oaim7hxhvrg/AL_WVtMQgXZc8kLp16AssQM?rlkey=jwhxpi18qqx8m2kudxpvs9fzn&dl=1"
+      "Lifestyle Photos": "https://www.dropbox.com/scl/fo/6ox1edzqo9oaim7hxhvrg/AL_WVtMQgXZc8kLp16AssQM?rlkey=jwhxpi18qqx8m2kudxpvs9fzn&dl=1",
+      "Packaging": "https://www.dropbox.com/scl/fo/pqnuhyasshlcp1yr9dar1/AG6DHyH-eE_TJhWj1qXVLJw?rlkey=0ikz54dv61m1jnw5z96bnyhnn&dl=1"
     },
-    "updated": "2026-10-30"
+    "updated": "2026-11-02"
   },
   "Micro II": {
     "folders": {
