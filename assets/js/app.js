@@ -1214,7 +1214,11 @@
   function gridCardHTML(p) {
     var showBrand = state.view === "both";
     return (
-      '<article class="card" data-id="' + pid(p) + '" tabindex="0" role="button" aria-label="' + tr("Open") + " " + p.name + '">' +
+      // The name is a real link stretched over the whole card (.card-open::after), with
+      // "Download all" above it as a sibling. The card used to be a role="button"
+      // wrapping a <button>, which hid that inner button from screen readers (axe:
+      // nested-interactive). Same pattern as the Stündenglass portal.
+      '<article class="card" data-id="' + pid(p) + '">' +
         '<div class="card-frame">' +
           (p.newBadge && !p.isLogo ? '<span class="tag-new' + (typeof p.newBadge === "string" ? " tag-new-" + p.newBadge : "") + '">' + tr("New") + '</span>' : "") +
           (showBrand ? '<span class="tag-brand">' + BRANDS[p.brand].name + "</span>" : "") +
@@ -1223,7 +1227,7 @@
             '<button class="qbtn" data-act="download" title="' + tr("Download all") + '" aria-label="' + escapeHTML(tr("Download all") + " – " + tr(p.name)) + '">' + icon("download") + "</button>" +
           "</div>" +
         "</div>" +
-        '<div class="card-name">' + p.name + "</div>" +
+        '<div class="card-name"><a class="card-open" href="' + productHash(p) + '" aria-label="' + escapeHTML(tr("Open") + " " + p.name) + '">' + p.name + "</a></div>" +
         (p.label ? '<div class="card-label">' + tr(p.label) + "</div>" : "") +
         '<div class="card-sub">' + (p.isLogo ? p.total + " " + trn("logo files", p.total) : p.total + " " + trn("assets", p.total) + (p.label ? "" : " · " + tr(p.category))) + "</div>" +
       "</article>"
@@ -1232,10 +1236,10 @@
   function rowHTML(p) {
     var showBrand = state.view === "both";
     return (
-      '<article class="card row" data-id="' + pid(p) + '" tabindex="0" role="button" aria-label="' + tr("Open") + " " + p.name + '">' +
+      '<article class="card row" data-id="' + pid(p) + '">' +
         '<div class="row-thumb">' + coverHTML(p) + "</div>" +
         '<div class="row-main">' +
-          '<div class="row-name">' + p.name + (p.newBadge && !p.isLogo ? ' <span class="row-new' + (typeof p.newBadge === "string" ? " row-new-" + p.newBadge : "") + '">' + tr("New") + '</span>' : "") + (p.label ? ' <span class="row-label">' + tr(p.label) + "</span>" : "") + "</div>" +
+          '<div class="row-name"><a class="card-open" href="' + productHash(p) + '" aria-label="' + escapeHTML(tr("Open") + " " + p.name) + '">' + p.name + "</a>" + (p.newBadge && !p.isLogo ? ' <span class="row-new' + (typeof p.newBadge === "string" ? " row-new-" + p.newBadge : "") + '">' + tr("New") + '</span>' : "") + (p.label ? ' <span class="row-label">' + tr(p.label) + "</span>" : "") + "</div>" +
           '<div class="row-sub">' + (p.isLogo ? p.total + " " + trn("logo files", p.total) : p.total + " " + trn("assets", p.total) + (p.label ? "" : " · " + tr(p.category))) + "</div>" +
         "</div>" +
         (showBrand ? '<span class="row-brand">' + BRANDS[p.brand].name + "</span>" : "") +
@@ -2307,13 +2311,10 @@
           downloadAll(p);
           return;
         }
+        // Cmd/Ctrl/Shift-click opens the product in a new tab like any link.
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();   // the .card-open link: route in-page, no hash double-render
         navTo(p);
-      });
-      card.addEventListener("keydown", function (e) {
-        // Only the card itself — Enter on its inner "Download all" button must
-        // reach that button's click handler, not open the product.
-        if (e.target !== card) return;
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); navTo(p); }
       });
     });
   }
