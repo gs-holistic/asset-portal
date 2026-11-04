@@ -563,7 +563,7 @@ window.PORTAL_I18N.pl = {
         "Wyświetlacz cyfrowy",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Ograniczona gwarancja — zobacz warunki",
+      "warranty": "90-dniowa ograniczona gwarancja",
       "fullDescription": [
         "Oryginał. Ulepszony. Retro.",
         "Powrót do korzeni — z gładkim wykończeniem retro.",
@@ -592,9 +592,9 @@ window.PORTAL_I18N.pl = {
         "Ultrakompaktowy: 3,94 × 0,5 × 0,25 cala",
         "Czyste nabieranie i dozowanie",
         "Zmieści się w kieszeni i w zestawie podróżnym",
-        "Współpracuje z rigami, Micro+ i Hyer"
+        "Współpracuje z rigami i Micro II"
       ],
-      "warranty": "Ograniczona gwarancja — zobacz warunki",
+      "warranty": "90-dniowa ograniczona gwarancja",
       "fullDescription": [
         "Poznaj zupełnie nowy G Pen Melt Hot Knife — najmniejszy hot knife na rynku oraz najszybszy i najczystszy sposób na przygotowanie koncentratów. Melt ma zaledwie 3,94 cala wysokości, 0,5 cala szerokości i 0,25 cala głębokości — jest ultrakompaktowy, ultraprzenośny i zniknie w każdej kieszeni lub zestawie podróżnym.",
         "Melt został zaprojektowany z myślą o czystym nabieraniu oraz płynnym, kontrolowanym dozowaniu, dzięki czemu nawet najbardziej lepkie sytuacje stają się dziecinnie proste. Szybko nagrzewająca się ceramiczna końcówka nagrzewa się błyskawicznie, zapewniając idealne przenoszenie za każdym razem. Żadnych lepkich narzędzi. Żadnych katastrof z reclaimem. Żadnego mocowania się.",
@@ -656,7 +656,7 @@ window.PORTAL_I18N.pl = {
         "Wyświetlacz cyfrowy",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Ograniczona gwarancja — zobacz warunki",
+      "warranty": "90-dniowa ograniczona gwarancja",
       "fullDescription": [
         "Powrót do korzeni — z ulepszeniami.",
         "G Pen 510 Original zamyka koło: czerpie inspirację z naszej pierwszej baterii z 2012 roku i odświeża ją na dzisiejsze czasy. To najmniejsza bateria G Pen w historii (24 × 21,1 × 56,7 mm) — ultraprzenośna i bardzo prosta w użyciu, bez żadnych kompromisów w wydajności.",
@@ -686,7 +686,7 @@ window.PORTAL_I18N.pl = {
         "Pasuje do kartridży 510 do 2 g",
         "Aktywacja wdechem"
       ],
-      "warranty": "Ograniczona gwarancja — zobacz warunki",
+      "warranty": "90-dniowa ograniczona gwarancja",
       "fullDescription": [
         "Szukasz najlepszej baterii do kartridży 510 na dyskretne sesje w biegu? Poznaj G Pen Hydout 510 Cartridge Battery — kompaktową, ukrytą baterię do kartridży 510, która zapewnia solidną wydajność bez zwracania na siebie uwagi.",
         "Ta kieszonkowa moc ma ukrytą magnetyczną osłonę ustnika, która zapewnia dyskrecję i chroni kartridż przed światłem (tak, pomaga to zachować jakość olejku), baterię 400 mAh, regulowane napięcie i jasny wyświetlacz LED, dający pełną kontrolę nad każdym zaciągnięciem. Hydout jest kompatybilny z większością kartridży z gwintem 510 do 2 g i idealnie sprawdza się podczas płynnych, dopasowanych sesji — gdziekolwiek jesteś."
@@ -742,7 +742,7 @@ window.PORTAL_I18N.pl = {
         "Pasuje do większości kartridży 510",
         "Ukryta magnetyczna osłona ustnika"
       ],
-      "warranty": "Ograniczona gwarancja — zobacz warunki",
+      "warranty": "90-dniowa ograniczona gwarancja",
       "fullDescription": [
         "G Pen Hydout Retro łączy eleganckie, przezroczyste wykończenie inspirowane latami 90. z dopracowaną konstrukcją najdyskretniejszej baterii 510 od G Pen. Magnetyczna obudowa otacza kartridż, chroniąc go przed codziennym zużyciem, a cały zestaw pozostaje minimalistyczny i schludny.",
         "Hydout, zaprojektowany z myślą o wszechstronności, oferuje zmienne ustawienia napięcia do precyzyjnej kontroli grzania oraz funkcję podgrzewania 1,8 V, która rozgrzewa gęstsze koncentraty przed użyciem. Edycja Retro dodaje też aktywację wdechem, dzięki której każde zaciągnięcie odbywa się bez przycisków, oraz ładowanie przelotowe USB-C, które sprawia, że urządzenie jest gotowe do użycia nawet podczas ładowania.",
@@ -771,7 +771,7 @@ window.PORTAL_I18N.pl = {
         "Wibracje, obsługa trzema przyciskami",
         "Obudowa ze stopu cynku"
       ],
-      "warranty": "Ograniczona gwarancja — zobacz warunki",
+      "warranty": "2-letnia ograniczona gwarancja",
       "fullDescription": [
         "G Pen Dash+ to kompaktowy waporyzator do suszu zaprojektowany z myślą o szybkich, aromatycznych i dopasowanych sesjach. Dzięki hybrydowemu grzaniu konwekcyjno-kondukcyjnemu w całkowicie tytanowej komorze osiąga temperaturę już w 20 sekund, zapewniając płynną, równą parę.",
         "Dwa kanały czystego powietrza i magnetyczny ustnik ze spiralnym ceramicznym kanałem powietrznym pomagają zmaksymalizować przepływ powietrza i smak. Kolorowy wyświetlacz LED, sterowanie trzema przyciskami, wibracje i precyzyjna regulacja temperatury ułatwiają dopasowanie każdej sesji.",

@@ -537,7 +537,7 @@ window.PORTAL_I18N.fr = {
         "Écran numérique",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Garantie limitée — voir les conditions",
+      "warranty": "Garantie limitée de 90 jours",
       "fullDescription": [
         "Original. Amélioré. Retro.",
         "Retour aux origines — avec une finition rétro tout en douceur.",
@@ -566,9 +566,9 @@ window.PORTAL_I18N.fr = {
         "Ultra-compact : 3,94 × 0,5 × 0,25 po",
         "Prélèvements et dépôts sans bavure",
         "Idéal pour la poche et le kit de voyage",
-        "Compatible rigs, Micro+, Hyer"
+        "Compatible rigs et Micro II"
       ],
-      "warranty": "Garantie limitée — voir les conditions",
+      "warranty": "Garantie limitée de 90 jours",
       "fullDescription": [
         "Découvrez le tout nouveau G Pen Melt Hot Knife : le plus petit hot knife du marché et la façon la plus rapide et la plus propre de préparer vos concentrés. Avec seulement 3,94 pouces de haut, 0,5 pouce de large et 0,25 pouce de profondeur, le Melt est ultra-compact, ultra-portable et conçu pour disparaître dans n'importe quelle poche ou kit de voyage.",
         "Pensé pour des prélèvements sans bavure et des dépôts précis et maîtrisés, le Melt transforme les manipulations collantes en un jeu d'enfant. Sa pointe céramique à chauffe rapide monte en température instantanément pour des transferts parfaits à chaque fois. Fini les outils poisseux. Fini les catastrophes de reclaim. Fini les gestes hésitants.",
@@ -630,7 +630,7 @@ window.PORTAL_I18N.fr = {
         "Écran numérique",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Garantie limitée — voir les conditions",
+      "warranty": "Garantie limitée de 90 jours",
       "fullDescription": [
         "Retour aux origines — en mieux.",
         "La G Pen 510 Original boucle la boucle : elle s'inspire de notre toute première batterie de 2012 et la réinvente pour aujourd'hui. C'est la plus petite batterie G Pen jamais conçue (24 × 21,1 × 56,7 mm), pensée pour être ultra-portable et d'une simplicité absolue, sans jamais rogner sur les performances.",
@@ -660,7 +660,7 @@ window.PORTAL_I18N.fr = {
         "Compatible cartouches 510 jusqu'à 2 g",
         "Déclenchement à l'inspiration"
       ],
-      "warranty": "Garantie limitée — voir les conditions",
+      "warranty": "Garantie limitée de 90 jours",
       "fullDescription": [
         "Vous cherchez la meilleure batterie pour cartouches 510 et des sessions discrètes en déplacement ? Découvrez la batterie pour cartouches 510 G Pen Hydout : une batterie compacte et dissimulée pour cartouches 510, qui offre de vraies performances sans jamais vous trahir.",
         "Ce concentré de puissance format poche est doté d'un cache-embout magnétique dissimulé qui garde votre cartouche discrète et à l'abri de la lumière (oui, cela contribue à préserver la qualité de l'huile), d'une batterie 400mAh, d'une tension réglable et d'un écran LED lumineux pour un contrôle total sur chaque bouffée. Compatible avec la plupart des cartouches à filetage 510 jusqu'à 2 g, le Hydout est parfait pour des sessions douces et personnalisables — où que vous soyez."
@@ -716,7 +716,7 @@ window.PORTAL_I18N.fr = {
         "Compatible avec la plupart des cartouches 510",
         "Cache-embout magnétique dissimulé"
       ],
-      "warranty": "Garantie limitée — voir les conditions",
+      "warranty": "Garantie limitée de 90 jours",
       "fullDescription": [
         "Le G Pen Hydout Retro associe une finition translucide transparente d'inspiration années 90 à l'ingénierie soignée de la batterie 510 la plus discrète de G Pen. Sa coque magnétique enveloppe votre cartouche pour la protéger de l'usure quotidienne tout en gardant votre setup visuellement épuré et minimaliste.",
         "Pensé pour la polyvalence, le Hydout intègre des réglages de tension variable pour maîtriser la chauffe et une fonction de préchauffage 1,8V pour réchauffer les concentrés les plus épais avant utilisation. Cette édition Retro ajoute également le déclenchement à l'inspiration, pour des bouffées entièrement sans bouton, ainsi que la charge pass-through USB-C (utilisable pendant la charge), qui garde l'appareil prêt même lorsqu'il est branché.",
@@ -745,7 +745,7 @@ window.PORTAL_I18N.fr = {
         "Retour haptique, interface à 3 boutons",
         "Boîtier en alliage de zinc"
       ],
-      "warranty": "Garantie limitée — voir les conditions",
+      "warranty": "Garantie limitée de 2 ans",
       "fullDescription": [
         "Le G Pen Dash+ est un vaporisateur à herbes sèches compact conçu pour des sessions rapides, savoureuses et personnalisables. Grâce à sa chauffe hybride par convection et conduction dans une chambre entièrement en titane, il atteint sa température en 20 secondes seulement, pour une vapeur douce et régulière.",
         "Deux canaux d'admission d'air pur et un embout buccal magnétique doté d'un conduit d'air en céramique en spirale maximisent le flux d'air et la saveur. Un écran LED couleur, des commandes à trois boutons, le retour haptique et un réglage précis de la température permettent de personnaliser facilement chaque session.",

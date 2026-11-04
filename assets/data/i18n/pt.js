@@ -529,7 +529,7 @@ window.PORTAL_I18N.pt = {
     },
     "510 Original Retro Collection": {
       "description": "A edição Retro Collection do 510 Original une um acabamento translúcido vintage e suave ao mesmo desempenho 510 ultraportátil e com ativação por inalação, inspirado na primeira bateria da G Pen, de 2012.",
-      "warranty": "Garantia limitada — consulte a política",
+      "warranty": "Garantia limitada de 90 dias",
       "fullDescription": [
         "Original. Aprimorado. Retro.",
         "De volta ao ponto de partida—com um acabamento retro suave.",
@@ -560,7 +560,7 @@ window.PORTAL_I18N.pt = {
     },
     "Melt Hot Knife": {
       "description": "O G Pen Melt é o menor hot knife do mercado — uma ferramenta de dab compacta, com ponta de cerâmica, para recolher e transferir concentrados de forma rápida, limpa e sem sujeira.",
-      "warranty": "Garantia limitada — consulte a política",
+      "warranty": "Garantia limitada de 90 dias",
       "fullDescription": [
         "Conheça o novíssimo G Pen Melt Hot Knife — o menor hot knife do mercado e a maneira mais rápida e limpa de preparar seus concentrados. Com apenas 3,94 in de altura, 0,5 in de largura e 0,25 in de profundidade, o Melt é ultracompacto, ultraportátil e feito para desaparecer em qualquer bolso ou kit de viagem.",
         "Projetado para recolher o material sem sujeira e liberar gotas suaves e controladas, o Melt torna as situações mais pegajosas fáceis como manteiga. A ponta de cerâmica de aquecimento rápido fica pronta em instantes para transferências perfeitas sempre. Sem ferramentas grudentas. Sem desastres de reclaim. Sem complicação.",
@@ -576,7 +576,7 @@ window.PORTAL_I18N.pt = {
         "Ultracompacto: 3,94 × 0,5 × 0,25 in",
         "Recolhe e transfere sem sujeira",
         "Ideal para bolso e kit de viagem",
-        "Compatível com rigs, Micro+, Hyer"
+        "Compatível com rigs e Micro II"
       ],
       "box": {
         "contents": [
@@ -622,7 +622,7 @@ window.PORTAL_I18N.pt = {
     },
     "510 Original": {
       "description": "A menor e mais acessível bateria G Pen de todos os tempos, a 510 Original reinventa a primeiríssima bateria da Grenco, de 2012, com desempenho moderno, ativação por inalação e formato ultraportátil para cartuchos 510.",
-      "warranty": "Garantia limitada — consulte a política",
+      "warranty": "Garantia limitada de 90 dias",
       "fullDescription": [
         "De volta ao ponto de partida—agora com melhorias.",
         "A G Pen 510 Original fecha o ciclo: inspirada na nossa primeira bateria, de 2012, e totalmente repaginada para os dias de hoje. É a menor bateria G Pen já produzida (24 × 21,1 × 56,7 mm), ultraportátil e simples de usar, sem abrir mão do desempenho.",
@@ -652,7 +652,7 @@ window.PORTAL_I18N.pt = {
     },
     "Hydout": {
       "description": "A G Pen Hydout é uma bateria compacta e discreta para cartuchos 510, com tampa magnética oculta para a piteira, voltagem ajustável e visor LED para sessões suaves e personalizáveis sem chamar atenção.",
-      "warranty": "Garantia limitada — consulte a política",
+      "warranty": "Garantia limitada de 90 dias",
       "fullDescription": [
         "Procurando a melhor bateria para cartuchos 510 para sessões discretas em qualquer lugar? Conheça a Bateria para Cartuchos 510 G Pen Hydout — uma bateria de vape compacta e camuflada para cartuchos 510 que entrega desempenho de verdade sem entregar o seu jogo.",
         "Pequena no tamanho e grande no desempenho, ela traz uma tampa magnética oculta para a piteira, que mantém o cartucho discreto e protegido da luz (sim, isso ajuda a preservar a qualidade do óleo), bateria de 400mAh, voltagem ajustável e um visor LED de alto brilho para você ter domínio total sobre cada tragada. Compatível com a maioria dos cartuchos de rosca 510 de até 2g, a Hydout é perfeita para sessões suaves e personalizáveis—onde quer que você esteja."
@@ -708,7 +708,7 @@ window.PORTAL_I18N.pt = {
     },
     "Hydout Retro Collection": {
       "description": "A edição Retro da G Pen Hydout dá à discreta bateria para cartuchos 510 um acabamento translúcido inspirado nos anos 90, que deixa o interior à vista, com ativação por inalação, voltagem variável e carregamento pass-through USB-C.",
-      "warranty": "Garantia limitada — consulte a política",
+      "warranty": "Garantia limitada de 90 dias",
       "fullDescription": [
         "A G Pen Hydout Retro combina um elegante acabamento translúcido inspirado nos anos 90, que deixa o interior à vista, com a engenharia refinada por trás da bateria 510 mais discreta da G Pen. Sua carcaça magnética envolve o cartucho para protegê-lo do desgaste do dia a dia, mantendo seu conjunto visualmente limpo e minimalista.",
         "Projetada para ser versátil, a Hydout inclui configurações de voltagem variável para um controle de calor personalizado e uma função de pré-aquecimento de 1,8V que aquece concentrados mais densos antes do uso. Esta edição Retro também acrescenta a ativação por inalação, que deixa cada tragada totalmente livre de botões, e o carregamento pass-through USB-C, que mantém o dispositivo pronto para uso mesmo enquanto está conectado à tomada.",
@@ -737,7 +737,7 @@ window.PORTAL_I18N.pt = {
     },
     "Dash+": {
       "description": "O G Pen Dash+ é um vaporizador portátil de erva seca de nova geração, com aquecimento híbrido por convecção e condução em câmara de titânio, atingindo a temperatura de vaporização em cerca de 20 segundos.",
-      "warranty": "Garantia limitada — consulte a política",
+      "warranty": "Garantia limitada de 2 anos",
       "fullDescription": [
         "O G Pen Dash+ é um vaporizador de erva seca compacto, criado para sessões rápidas, saborosas e personalizáveis. Com aquecimento híbrido por convecção e condução em câmara totalmente de titânio, atinge a temperatura em apenas 20 segundos, gerando vapor suave e uniforme.",
         "Os dois canais de entrada de ar limpo e a piteira magnética com percurso de ar espiralado em cerâmica ajudam a maximizar o fluxo de ar e o sabor. O visor LED colorido, a interface de três botões, o retorno tátil e o ajuste preciso de temperatura facilitam a personalização de cada sessão.",

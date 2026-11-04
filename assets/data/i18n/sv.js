@@ -545,7 +545,7 @@ window.PORTAL_I18N.sv = {
         "Digital display",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Begränsad garanti — se villkoren",
+      "warranty": "90 dagars begränsad garanti",
       "fullDescription": [
         "Original. Uppgraderad. Retro.",
         "Tillbaka där allt började — med en mjuk retrofinish.",
@@ -574,9 +574,9 @@ window.PORTAL_I18N.sv = {
         "Ultrakompakt: 3,94 × 0,5 × 0,25 tum",
         "Kladdfri upplockning och dosering",
         "Passar i fickan och resväskan",
-        "Fungerar med riggar, Micro+ och Hyer"
+        "Fungerar med riggar och Micro II"
       ],
-      "warranty": "Begränsad garanti — se villkoren",
+      "warranty": "90 dagars begränsad garanti",
       "fullDescription": [
         "Möt helt nya G Pen Melt Hot Knife — den minsta hot knife som finns på marknaden och det snabbaste och renaste sättet att förbereda dina koncentrat. Med bara 3,94 tum i höjd, 0,5 tum i bredd och 0,25 tum i djup är Melt ultrakompakt, ultraportabel och gjord för att försvinna ner i vilken ficka eller resväska som helst.",
         "Melt är utformad för kladdfri upplockning och jämn, kontrollerad dosering och gör kladdiga situationer smörenkla. Den keramiska spetsen värms upp direkt för perfekta överföringar varje gång. Inga kladdiga verktyg. Inga reclaim-katastrofer. Inget fipplande.",
@@ -638,7 +638,7 @@ window.PORTAL_I18N.sv = {
         "Digital display",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Begränsad garanti — se villkoren",
+      "warranty": "90 dagars begränsad garanti",
       "fullDescription": [
         "Tillbaka där allt började — med uppgraderingar.",
         "G Pen 510 Original sluter cirkeln: den tar inspiration från vårt allra första batteri från 2012 och arbetar om det för i dag. Det här är det minsta G Pen-batteriet som någonsin tillverkats (24 × 21,1 × 56,7 mm), ultraportabelt och enkelt att använda, utan att snåla på prestandan.",
@@ -668,7 +668,7 @@ window.PORTAL_I18N.sv = {
         "Passar 510-patroner upp till 2 g",
         "Andningsaktivering"
       ],
-      "warranty": "Begränsad garanti — se villkoren",
+      "warranty": "90 dagars begränsad garanti",
       "fullDescription": [
         "Letar du efter det bästa batteriet för 510-patroner för diskreta sessioner på språng? Möt G Pen Hydout 510 Cartridge Battery — ett kompakt, dolt vape-batteri för 510-patroner som levererar riktig prestanda utan att avslöja dig.",
         "Det här fickstora kraftpaketet har ett dolt magnetiskt munstycksskydd som håller patronen diskret och skyddad mot ljus (ja, det hjälper till att bevara oljans kvalitet), ett batteri på 400 mAh, justerbar spänning och en ljusstark LED-display för full kontroll över varje bloss. Hydout är kompatibel med de flesta 510-gängade patroner upp till 2 g och passar perfekt för mjuka, anpassningsbara sessioner — var du än är."
@@ -724,7 +724,7 @@ window.PORTAL_I18N.sv = {
         "Passar de flesta 510-patroner",
         "Dolt magnetiskt munstycksskydd"
       ],
-      "warranty": "Begränsad garanti — se villkoren",
+      "warranty": "90 dagars begränsad garanti",
       "fullDescription": [
         "G Pen Hydout Retro förenar en snygg, genomskinlig finish inspirerad av 90-talet med den förfinade tekniken bakom G Pens mest diskreta 510-batteri. Det magnetiska skalet omsluter patronen och skyddar den mot vardagligt slitage, samtidigt som utrustningen ser minimal och ren ut.",
         "Hydout är utformad för mångsidighet och har variabla spänningslägen för anpassad värmekontroll samt en förvärmningsfunktion på 1,8 V som värmer tjockare koncentrat före användning. Den här Retro-utgåvan lägger också till andningsaktivering, så att varje bloss blir helt knappfritt, och USB-C med genomströmningsladdning, som håller enheten redo att användas även medan den är ansluten.",
@@ -753,7 +753,7 @@ window.PORTAL_I18N.sv = {
         "Haptisk återkoppling, tre knappar",
         "Hölje i zinklegering"
       ],
-      "warranty": "Begränsad garanti — se villkoren",
+      "warranty": "2 års begränsad garanti",
       "fullDescription": [
         "G Pen Dash+ är en kompakt vaporizer för torkade örter, utformad för snabba, smakrika och anpassningsbara sessioner. Med hybriduppvärmning genom konvektion och konduktion i en kammare helt i titan når den rätt temperatur på så lite som 20 sekunder och ger mjuk, jämn ånga.",
         "Två kanaler för ren inluft och ett magnetiskt munstycke med spiralformad keramisk luftväg hjälper till att maximera luftflödet och smaken. En LED-display i fullfärg, tre knappar, haptisk återkoppling och exakt temperaturjustering gör det enkelt att anpassa varje session.",

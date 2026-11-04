@@ -535,7 +535,7 @@ window.PORTAL_I18N.de = {
         "Digitales Display",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Eingeschränkte Garantie — siehe Garantiebedingungen",
+      "warranty": "Eingeschränkte Garantie von 90 Tagen",
       "fullDescription": [
         "Original. Verbessert. Retro.",
         "Zurück zu den Anfängen — mit einem sanften Retro-Finish.",
@@ -564,9 +564,9 @@ window.PORTAL_I18N.de = {
         "Ultrakompakt: 3,94 × 0,5 × 0,25 in",
         "Portionieren und Auftragen ohne Sauerei",
         "Passt in jede Tasche und jedes Reise-Kit",
-        "Kompatibel mit Rigs, Micro+, Hyer"
+        "Kompatibel mit Rigs und dem Micro II"
       ],
-      "warranty": "Eingeschränkte Garantie — siehe Garantiebedingungen",
+      "warranty": "Eingeschränkte Garantie von 90 Tagen",
       "fullDescription": [
         "Lernen Sie das brandneue G Pen Melt Hot Knife kennen — das kleinste Hot Knife auf dem Markt und der schnellste, sauberste Weg, Ihre Konzentrate vorzubereiten. Mit gerade einmal 3,94 Zoll Höhe, 0,5 Zoll Breite und 0,25 Zoll Tiefe ist Melt ultrakompakt, ultraportabel und verschwindet in jeder Tasche und jedem Reise-Kit.",
         "Entwickelt für sauberes Portionieren und geschmeidiges, kontrolliertes Auftragen, macht Melt aus klebrigen Situationen ein Kinderspiel. Die schnell aufheizende Keramikspitze ist sofort auf Temperatur und sorgt jedes Mal für den perfekten Transfer. Keine klebrigen Werkzeuge. Keine Reclaim-Katastrophen. Kein Gefummel.",
@@ -628,7 +628,7 @@ window.PORTAL_I18N.de = {
         "Digitales Display",
         "24 × 21,1 × 56,7 mm"
       ],
-      "warranty": "Eingeschränkte Garantie — siehe Garantiebedingungen",
+      "warranty": "Eingeschränkte Garantie von 90 Tagen",
       "fullDescription": [
         "Zurück zu den Anfängen — mit Upgrades.",
         "Der G Pen 510 Original schließt den Kreis: inspiriert von unserem allerersten Akku aus dem Jahr 2012 und neu gedacht für heute. Das ist der kleinste G Pen Akku, der je gebaut wurde (24 × 21,1 × 56,7 mm) — ultraportabel und kinderleicht zu bedienen, ohne Abstriche bei der Leistung.",
@@ -658,7 +658,7 @@ window.PORTAL_I18N.de = {
         "Passend für 510-Kartuschen bis 2 g",
         "Zugaktivierung"
       ],
-      "warranty": "Eingeschränkte Garantie — siehe Garantiebedingungen",
+      "warranty": "Eingeschränkte Garantie von 90 Tagen",
       "fullDescription": [
         "Auf der Suche nach dem besten Akku für 510-Kartuschen für unauffällige Sessions unterwegs? Lernen Sie den G Pen Hydout 510 Cartridge Battery kennen — einen kompakten, verdeckten Vape-Akku für 510-Kartuschen, der ernsthafte Leistung liefert, ohne Sie auffliegen zu lassen.",
         "Dieses Kraftpaket im Taschenformat bietet eine verdeckte magnetische Mundstückabdeckung, die Ihre Kartusche diskret hält und vor Licht schützt (ja, das hilft, die Ölqualität zu bewahren), einen 400 mAh Akku, einstellbare Spannung und ein helles LED-Display für volle Kontrolle über jeden Zug. Kompatibel mit den meisten 510-Gewinde-Kartuschen bis 2 g, ist der Hydout ideal für geschmeidige, individuell anpassbare Sessions — wo immer Sie sind."
@@ -714,7 +714,7 @@ window.PORTAL_I18N.de = {
         "Passend für die meisten 510-Kartuschen",
         "Verdeckte magnetische Mundstückabdeckung"
       ],
-      "warranty": "Eingeschränkte Garantie — siehe Garantiebedingungen",
+      "warranty": "Eingeschränkte Garantie von 90 Tagen",
       "fullDescription": [
         "Der G Pen Hydout Retro verbindet ein elegantes, durchsichtiges und von den 90ern inspiriertes transluzentes Finish mit der ausgefeilten Technik hinter G Pens diskretestem 510-Akku. Die magnetische Hülle umschließt Ihre Kartusche, schützt sie vor täglicher Beanspruchung und hält Ihr Setup optisch minimalistisch und clean.",
         "Auf Vielseitigkeit ausgelegt, bietet der Hydout variable Spannungsstufen für individuelle Hitzekontrolle sowie eine 1,8V Vorheiz-Funktion, um dickflüssigere Konzentrate vor dem Gebrauch anzuwärmen. Diese Retro Edition ergänzt zudem die Zugaktivierung, die jeden Zug völlig tastenfrei macht, sowie USB-C Pass-Through-Laden (Nutzung während des Ladens), das Gerät bleibt also selbst am Kabel einsatzbereit.",
@@ -743,7 +743,7 @@ window.PORTAL_I18N.de = {
         "Haptisches Feedback, 3-Tasten-Bedienung",
         "Gehäuse aus Zinklegierung"
       ],
-      "warranty": "Eingeschränkte Garantie — siehe Garantiebedingungen",
+      "warranty": "Eingeschränkte Garantie von 2 Jahren",
       "fullDescription": [
         "Der G Pen Dash+ ist ein kompakter Trockenkräuter-Vaporizer für schnelle, aromatische und individuell anpassbare Sessions. Mit hybrider Konvektions- und Konduktionsheizung in einer Kammer aus vollem Titan erreicht er in nur 20 Sekunden Temperatur und liefert weichen, gleichmäßigen Dampf.",
         "Zwei separate Frischluftkanäle und ein magnetisches Mundstück mit spiralförmigem Keramik-Luftweg maximieren Luftstrom und Aroma. Ein vollfarbiges LED-Display, die Drei-Tasten-Bedienung, haptisches Feedback und die präzise Temperaturanpassung machen es leicht, jede Session zu personalisieren.",
