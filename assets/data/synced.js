@@ -3048,6 +3048,15 @@ window.PORTAL_SYNCED = {
       ],
       "UGC Videos": [
         {
+          "name": "_chronically_chloe Micro II Nov",
+          "type": "video",
+          "format": "MP4",
+          "url": "https://www.dropbox.com/scl/fi/skrnq05sq6e1zt7g6b41o/_chronically_chloe-Micro-II-Nov.mp4?rlkey=82vqqbq3vtnw3w7hgh6zsdkw6&dl=0",
+          "thumb": "assets/synced/micro-ii/d0a32a8968651afcbde3816484a004011a2981a2619e1777f76e500813e92a3b.jpg",
+          "thumbS": "assets/synced/micro-ii/d0a32a8968651afcbde3816484a004011a2981a2619e1777f76e500813e92a3b-s.jpg",
+          "file": null
+        },
+        {
           "name": "blazinbara888 micro ii oct",
           "type": "video",
           "format": "MP4",
@@ -3123,7 +3132,7 @@ window.PORTAL_SYNCED = {
       "In Store Marketing Materials": "https://www.dropbox.com/scl/fo/wpkywovfwqzht61fi3iy7/AD1h_pWNcg3PtII1wxhJnGo?rlkey=x5ilflreeyywtx9y7uh47i95e&dl=1",
       "UGC Videos": "https://www.dropbox.com/scl/fo/urvini9ktpj70lajmdi7m/ADgh9jVSGzmpuaYZHebibj0?rlkey=jgkiorvg1ghy8anucm8dus18r&dl=1"
     },
-    "updated": "2026-10-24"
+    "updated": "2026-11-05"
   },
   "Slim 3-Piece Grinder": {
     "folders": {
