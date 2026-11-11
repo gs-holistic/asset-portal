@@ -1342,7 +1342,7 @@ window.PORTAL_HELP_PAGES = {
 window.PORTAL_FOLDER_COVERS = {
   // User Generated Content: a creator with the product clearly in frame, no edgy captions.
   "Dash II":              { "User Generated Content": "Dash II UGC_01" },                         // "G Pen unboxing"
-  "Dash II Retro Collection": { "Product Photos": "GPEN_Dash-II_Green_Front",                     // front, display on
+  "Dash II Retro Collection": { "Product Photos": "Greendash2_thumb_01",                     // front, display on
                                   "Lifestyle Photos": "GPEN - Dash 2-87 Group" },                    // both colors
   "510 Original":         { "User Generated Content": "UGC 510 Original_01" },                    // "Smallest battery check!"
   "510 Original Retro Collection": { "User Generated Content": "irielogic420 retro 510 july" },            // red Retro 510 in its box
