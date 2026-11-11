@@ -340,6 +340,7 @@ window.PORTAL_I18N.it = {
     "Share view": "Condividi vista",
     "Ships in POP display": "Spedito in espositore POP",
     "Ships in a retail-ready POP display — one retail box shown per colorway. See SKU details for inner-pack &amp; master-carton quantities.": "Spedito in un espositore POP pronto per la vendita — viene mostrata una confezione di vendita per colorazione. Consultare i dettagli SKU per le quantità di confezione interna &amp; cartone master.",
+    "Each colorway ships in its own retail-ready POP display — see SKU details for inner-pack &amp; master-carton quantities.": "Ogni colorazione viene spedita nel proprio espositore POP pronto per la vendita: consulti i dettagli SKU per le quantità per confezione interna e cartone master.",
     "Ships in a retail-ready POP display — see SKU details for inner-pack &amp; master-carton quantities.": "Spedito in un espositore POP pronto per la vendita — consultare i dettagli SKU per le quantità di confezione interna &amp; cartone master.",
     "Ships in single retail boxes — no POP display. See SKU details for master-carton quantities.": "Spedito in singole confezioni di vendita — nessun espositore POP. Consultare i dettagli SKU per le quantità del cartone master.",
     "Single Retail Packaging": "Confezione di vendita singola",

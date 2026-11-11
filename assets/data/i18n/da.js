@@ -342,6 +342,7 @@ window.PORTAL_I18N.da = {
     "Share view": "Del visning",
     "Ships in POP display": "Leveres i POP-display",
     "Ships in a retail-ready POP display — one retail box shown per colorway. See SKU details for inner-pack &amp; master-carton quantities.": "Leveres i et butiksklart POP-display — der vises én detailæske pr. farvevariant. Se SKU-oplysningerne for antal pr. inderpakning og yderkarton.",
+    "Each colorway ships in its own retail-ready POP display — see SKU details for inner-pack &amp; master-carton quantities.": "Hver farve leveres i sin egen salgsklare POP-display — se SKU-detaljerne for antal pr. inderpakning og masterkarton.",
     "Ships in a retail-ready POP display — see SKU details for inner-pack &amp; master-carton quantities.": "Leveres i et butiksklart POP-display — se SKU-oplysningerne for antal pr. inderpakning og yderkarton.",
     "Ships in single retail boxes — no POP display. See SKU details for master-carton quantities.": "Leveres i enkelte detailæsker — uden POP-display. Se SKU-oplysningerne for antal pr. yderkarton.",
     "Single Retail Packaging": "Enkelt detailemballage",

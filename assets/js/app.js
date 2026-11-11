@@ -26,7 +26,7 @@
   var LANGS = { en: "English", es: "Español", de: "Deutsch", it: "Italiano", fr: "Français", pt: "Português (Brasil)",
                 sv: "Svenska", pl: "Polski", da: "Dansk" };
   function isLang(l) { return Object.prototype.hasOwnProperty.call(LANGS, l); }
-  var LANG_VER = "20261111a";   // bump with the other asset tokens
+  var LANG_VER = "20261111b";   // bump with the other asset tokens
   // Load a language pack once. English is a no-op (it IS the source).
   var _langLoading = {};
   function loadLangPack(l, cb) {
@@ -2826,13 +2826,15 @@
     if (p.isLogo) return "";
     var info = infoOf(p);
     // Auto-detect the single-box shot vs the POP-display shot from the product's
-    // own "Packaging" Dropbox folder by filename. "POP" in the name → the display;
+    // own "Packaging" Dropbox folder by filename. "POP" or "Display" in the name
+    // ("Retro Purple Dash II Display Transparent Front") → the display;
     // everything else → the single retail box. Prefer transparent renders, and the
     // 3/4 hero angle for the box.
     var pkgFolder = (p.folders && p.folders["Packaging"]) || [];
     var imgs = pkgFolder.filter(function (f) { return f.thumb; });
+    var isPop = function (f) { return /pop|display/i.test(f.name); };
     function pick(wantPop) {
-      var pool = imgs.filter(function (f) { return wantPop === /pop/i.test(f.name); });
+      var pool = imgs.filter(function (f) { return wantPop === isPop(f); });
       pool.sort(function (a, b) {
         function s(f) {
           var n = 0, nm = f.name;
@@ -2858,7 +2860,7 @@
     // Multi-colour collections (Retro) list one retail box per colourway.
     function colorBoxCards() {
       var COLORS = [["Red", /red/i], ["Blue", /blue/i], ["Green", /green/i], ["Pink", /pink|pin/i], ["Purple", /purple|pueple/i]];
-      var nonpop = imgs.filter(function (f) { return !/pop/i.test(f.name); });
+      var nonpop = imgs.filter(function (f) { return !isPop(f); });
       function s(f) { var n = 0, nm = f.name; if (/3-?4/i.test(nm)) n += 3; if (/front/i.test(nm)) n += 2; if (/transparent/i.test(nm)) n += 1; if (/\bside\b|-side/i.test(nm)) n -= 2; return n; }
       var out = "";
       COLORS.forEach(function (cp) {
@@ -2872,7 +2874,22 @@
       ? tr("{n}-Pack Retail POP Display").replace("{n}", info.innerPack) : tr("Retail POP display");
     var cards, note;
     var colorCards = /retro/i.test(p.name) ? colorBoxCards() : "";
-    if (colorCards) {
+    // Collections where each colorway ships in its own POP display (popSku on the
+    // colorway cards, e.g. Dash II Retro): one display card per color.
+    var ways = (window.PORTAL_COLORWAYS || {})[p.name] || [];
+    var colorPops = "";
+    if (ways.some(function (w) { return w.popSku; })) {
+      ways.forEach(function (w) {
+        var word = new RegExp(String(w.color).split(" ").pop(), "i");
+        var pool = imgs.filter(function (f) { return isPop(f) && word.test(f.name); });
+        pool.sort(function (a, b) { return (/front/i.test(b.name) ? 1 : 0) - (/front/i.test(a.name) ? 1 : 0); });
+        if (pool[0]) colorPops += pk(popLabel + " — " + tr(w.color), pool[0].thumb, pool[0].url);
+      });
+    }
+    if (colorPops) {
+      cards = colorCards + colorPops + pk(tr("Master carton"), info.cartonImg);
+      note = tr("Each colorway ships in its own retail-ready POP display — see SKU details for inner-pack &amp; master-carton quantities.");
+    } else if (colorCards) {
       // Retro collection: one retail box per colourway, then the collection POP display.
       cards = colorCards + boxCard(popLabel, info.popImg, info.popImgDl, popFile) +
         pk(tr("Master carton"), info.cartonImg);
