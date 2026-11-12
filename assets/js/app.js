@@ -26,7 +26,7 @@
   var LANGS = { en: "English", es: "Español", de: "Deutsch", it: "Italiano", fr: "Français", pt: "Português (Brasil)",
                 sv: "Svenska", pl: "Polski", da: "Dansk" };
   function isLang(l) { return Object.prototype.hasOwnProperty.call(LANGS, l); }
-  var LANG_VER = "20261111b";   // bump with the other asset tokens
+  var LANG_VER = "20261111c";   // bump with the other asset tokens
   // Load a language pack once. English is a no-op (it IS the source).
   var _langLoading = {};
   function loadLangPack(l, cb) {
@@ -2866,7 +2866,9 @@
       COLORS.forEach(function (cp) {
         var pool = nonpop.filter(function (f) { return cp[1].test(f.name); });
         pool.sort(function (a, b) { return s(b) - s(a); });
-        if (pool[0]) out += pk(tr("Single Retail Packaging") + " — " + tr(cp[0]), pool[0].thumb, pool[0].url);
+        // Name the color as the collection does ("Neon Green", not "Green").
+        var way = ((window.PORTAL_COLORWAYS || {})[p.name] || []).filter(function (w) { return cp[1].test(w.color); })[0];
+        if (pool[0]) out += pk(tr("Single Retail Packaging") + " — " + tr(way ? way.color : cp[0]), pool[0].thumb, pool[0].url);
       });
       return out;
     }
