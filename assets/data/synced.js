@@ -1428,6 +1428,42 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
+          "name": "Greendash2box_01",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/u2on9twf18hbcsibwmjkt/Greendash2box_01.jpg?rlkey=1sxmtx8gun5p3bmukko7xnxz4&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/509e1d43253821cd24d57f75d601f5f32fdabd3215cbb15cb632f91f1cf03d05.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/509e1d43253821cd24d57f75d601f5f32fdabd3215cbb15cb632f91f1cf03d05-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Greendash2box_02",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/a2wkezvln3n3ggs49i7hq/Greendash2box_02.jpg?rlkey=n0vqgjvki1x25o5ul34jo2fja&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/a3ad2b4323e1b02842a449d43fb78630bc2ca9f493afd9d7b0936e6d48227420.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/a3ad2b4323e1b02842a449d43fb78630bc2ca9f493afd9d7b0936e6d48227420-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Greendash2box_03",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/7khzz9e2kbkk6l0lrg4n6/Greendash2box_03.jpg?rlkey=fao91hk9c5itlq0qjp8q6nz2n&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/925539042cca9cf4b3d69d2e82ec9e1f8bd79ab2d1a8fe02c3aa17f7e5ea6b92.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/925539042cca9cf4b3d69d2e82ec9e1f8bd79ab2d1a8fe02c3aa17f7e5ea6b92-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Greendash2box_04",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/1omnkg9d624e7f4gbwo7h/Greendash2box_04.jpg?rlkey=b1ciqtw0zkt0km1lxupi2cmyo&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/177fe856addfb686cab45374c169677fbe4e3045906b68555ef78fdfe1bec664.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/177fe856addfb686cab45374c169677fbe4e3045906b68555ef78fdfe1bec664-s.jpg",
+          "file": null
+        },
+        {
           "name": "Neon Green Retro Dash II Display Transparent Side",
           "type": "image",
           "format": "PNG",
@@ -1443,6 +1479,42 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/2vgzih00bgrssfts497ix/Purple-Retro-Dash-II-Display-Transparent-Side.png?rlkey=wtdix9nn2u7jrcnes8wj7tc6s&dl=0",
           "thumb": "assets/synced/dash-ii-retro/12c85480acd13fdf3788b5076f3573fa29ad1ee0952741341a343e69025a3a07.jpg",
           "thumbS": "assets/synced/dash-ii-retro/12c85480acd13fdf3788b5076f3573fa29ad1ee0952741341a343e69025a3a07-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash2box_01",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/mzegg21lmu6fv8dvmtsju/Purpledash2box_01.jpg?rlkey=or0gi571hrxud3ckq1asajuju&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/de4e15abd3a0c42a62178b5a5ab2ff0d83025da40c2519ea0706da4b1f4e739c.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/de4e15abd3a0c42a62178b5a5ab2ff0d83025da40c2519ea0706da4b1f4e739c-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash2box_02",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/epjnghn8udjkqvqp6ppcx/Purpledash2box_02.jpg?rlkey=ud5sj0bv0hr49xmle5zikrsxu&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/83d133de225da566ee3d601f529ff8029347c98abdd3104c273e289429bc0485.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/83d133de225da566ee3d601f529ff8029347c98abdd3104c273e289429bc0485-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash2box_03",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/4hjtqf8i61smytb9ahhq7/Purpledash2box_03.jpg?rlkey=vjdev4eouoy1zf4bowf1pys0j&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/3428712ad0663f54141a84d19404d021b8b65054ef97d8b56210bae1c88a06be.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/3428712ad0663f54141a84d19404d021b8b65054ef97d8b56210bae1c88a06be-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash2box_04",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/qscp6rd71em1ycw5tswzm/Purpledash2box_04.jpg?rlkey=mzwgxdpcc2g2vxheh1myvj4yn&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/40b7bd6d210f3e813f423aaa855fee395cf94244cf9d72cf679627451075c1b7.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/40b7bd6d210f3e813f423aaa855fee395cf94244cf9d72cf679627451075c1b7-s.jpg",
           "file": null
         },
         {
