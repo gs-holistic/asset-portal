@@ -37,13 +37,17 @@ const PRODUCTS = [
     name: "Dash II",
     slug: "dash-ii",
     link: "https://www.dropbox.com/scl/fo/5hz9ej94k16g5fdv87gtj/AKc2Ts1QEgWfRugLZ_GoFvM?rlkey=9ueqe3ucvu30dgp6hlgixclpq&dl=0",
+    // `extra`: folders shared on their own link (not inside the product folder)
+    // that still belong on this product's page as one more folder.
+    extra: [{ folder: "Accessories", link: "https://www.dropbox.com/scl/fo/2ti86t4i9lj9oj04mi7zl/ANnfycjeIQArNT3wPyDY1uc?rlkey=rnn9zqig9ttlditwolrpj6gh9&dl=0" }],
   },
   { name: "Dash II Retro Collection", slug: "dash-ii-retro", link: "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=0" },
   { name: "Micro II", slug: "micro-ii", link: "https://www.dropbox.com/scl/fo/spharop9yvc7bnk5g3w4z/AKUC7ALBupRa8e039bvfNr4?rlkey=5560kr7brds1hco7tgeiafsbx&dl=0" },
   { name: "Slim 3-Piece Grinder", slug: "slim-3-piece-grinder", link: "https://www.dropbox.com/scl/fo/8lfqlq0faeml5pqnvzoys/ADcfy5cYRTh2lHbK13o_I60?rlkey=4jjwd6s48mon6tcpis5uass3x&dl=0" },
   { name: "510 Original", slug: "510-original", link: "https://www.dropbox.com/scl/fo/mtuk2kb73ln5pv0qj68y5/AOnLPmrirA3wsvOdaA0v9rw?rlkey=e8svbeey6dql240rjqzch9qco&st=tvt2s0qf&dl=0" },
   { name: "510 Original Retro Collection", slug: "510-original-retro", link: "https://www.dropbox.com/scl/fo/shfo4arqn8cb0hgs7wbi5/AH9A3v7LBdLMtbzkJRi15zE?rlkey=4hyypo3a92gplotrlfp55rlxk&st=te4ygopg&dl=0" },
-  { name: "Dash+", slug: "dash-plus", link: "https://www.dropbox.com/scl/fo/5wps4y20eqmpbzj0j4ijq/h?rlkey=5bna5as30dz79lmqumcml47x7&st=xt8upom3&dl=0" },
+  { name: "Dash+", slug: "dash-plus", link: "https://www.dropbox.com/scl/fo/5wps4y20eqmpbzj0j4ijq/h?rlkey=5bna5as30dz79lmqumcml47x7&st=xt8upom3&dl=0",
+    extra: [{ folder: "Accessories", link: "https://www.dropbox.com/scl/fo/qgh6d87l6rg1i0vgoqz4r/AECrm_6nlSUs3eIplHJnWIo?rlkey=ld27a5clcetw9t5lr34ijb9dv&dl=0" }] },
   { name: "Hydout", slug: "hydout", link: "https://www.dropbox.com/scl/fo/n9ddtzpx0x057qsdmfwoy/AHXmj-4gwaME5kQLZSmcBgw?rlkey=jy88uxm10tctjt6759gw015r4&st=frr8irpc&dl=0" },
   { name: "Hydout Retro Collection", slug: "hydout-retro", link: "https://www.dropbox.com/scl/fo/fnsys0ijwhl2059nu45u5/AEE18ADvSJZ1RYdf0EDDk0Q?rlkey=2cz8o729ku9u1c9unhewv55wr&st=5lrpymts&dl=0" },
   { name: "Melt Hot Knife", slug: "melt", link: "https://www.dropbox.com/scl/fo/qvw93szg11i4ka3d9yuaq/AC8I-n2z09RvRGiA__rNYEs?rlkey=a0yhcy2ok0j1l4dnmk6ktwcoy&st=zx3371he&dl=0" },
@@ -88,7 +92,7 @@ const PRODUCTS = [
   },
 ];
 
-const FOLDER_ORDER = ["Product Photos", "Lifestyle Photos", "Web Banners", "Logos", "Social Videos", "TV Screen Videos", "Packaging", "In-Store Marketing", "Documents"];
+const FOLDER_ORDER = ["Product Photos", "Lifestyle Photos", "Accessories", "Web Banners", "Logos", "Social Videos", "TV Screen Videos", "Packaging", "In-Store Marketing", "Documents"];
 // Normalize inconsistent Dropbox folder names to the canonical tab names above,
 // so a folder called "TV Screen" or "Video" still lands in the right section.
 const FOLDER_ALIAS = {
@@ -435,6 +439,13 @@ for (const p of PRODUCTS) {
     folderSpecs.push({ name: p.flat || "Files", prefix: "", files: top.filter((e) => e[".tag"] === "file") });
   }
 
+  // Extra folders on their own share link: every file under it (any depth) is
+  // one folder on the page; downloads, thumbnails and the folder zip use that link.
+  for (const x of p.extra || []) {
+    const files = await collectDeep(tok, x.link, "", "");
+    folderSpecs.push({ name: x.folder, prefix: "", files, link: x.link, folderLink: x.link });
+  }
+
   const filesDir = join(dir, "files");
   mkdirSync(filesDir, { recursive: true });
   const keepFiles = new Set();   // committed original filenames (under files/)
@@ -448,6 +459,7 @@ for (const p of PRODUCTS) {
   const folders = {};
   for (const spec of folderSpecs) {
     const files = spec.files;
+    const L = spec.link || L;   // the share link these paths are relative to
     files.sort((a, b) => (a.displayName || a.name).localeCompare(b.displayName || b.name, undefined, { numeric: true }));
     const out = [];
     // "Front (1).png" byte-identical to another file in the folder is an accidental
@@ -466,7 +478,7 @@ for (const p of PRODUCTS) {
         // vector itself is the preview. Everything else is thumbnail-only.
         if (size <= MAX_COMMIT && type !== "video" && (p.commitFiles || type === "vector")) {
           const cf = `${hash}.${e}`;
-          if (!existsSync(join(filesDir, cf))) await downloadFile(tok, p.link, path, join(filesDir, cf));
+          if (!existsSync(join(filesDir, cf))) await downloadFile(tok, L, path, join(filesDir, cf));
           if (existsSync(join(filesDir, cf))) { fileRel = `assets/synced/${p.slug}/files/${cf}`; keepFiles.add(cf); }
         }
         const localOrig = fileRel ? join(filesDir, `${hash}.${e}`) : null;
@@ -476,7 +488,7 @@ for (const p of PRODUCTS) {
         if (LIGHT.test(f.name) && type !== "video") {
           const tn = hash + "-lt2.jpg";
           if (!existsSync(join(dir, tn))) {
-            const src = localOrig || (await downloadFile(tok, p.link, path, tmp + "." + e) ? tmp + "." + e : null);
+            const src = localOrig || (await downloadFile(tok, L, path, tmp + "." + e) ? tmp + "." + e : null);
             if (src) { grayThumb(src, join(dir, tn), e); if (src === tmp + "." + e) unlinkSync(src); }
           }
           if (existsSync(join(dir, tn))) { thumb = `assets/synced/${p.slug}/${tn}`; keep.add(tn); }
@@ -493,7 +505,7 @@ for (const p of PRODUCTS) {
           // alpha to white, so resize the original with ImageMagick to keep it.
           const tn = hash + "-tr.png";
           if (!existsSync(join(dir, tn))) {
-            const src = (await downloadFile(tok, p.link, path, tmp + "." + e)) ? tmp + "." + e : null;
+            const src = (await downloadFile(tok, L, path, tmp + "." + e)) ? tmp + "." + e : null;
             if (src) {
               try { execFileSync("convert", [src + "[0]", "-resize", "640x480>", join(dir, tn)], { stdio: "ignore" }); }
               catch (e2) { warnOnce("pngthumb", "png thumb failed: " + e2.message); }
@@ -503,19 +515,19 @@ for (const p of PRODUCTS) {
           if (existsSync(join(dir, tn))) { thumb = `assets/synced/${p.slug}/${tn}`; keep.add(tn); }
         } else if (type === "image") {
           const tn = hash + ".jpg";
-          if (!existsSync(join(dir, tn))) await thumbV2(tok, p.link, path, join(dir, tn));
+          if (!existsSync(join(dir, tn))) await thumbV2(tok, L, path, join(dir, tn));
           if (existsSync(join(dir, tn))) { thumb = `assets/synced/${p.slug}/${tn}`; keep.add(tn); }
         } else if (type === "pdf" || e === "ai") {
           const tn = hash + ".jpg";
           if (!existsSync(join(dir, tn))) {
-            const src = localOrig || (await downloadFile(tok, p.link, path, tmp + ".pdf") ? tmp + ".pdf" : null);
+            const src = localOrig || (await downloadFile(tok, L, path, tmp + ".pdf") ? tmp + ".pdf" : null);
             if (src) { pdfFirstPage(src, join(dir, hash)); if (src === tmp + ".pdf") unlinkSync(src); }
           }
           if (existsSync(join(dir, tn))) { thumb = `assets/synced/${p.slug}/${tn}`; keep.add(tn); }
         } else if (type === "video") {
           const tn = hash + ".jpg";
           if (!existsSync(join(dir, tn))) {
-            const src = localOrig || (await downloadFile(tok, p.link, path, tmp + "." + e) ? tmp + "." + e : null);
+            const src = localOrig || (await downloadFile(tok, L, path, tmp + "." + e) ? tmp + "." + e : null);
             if (src) { videoFrame(src, join(dir, tn)); if (src === tmp + "." + e) unlinkSync(src); }
           }
           if (existsSync(join(dir, tn))) { thumb = `assets/synced/${p.slug}/${tn}`; keep.add(tn); }
@@ -527,7 +539,7 @@ for (const p of PRODUCTS) {
           if (!/-lt2\.jpg$/.test(thumb) && type !== "video") {
             const tn = hash + "-lt2.jpg";
             if (!existsSync(join(dir, tn))) {
-              const src = localOrig || (await downloadFile(tok, p.link, path, tmp + "." + e) ? tmp + "." + e : null);
+              const src = localOrig || (await downloadFile(tok, L, path, tmp + "." + e) ? tmp + "." + e : null);
               if (src) { grayThumb(src, join(dir, tn), e); if (src === tmp + "." + e) unlinkSync(src); }
             }
             if (existsSync(join(dir, tn)) && !isBlank(join(dir, tn), linkCache)) { thumb = `assets/synced/${p.slug}/${tn}`; keep.add(tn); fixed = true; }
@@ -549,7 +561,7 @@ for (const p of PRODUCTS) {
         if (dlUrl) linkCache[f.id] = dlUrl;
       }
 
-      out.push({ name: f.displayName || f.name.replace(/\.[^.]+$/, ""), type, format: e.toUpperCase(), url: dlUrl || p.link, thumb, ...(thumbS ? { thumbS } : {}), file: fileRel });
+      out.push({ name: f.displayName || f.name.replace(/\.[^.]+$/, ""), type, format: e.toUpperCase(), url: dlUrl || L, thumb, ...(thumbS ? { thumbS } : {}), file: fileRel });
     }
     if (out.length) folders[spec.name] = (folders[spec.name] || []).concat(out);  // concat so aliased names merge
   }
@@ -560,6 +572,7 @@ for (const p of PRODUCTS) {
   const folderLinks = {};
   for (const spec of folderSpecs) {
     if (!folders[spec.name] || folderLinks[spec.name]) continue;
+    if (spec.folderLink) { folderLinks[spec.name] = dlLink(spec.folderLink); continue; }
     let fl = spec.id ? linkCache[spec.id] : null;
     if (!fl && spec.id) {
       try { fl = await sharedFileLink(tok, spec.id); } catch { fl = null; }

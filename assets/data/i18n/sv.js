@@ -129,6 +129,7 @@ window.PORTAL_I18N.sv = {
     "Brand": "Varumärke",
     "Product photos": "Produktbilder",
     "Lifestyle Photos": "Livsstilsbilder",
+    "Accessories": "Tillbehör",
     "Social Videos": "Videor för sociala medier",
     "TV Screen Videos": "Videor för TV-skärmar",
     "Documents": "Dokument",

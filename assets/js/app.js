@@ -26,7 +26,7 @@
   var LANGS = { en: "English", es: "Español", de: "Deutsch", it: "Italiano", fr: "Français", pt: "Português (Brasil)",
                 sv: "Svenska", pl: "Polski", da: "Dansk" };
   function isLang(l) { return Object.prototype.hasOwnProperty.call(LANGS, l); }
-  var LANG_VER = "20261111c";   // bump with the other asset tokens
+  var LANG_VER = "20261113a";   // bump with the other asset tokens
   // Load a language pack once. English is a no-op (it IS the source).
   var _langLoading = {};
   function loadLangPack(l, cb) {
@@ -652,7 +652,7 @@
     });
   }
   // Canonical Digital Assets tab order (matches the Dropbox-sync FOLDER_ORDER).
-  var FOLDER_TAB_ORDER = ["Product Photos", "E-Comm Render Photos", "Lifestyle Photos", "Web Banners", "Logos", "Social Videos", "TV Screen Videos", "User Generated Content", "Packaging", "Documents", "Misc"];
+  var FOLDER_TAB_ORDER = ["Product Photos", "E-Comm Render Photos", "Lifestyle Photos", "Accessories", "Web Banners", "Logos", "Social Videos", "TV Screen Videos", "User Generated Content", "Packaging", "Documents", "Misc"];
   function folderRank(f) { var i = FOLDER_TAB_ORDER.indexOf(f); return i < 0 ? 99 : i; }
   // The Documents folder (manual + regional one-sheets) is its own "Sales assets"
   // section on the product page, not one of the photo/video folder cards.
@@ -689,7 +689,7 @@
   // its own fixed order. Legacy products' colorway folders ("Black / Videos",
   // "Cookies / Renders"…) fall into a group by name; anything else is Other.
   var FOLDER_GROUPS = [
-    { label: "Photos", order: ["Product Photos", "E-Comm Render Photos", "Lifestyle Photos", "Web Banners", "Packaging"] },
+    { label: "Photos", order: ["Product Photos", "E-Comm Render Photos", "Lifestyle Photos", "Accessories", "Web Banners", "Packaging"] },
     { label: "Videos", order: ["Social Videos", "TV Screen Videos", UGC_FOLDER] },
     { label: "Other",  order: ["Logos", INSTORE_FOLDER] },
   ];

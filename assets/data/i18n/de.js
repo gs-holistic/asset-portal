@@ -125,6 +125,7 @@ window.PORTAL_I18N.de = {
     "Brand": "Marke",
     "Product photos": "Produktfotos",
     "Lifestyle Photos": "Lifestyle-Fotos",
+    "Accessories": "Zubehör",
     "Social Videos": "Social-Media-Videos",
     "TV Screen Videos": "TV-Screen-Videos",
     "Documents": "Dokumente",

@@ -129,6 +129,7 @@ window.PORTAL_I18N.da = {
     "Brand": "Brand",
     "Product photos": "Produktbilleder",
     "Lifestyle Photos": "Livsstilsbilleder",
+    "Accessories": "Tilbehør",
     "Social Videos": "Videoer til sociale medier",
     "TV Screen Videos": "Videoer til tv-skærme",
     "Documents": "Dokumenter",
