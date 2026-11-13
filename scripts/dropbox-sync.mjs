@@ -41,7 +41,8 @@ const PRODUCTS = [
     // that still belong on this product's page as one more folder.
     extra: [{ folder: "Accessories", link: "https://www.dropbox.com/scl/fo/2ti86t4i9lj9oj04mi7zl/ANnfycjeIQArNT3wPyDY1uc?rlkey=rnn9zqig9ttlditwolrpj6gh9&dl=0" }],
   },
-  { name: "Dash II Retro Collection", slug: "dash-ii-retro", link: "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=0" },
+  { name: "Dash II Retro Collection", slug: "dash-ii-retro", link: "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=0",
+    extra: [{ folder: "Accessories", link: "https://www.dropbox.com/scl/fo/j0psj8tcaa5h79xyhj0p5/AGN5SFKa02pFQhogGl9nI60?rlkey=9ak6o1zingsyjybeem8cpn19z&dl=0" }] },
   { name: "Micro II", slug: "micro-ii", link: "https://www.dropbox.com/scl/fo/spharop9yvc7bnk5g3w4z/AKUC7ALBupRa8e039bvfNr4?rlkey=5560kr7brds1hco7tgeiafsbx&dl=0" },
   { name: "Slim 3-Piece Grinder", slug: "slim-3-piece-grinder", link: "https://www.dropbox.com/scl/fo/8lfqlq0faeml5pqnvzoys/ADcfy5cYRTh2lHbK13o_I60?rlkey=4jjwd6s48mon6tcpis5uass3x&dl=0" },
   { name: "510 Original", slug: "510-original", link: "https://www.dropbox.com/scl/fo/mtuk2kb73ln5pv0qj68y5/AOnLPmrirA3wsvOdaA0v9rw?rlkey=e8svbeey6dql240rjqzch9qco&st=tvt2s0qf&dl=0" },
@@ -459,7 +460,7 @@ for (const p of PRODUCTS) {
   const folders = {};
   for (const spec of folderSpecs) {
     const files = spec.files;
-    const L = spec.link || L;   // the share link these paths are relative to
+    const L = spec.link || p.link;   // the share link these paths are relative to
     files.sort((a, b) => (a.displayName || a.name).localeCompare(b.displayName || b.name, undefined, { numeric: true }));
     const out = [];
     // "Front (1).png" byte-identical to another file in the folder is an accidental
