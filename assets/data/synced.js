@@ -3,6 +3,87 @@ window.PORTAL_SYNCED = {
     "folders": {
       "Product Photos": [
         {
+          "name": "Accessories · dash2_thumb_05",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/8ls0ticewlfvbpaqoayfn/dash2_thumb_05.png?rlkey=vhciyro51n59dgu4malk8uyvq&dl=0",
+          "thumb": "assets/synced/dash-ii/c2e979f99323e461bacc2e558aa5c0361fff933313a569e1d54799dab37dee8c.jpg",
+          "thumbS": "assets/synced/dash-ii/c2e979f99323e461bacc2e558aa5c0361fff933313a569e1d54799dab37dee8c-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash2_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/o320fzzfygzkrt75we53a/dash2_thumb_05.jpg?rlkey=buuegsg4yqsrmgmjf8aznfah6&dl=0",
+          "thumb": "assets/synced/dash-ii/4858183f1e6cb1c7b7949ec67e506b5306c42f87f05c1777b4637bb296fed095.jpg",
+          "thumbS": "assets/synced/dash-ii/4858183f1e6cb1c7b7949ec67e506b5306c42f87f05c1777b4637bb296fed095-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash2_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/wkjzd02u9jis2j8u807di/dash2_thumb_06.jpg?rlkey=lt1vuuwyms074y4dcys5emmf1&dl=0",
+          "thumb": "assets/synced/dash-ii/509db862bc0746e06699eff96ab9084a3e609a3835c287b5f00dad1b34954731.jpg",
+          "thumbS": "assets/synced/dash-ii/509db862bc0746e06699eff96ab9084a3e609a3835c287b5f00dad1b34954731-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash2_thumb_06",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/bco00q8ew65q8d5kalqxj/dash2_thumb_06.png?rlkey=a0pl8okcaa86mqtk5bn7abbc5&dl=0",
+          "thumb": "assets/synced/dash-ii/3c5e3d2a6852a58f5dac32e51a497d0914f317e4253d4428693a1c4f083eae87.jpg",
+          "thumbS": "assets/synced/dash-ii/3c5e3d2a6852a58f5dac32e51a497d0914f317e4253d4428693a1c4f083eae87-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash2_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/h1x2i2xzzyumlg989baa3/dash2_thumb_07.jpg?rlkey=58ttmf3w9xq3uecck35qajssi&dl=0",
+          "thumb": "assets/synced/dash-ii/9c71332db2e56f0a383ab323e89830e3dd162575a8b79efe8431c8b41119e69a.jpg",
+          "thumbS": "assets/synced/dash-ii/9c71332db2e56f0a383ab323e89830e3dd162575a8b79efe8431c8b41119e69a-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash2_thumb_07",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/8htyowhpl1h782m7n9hkh/dash2_thumb_07.png?rlkey=itxjh3b97qaqz4yrrpiaf7k0t&dl=0",
+          "thumb": "assets/synced/dash-ii/f9de34aa376db72f87fcf684ba7557dc789d1bc6f21af9b9fab4239c5e8a5d2f.jpg",
+          "thumbS": "assets/synced/dash-ii/f9de34aa376db72f87fcf684ba7557dc789d1bc6f21af9b9fab4239c5e8a5d2f-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash2_thumb_012",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/j2k2342v2u85n5s3kfalf/dash2_thumb_012.jpg?rlkey=cs1xws1pojl0qi2y8gpy635qu&dl=0",
+          "thumb": "assets/synced/dash-ii/8d37d09636252f878cd711b80f0a306f4d5f8a7f6cda7656b298f5f7a1be8e06.jpg",
+          "thumbS": "assets/synced/dash-ii/8d37d09636252f878cd711b80f0a306f4d5f8a7f6cda7656b298f5f7a1be8e06-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash2_thumb_012",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/9t4h7zj9egrt8dyb7tofs/dash2_thumb_012.png?rlkey=brgwo61j6z2187d96rst7h0il&dl=0",
+          "thumb": "assets/synced/dash-ii/7de350c4e932b8f5a69ede2547590e00a1787c19f01998dd4c3493c605a3b3b3.jpg",
+          "thumbS": "assets/synced/dash-ii/7de350c4e932b8f5a69ede2547590e00a1787c19f01998dd4c3493c605a3b3b3-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · GPEN - Dash 2- Tool",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/4kp84qybbh3s3v34xpo2r/GPEN-Dash-2-Tool.png?rlkey=cy4meepuu0gvvzmmvh8su7tj6&dl=0",
+          "thumb": "assets/synced/dash-ii/e1ef16f27afc19f92231572cfcfd773402e2da1f4d79d15515e505bf711eba20.jpg",
+          "thumbS": "assets/synced/dash-ii/e1ef16f27afc19f92231572cfcfd773402e2da1f4d79d15515e505bf711eba20-s.jpg",
+          "file": null
+        },
+        {
           "name": "dash2_thumb_01",
           "type": "image",
           "format": "JPG",
@@ -72,60 +153,6 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/xwtv9uiesm5r59mrp01yn/dash2_thumb_04.png?rlkey=jc0cipil3cjhzvo9cvgso8xvc&dl=0",
           "thumb": "assets/synced/dash-ii/04e4ac8d63c49ce4ed056516228dc863ad631076fb487bb58cd6faee78a053d1.jpg",
           "thumbS": "assets/synced/dash-ii/04e4ac8d63c49ce4ed056516228dc863ad631076fb487bb58cd6faee78a053d1-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash2_thumb_05",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/o320fzzfygzkrt75we53a/dash2_thumb_05.jpg?rlkey=buuegsg4yqsrmgmjf8aznfah6&dl=0",
-          "thumb": "assets/synced/dash-ii/4858183f1e6cb1c7b7949ec67e506b5306c42f87f05c1777b4637bb296fed095.jpg",
-          "thumbS": "assets/synced/dash-ii/4858183f1e6cb1c7b7949ec67e506b5306c42f87f05c1777b4637bb296fed095-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash2_thumb_05",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/8ls0ticewlfvbpaqoayfn/dash2_thumb_05.png?rlkey=vhciyro51n59dgu4malk8uyvq&dl=0",
-          "thumb": "assets/synced/dash-ii/c2e979f99323e461bacc2e558aa5c0361fff933313a569e1d54799dab37dee8c.jpg",
-          "thumbS": "assets/synced/dash-ii/c2e979f99323e461bacc2e558aa5c0361fff933313a569e1d54799dab37dee8c-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash2_thumb_06",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/wkjzd02u9jis2j8u807di/dash2_thumb_06.jpg?rlkey=lt1vuuwyms074y4dcys5emmf1&dl=0",
-          "thumb": "assets/synced/dash-ii/509db862bc0746e06699eff96ab9084a3e609a3835c287b5f00dad1b34954731.jpg",
-          "thumbS": "assets/synced/dash-ii/509db862bc0746e06699eff96ab9084a3e609a3835c287b5f00dad1b34954731-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash2_thumb_06",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/bco00q8ew65q8d5kalqxj/dash2_thumb_06.png?rlkey=a0pl8okcaa86mqtk5bn7abbc5&dl=0",
-          "thumb": "assets/synced/dash-ii/3c5e3d2a6852a58f5dac32e51a497d0914f317e4253d4428693a1c4f083eae87.jpg",
-          "thumbS": "assets/synced/dash-ii/3c5e3d2a6852a58f5dac32e51a497d0914f317e4253d4428693a1c4f083eae87-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash2_thumb_07",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/h1x2i2xzzyumlg989baa3/dash2_thumb_07.jpg?rlkey=58ttmf3w9xq3uecck35qajssi&dl=0",
-          "thumb": "assets/synced/dash-ii/9c71332db2e56f0a383ab323e89830e3dd162575a8b79efe8431c8b41119e69a.jpg",
-          "thumbS": "assets/synced/dash-ii/9c71332db2e56f0a383ab323e89830e3dd162575a8b79efe8431c8b41119e69a-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash2_thumb_07",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/8htyowhpl1h782m7n9hkh/dash2_thumb_07.png?rlkey=itxjh3b97qaqz4yrrpiaf7k0t&dl=0",
-          "thumb": "assets/synced/dash-ii/f9de34aa376db72f87fcf684ba7557dc789d1bc6f21af9b9fab4239c5e8a5d2f.jpg",
-          "thumbS": "assets/synced/dash-ii/f9de34aa376db72f87fcf684ba7557dc789d1bc6f21af9b9fab4239c5e8a5d2f-s.jpg",
           "file": null
         },
         {
@@ -201,24 +228,6 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "dash2_thumb_012",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/j2k2342v2u85n5s3kfalf/dash2_thumb_012.jpg?rlkey=cs1xws1pojl0qi2y8gpy635qu&dl=0",
-          "thumb": "assets/synced/dash-ii/8d37d09636252f878cd711b80f0a306f4d5f8a7f6cda7656b298f5f7a1be8e06.jpg",
-          "thumbS": "assets/synced/dash-ii/8d37d09636252f878cd711b80f0a306f4d5f8a7f6cda7656b298f5f7a1be8e06-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash2_thumb_012",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/9t4h7zj9egrt8dyb7tofs/dash2_thumb_012.png?rlkey=brgwo61j6z2187d96rst7h0il&dl=0",
-          "thumb": "assets/synced/dash-ii/7de350c4e932b8f5a69ede2547590e00a1787c19f01998dd4c3493c605a3b3b3.jpg",
-          "thumbS": "assets/synced/dash-ii/7de350c4e932b8f5a69ede2547590e00a1787c19f01998dd4c3493c605a3b3b3-s.jpg",
-          "file": null
-        },
-        {
           "name": "GPEN - Dash 2_Open_Tool",
           "type": "image",
           "format": "JPG",
@@ -243,15 +252,6 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/qee4m89zmdhgs05vhr5fu/GPEN-Dash-2-Front.png?rlkey=m59flnlx5xt0zb4e6x1ww7zjl&dl=0",
           "thumb": "assets/synced/dash-ii/31a93e31e61a95d2f24a2563bbe04f829b7d4b7aa8c08f6e3156fcbb59b028eb.jpg",
           "thumbS": "assets/synced/dash-ii/31a93e31e61a95d2f24a2563bbe04f829b7d4b7aa8c08f6e3156fcbb59b028eb-s.jpg",
-          "file": null
-        },
-        {
-          "name": "GPEN - Dash 2- Tool",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/4kp84qybbh3s3v34xpo2r/GPEN-Dash-2-Tool.png?rlkey=cy4meepuu0gvvzmmvh8su7tj6&dl=0",
-          "thumb": "assets/synced/dash-ii/e1ef16f27afc19f92231572cfcfd773402e2da1f4d79d15515e505bf711eba20.jpg",
-          "thumbS": "assets/synced/dash-ii/e1ef16f27afc19f92231572cfcfd773402e2da1f4d79d15515e505bf711eba20-s.jpg",
           "file": null
         },
         {
@@ -1008,6 +1008,89 @@ window.PORTAL_SYNCED = {
           "thumbS": "assets/synced/dash-ii/d87353288f46b5ef01a6bd574008c9051ef11b109b691dd90b891c8b2ca26911-s.jpg",
           "file": null
         }
+      ],
+      "Accessories": [
+        {
+          "name": "dash2_thumb_05",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/8ls0ticewlfvbpaqoayfn/dash2_thumb_05.png?rlkey=vhciyro51n59dgu4malk8uyvq&dl=0",
+          "thumb": "assets/synced/dash-ii/c2e979f99323e461bacc2e558aa5c0361fff933313a569e1d54799dab37dee8c.jpg",
+          "thumbS": "assets/synced/dash-ii/c2e979f99323e461bacc2e558aa5c0361fff933313a569e1d54799dab37dee8c-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash2_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/o320fzzfygzkrt75we53a/dash2_thumb_05.jpg?rlkey=buuegsg4yqsrmgmjf8aznfah6&dl=0",
+          "thumb": "assets/synced/dash-ii/4858183f1e6cb1c7b7949ec67e506b5306c42f87f05c1777b4637bb296fed095.jpg",
+          "thumbS": "assets/synced/dash-ii/4858183f1e6cb1c7b7949ec67e506b5306c42f87f05c1777b4637bb296fed095-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash2_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/wkjzd02u9jis2j8u807di/dash2_thumb_06.jpg?rlkey=lt1vuuwyms074y4dcys5emmf1&dl=0",
+          "thumb": "assets/synced/dash-ii/509db862bc0746e06699eff96ab9084a3e609a3835c287b5f00dad1b34954731.jpg",
+          "thumbS": "assets/synced/dash-ii/509db862bc0746e06699eff96ab9084a3e609a3835c287b5f00dad1b34954731-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash2_thumb_06",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/bco00q8ew65q8d5kalqxj/dash2_thumb_06.png?rlkey=a0pl8okcaa86mqtk5bn7abbc5&dl=0",
+          "thumb": "assets/synced/dash-ii/3c5e3d2a6852a58f5dac32e51a497d0914f317e4253d4428693a1c4f083eae87.jpg",
+          "thumbS": "assets/synced/dash-ii/3c5e3d2a6852a58f5dac32e51a497d0914f317e4253d4428693a1c4f083eae87-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash2_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/h1x2i2xzzyumlg989baa3/dash2_thumb_07.jpg?rlkey=58ttmf3w9xq3uecck35qajssi&dl=0",
+          "thumb": "assets/synced/dash-ii/9c71332db2e56f0a383ab323e89830e3dd162575a8b79efe8431c8b41119e69a.jpg",
+          "thumbS": "assets/synced/dash-ii/9c71332db2e56f0a383ab323e89830e3dd162575a8b79efe8431c8b41119e69a-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash2_thumb_07",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/8htyowhpl1h782m7n9hkh/dash2_thumb_07.png?rlkey=itxjh3b97qaqz4yrrpiaf7k0t&dl=0",
+          "thumb": "assets/synced/dash-ii/f9de34aa376db72f87fcf684ba7557dc789d1bc6f21af9b9fab4239c5e8a5d2f.jpg",
+          "thumbS": "assets/synced/dash-ii/f9de34aa376db72f87fcf684ba7557dc789d1bc6f21af9b9fab4239c5e8a5d2f-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash2_thumb_012",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/j2k2342v2u85n5s3kfalf/dash2_thumb_012.jpg?rlkey=cs1xws1pojl0qi2y8gpy635qu&dl=0",
+          "thumb": "assets/synced/dash-ii/8d37d09636252f878cd711b80f0a306f4d5f8a7f6cda7656b298f5f7a1be8e06.jpg",
+          "thumbS": "assets/synced/dash-ii/8d37d09636252f878cd711b80f0a306f4d5f8a7f6cda7656b298f5f7a1be8e06-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash2_thumb_012",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/9t4h7zj9egrt8dyb7tofs/dash2_thumb_012.png?rlkey=brgwo61j6z2187d96rst7h0il&dl=0",
+          "thumb": "assets/synced/dash-ii/7de350c4e932b8f5a69ede2547590e00a1787c19f01998dd4c3493c605a3b3b3.jpg",
+          "thumbS": "assets/synced/dash-ii/7de350c4e932b8f5a69ede2547590e00a1787c19f01998dd4c3493c605a3b3b3-s.jpg",
+          "file": null
+        },
+        {
+          "name": "GPEN - Dash 2- Tool",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/4kp84qybbh3s3v34xpo2r/GPEN-Dash-2-Tool.png?rlkey=cy4meepuu0gvvzmmvh8su7tj6&dl=0",
+          "thumb": "assets/synced/dash-ii/e1ef16f27afc19f92231572cfcfd773402e2da1f4d79d15515e505bf711eba20.jpg",
+          "thumbS": "assets/synced/dash-ii/e1ef16f27afc19f92231572cfcfd773402e2da1f4d79d15515e505bf711eba20-s.jpg",
+          "file": null
+        }
       ]
     },
     "dropbox": "https://www.dropbox.com/scl/fo/5hz9ej94k16g5fdv87gtj/AKc2Ts1QEgWfRugLZ_GoFvM?rlkey=9ueqe3ucvu30dgp6hlgixclpq&dl=1",
@@ -1020,13 +1103,86 @@ window.PORTAL_SYNCED = {
       "Packaging": "https://www.dropbox.com/scl/fo/j4l4996uts9ut6ex1bsvt/APEJJJdU-oGFf_TU0Bkn-H4?rlkey=gwbc64fzubwwt5cr0yx9ge7e0&dl=1",
       "Documents": "https://www.dropbox.com/scl/fo/vt7c8gwxyw3p8t2cr51tb/AP1rJU_rRyf43cXm12n_88g?rlkey=8eraicte8138ha2pkbeu780yx&dl=1",
       "In Store Marketing Materials": "https://www.dropbox.com/scl/fo/3rc18jy9dpk2vdzwm0vzd/AJ-eyktmRpU3jcZaN3d8KY8?rlkey=ldbjknlj2qyo8danjifpabcmx&dl=1",
-      "UGC Videos": "https://www.dropbox.com/scl/fo/pawdq6rfpzz2jhbj2pzga/AG86AfEwlY32C45vUeOvl-Q?rlkey=b9fj1mvhj3smity202papd6p6&dl=1"
+      "UGC Videos": "https://www.dropbox.com/scl/fo/pawdq6rfpzz2jhbj2pzga/AG86AfEwlY32C45vUeOvl-Q?rlkey=b9fj1mvhj3smity202papd6p6&dl=1",
+      "Accessories": "https://www.dropbox.com/scl/fo/2ti86t4i9lj9oj04mi7zl/ANnfycjeIQArNT3wPyDY1uc?rlkey=rnn9zqig9ttlditwolrpj6gh9&dl=1"
     },
-    "updated": "2026-10-01"
+    "updated": "2026-11-13"
   },
   "Dash II Retro Collection": {
     "folders": {
       "Product Photos": [
+        {
+          "name": "Accessories · Greendash2_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/7g9t4yk6zl2859r1h5xhk/Greendash2_thumb_05.jpg?rlkey=kjdm3qmgwokok1odapcz5q1qz&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/3e4d6137b408d780efd2668027ae3c23693172396e1969479289892289966832.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/3e4d6137b408d780efd2668027ae3c23693172396e1969479289892289966832-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Greendash2_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/h6yh31dw9rzziild9a850/Greendash2_thumb_06.jpg?rlkey=f9c2rotoqwuizfls1otdmidpe&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/8454e219795f28611bcc433effe6a4058ab6336529eb5bd15b6b8fbb9724ca68.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/8454e219795f28611bcc433effe6a4058ab6336529eb5bd15b6b8fbb9724ca68-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Greendash2_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/mb3rpz75g89ff9r138zvz/Greendash2_thumb_07.jpg?rlkey=wocaoc2cbc2s5d45du2gwyyq2&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/bfb746493ed294dceb4c4b5b4beceed1b66d3fae30f0de0ce9fb2c624aa73d68.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/bfb746493ed294dceb4c4b5b4beceed1b66d3fae30f0de0ce9fb2c624aa73d68-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Greendash2mp_alcarte",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/h7njap40t15sa93ktk5wm/Greendash2mp_alcarte.jpg?rlkey=16wggh8as0cnnmy47saa4jpca&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/5ab511615d0824e7dd54d95d407c8baa79b16f316633a0139aa4dda958ba7e52.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/5ab511615d0824e7dd54d95d407c8baa79b16f316633a0139aa4dda958ba7e52-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Purpledash_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/tc544hisyjjob6ifn7wv8/Purpledash_thumb_05.jpg?rlkey=sj1pspqgk911oh5ply3yysxye&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/586a43bdcaa4b66df49897e58ec4ef1c03d9e78216f81080c051fd38ba1a5c3b.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/586a43bdcaa4b66df49897e58ec4ef1c03d9e78216f81080c051fd38ba1a5c3b-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Purpledash_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/rtadpjj4ot8zfzs8wqe2q/Purpledash_thumb_06.jpg?rlkey=783tjzxfhu2v7r4uqajcr2rpu&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/125227d3f0853a5142b7c572cd454e0b7db60c9ff97bc0c6e1bad5ec7e0e5890.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/125227d3f0853a5142b7c572cd454e0b7db60c9ff97bc0c6e1bad5ec7e0e5890-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Purpledash_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/c3eacx0zcq40jqzu64021/Purpledash_thumb_07.jpg?rlkey=dp0hf7it0y4rdzeno16pagger&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/58f20d86f42f62c855e0e7e1f923a0b8f59b1ea037398d8ac98960266f3c6d14.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/58f20d86f42f62c855e0e7e1f923a0b8f59b1ea037398d8ac98960266f3c6d14-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Purpledash2mp_alcarte",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/5mo79sd8qjwsudv337mfe/Purpledash2mp_alcarte.jpg?rlkey=pccbdfjyczb8zcyttfu06nf4p&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/db9d5489b39f90d32f48af7ae6fc3dad6f7fdaed88ca3814b25db86cb04279b3.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/db9d5489b39f90d32f48af7ae6fc3dad6f7fdaed88ca3814b25db86cb04279b3-s.jpg",
+          "file": null
+        },
         {
           "name": "Greendash_thumb_010",
           "type": "image",
@@ -1082,33 +1238,6 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "Greendash2_thumb_05",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/7g9t4yk6zl2859r1h5xhk/Greendash2_thumb_05.jpg?rlkey=kjdm3qmgwokok1odapcz5q1qz&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/3e4d6137b408d780efd2668027ae3c23693172396e1969479289892289966832.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/3e4d6137b408d780efd2668027ae3c23693172396e1969479289892289966832-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Greendash2_thumb_06",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/h6yh31dw9rzziild9a850/Greendash2_thumb_06.jpg?rlkey=f9c2rotoqwuizfls1otdmidpe&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/8454e219795f28611bcc433effe6a4058ab6336529eb5bd15b6b8fbb9724ca68.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/8454e219795f28611bcc433effe6a4058ab6336529eb5bd15b6b8fbb9724ca68-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Greendash2_thumb_07",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/mb3rpz75g89ff9r138zvz/Greendash2_thumb_07.jpg?rlkey=wocaoc2cbc2s5d45du2gwyyq2&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/bfb746493ed294dceb4c4b5b4beceed1b66d3fae30f0de0ce9fb2c624aa73d68.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/bfb746493ed294dceb4c4b5b4beceed1b66d3fae30f0de0ce9fb2c624aa73d68-s.jpg",
-          "file": null
-        },
-        {
           "name": "Greendash2_thumb_08",
           "type": "image",
           "format": "JPG",
@@ -1133,15 +1262,6 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/7c4qpe2j397f6sv0q68il/Greendash2_thumb_011.jpg?rlkey=k2g8o0830zv7ifv9rzu7f4jhs&dl=0",
           "thumb": "assets/synced/dash-ii-retro/cd4e5a01f980dcc25dc6ec2d7eddbfb3dd01d52557de1cf7eca441e94c60ad55.jpg",
           "thumbS": "assets/synced/dash-ii-retro/cd4e5a01f980dcc25dc6ec2d7eddbfb3dd01d52557de1cf7eca441e94c60ad55-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Greendash2mp_alcarte",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/h7njap40t15sa93ktk5wm/Greendash2mp_alcarte.jpg?rlkey=16wggh8as0cnnmy47saa4jpca&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/5ab511615d0824e7dd54d95d407c8baa79b16f316633a0139aa4dda958ba7e52.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/5ab511615d0824e7dd54d95d407c8baa79b16f316633a0139aa4dda958ba7e52-s.jpg",
           "file": null
         },
         {
@@ -1178,33 +1298,6 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/y60zke8m944vc1hy6x1zf/Purpledash_thumb_04.jpg?rlkey=tipzvh34zpzzrg9qy4l8wdazn&dl=0",
           "thumb": "assets/synced/dash-ii-retro/1e519e97f09e76953ebb13dd39aa0b62894216c02c5338f631ffdf15e866fa44.jpg",
           "thumbS": "assets/synced/dash-ii-retro/1e519e97f09e76953ebb13dd39aa0b62894216c02c5338f631ffdf15e866fa44-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Purpledash_thumb_05",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/tc544hisyjjob6ifn7wv8/Purpledash_thumb_05.jpg?rlkey=sj1pspqgk911oh5ply3yysxye&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/586a43bdcaa4b66df49897e58ec4ef1c03d9e78216f81080c051fd38ba1a5c3b.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/586a43bdcaa4b66df49897e58ec4ef1c03d9e78216f81080c051fd38ba1a5c3b-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Purpledash_thumb_06",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/rtadpjj4ot8zfzs8wqe2q/Purpledash_thumb_06.jpg?rlkey=783tjzxfhu2v7r4uqajcr2rpu&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/125227d3f0853a5142b7c572cd454e0b7db60c9ff97bc0c6e1bad5ec7e0e5890.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/125227d3f0853a5142b7c572cd454e0b7db60c9ff97bc0c6e1bad5ec7e0e5890-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Purpledash_thumb_07",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/c3eacx0zcq40jqzu64021/Purpledash_thumb_07.jpg?rlkey=dp0hf7it0y4rdzeno16pagger&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/58f20d86f42f62c855e0e7e1f923a0b8f59b1ea037398d8ac98960266f3c6d14.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/58f20d86f42f62c855e0e7e1f923a0b8f59b1ea037398d8ac98960266f3c6d14-s.jpg",
           "file": null
         },
         {
@@ -1250,15 +1343,6 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/tn2el7osz2rqgsfajh0fn/Purpledash_thumb_012.jpg?rlkey=0lclg297ddchnn6fcnnkvo4ox&dl=0",
           "thumb": "assets/synced/dash-ii-retro/127ba9a6314f60c21ddc9b140fcb6c3a1906ed17d986b2e5286ea563ec8ddb0c.jpg",
           "thumbS": "assets/synced/dash-ii-retro/127ba9a6314f60c21ddc9b140fcb6c3a1906ed17d986b2e5286ea563ec8ddb0c-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Purpledash2mp_alcarte",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/5mo79sd8qjwsudv337mfe/Purpledash2mp_alcarte.jpg?rlkey=pccbdfjyczb8zcyttfu06nf4p&dl=0",
-          "thumb": "assets/synced/dash-ii-retro/db9d5489b39f90d32f48af7ae6fc3dad6f7fdaed88ca3814b25db86cb04279b3.jpg",
-          "thumbS": "assets/synced/dash-ii-retro/db9d5489b39f90d32f48af7ae6fc3dad6f7fdaed88ca3814b25db86cb04279b3-s.jpg",
           "file": null
         }
       ],
@@ -1526,19 +1610,310 @@ window.PORTAL_SYNCED = {
           "thumbS": "assets/synced/dash-ii-retro/5f648b7a61e8993ba7e03d84e3d43c95a84091bfe1674b7f90980600aad7521d-s.jpg",
           "file": null
         }
+      ],
+      "Accessories": [
+        {
+          "name": "Greendash2_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/7g9t4yk6zl2859r1h5xhk/Greendash2_thumb_05.jpg?rlkey=kjdm3qmgwokok1odapcz5q1qz&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/3e4d6137b408d780efd2668027ae3c23693172396e1969479289892289966832.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/3e4d6137b408d780efd2668027ae3c23693172396e1969479289892289966832-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Greendash2_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/h6yh31dw9rzziild9a850/Greendash2_thumb_06.jpg?rlkey=f9c2rotoqwuizfls1otdmidpe&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/8454e219795f28611bcc433effe6a4058ab6336529eb5bd15b6b8fbb9724ca68.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/8454e219795f28611bcc433effe6a4058ab6336529eb5bd15b6b8fbb9724ca68-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Greendash2_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/mb3rpz75g89ff9r138zvz/Greendash2_thumb_07.jpg?rlkey=wocaoc2cbc2s5d45du2gwyyq2&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/bfb746493ed294dceb4c4b5b4beceed1b66d3fae30f0de0ce9fb2c624aa73d68.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/bfb746493ed294dceb4c4b5b4beceed1b66d3fae30f0de0ce9fb2c624aa73d68-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Greendash2mp_alcarte",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/h7njap40t15sa93ktk5wm/Greendash2mp_alcarte.jpg?rlkey=16wggh8as0cnnmy47saa4jpca&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/5ab511615d0824e7dd54d95d407c8baa79b16f316633a0139aa4dda958ba7e52.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/5ab511615d0824e7dd54d95d407c8baa79b16f316633a0139aa4dda958ba7e52-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/tc544hisyjjob6ifn7wv8/Purpledash_thumb_05.jpg?rlkey=sj1pspqgk911oh5ply3yysxye&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/586a43bdcaa4b66df49897e58ec4ef1c03d9e78216f81080c051fd38ba1a5c3b.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/586a43bdcaa4b66df49897e58ec4ef1c03d9e78216f81080c051fd38ba1a5c3b-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/rtadpjj4ot8zfzs8wqe2q/Purpledash_thumb_06.jpg?rlkey=783tjzxfhu2v7r4uqajcr2rpu&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/125227d3f0853a5142b7c572cd454e0b7db60c9ff97bc0c6e1bad5ec7e0e5890.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/125227d3f0853a5142b7c572cd454e0b7db60c9ff97bc0c6e1bad5ec7e0e5890-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/c3eacx0zcq40jqzu64021/Purpledash_thumb_07.jpg?rlkey=dp0hf7it0y4rdzeno16pagger&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/58f20d86f42f62c855e0e7e1f923a0b8f59b1ea037398d8ac98960266f3c6d14.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/58f20d86f42f62c855e0e7e1f923a0b8f59b1ea037398d8ac98960266f3c6d14-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Purpledash2mp_alcarte",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/5mo79sd8qjwsudv337mfe/Purpledash2mp_alcarte.jpg?rlkey=pccbdfjyczb8zcyttfu06nf4p&dl=0",
+          "thumb": "assets/synced/dash-ii-retro/db9d5489b39f90d32f48af7ae6fc3dad6f7fdaed88ca3814b25db86cb04279b3.jpg",
+          "thumbS": "assets/synced/dash-ii-retro/db9d5489b39f90d32f48af7ae6fc3dad6f7fdaed88ca3814b25db86cb04279b3-s.jpg",
+          "file": null
+        }
       ]
     },
     "dropbox": "https://www.dropbox.com/scl/fo/8v6ma41wp0239n9gk8bgp/APH4-e-BzEEPnKk2bwAbuRo?rlkey=8qvd4oxc9pn44esupi8d8tkk2&dl=1",
     "folderLinks": {
       "Product Photos": "https://www.dropbox.com/scl/fo/yj5v2klst1h5dzgl748n5/ABLIlJG19T83i6MmOa1RLVY?rlkey=93lz0p402hxl4hgbtlhwdeeqs&dl=1",
       "Lifestyle Photos": "https://www.dropbox.com/scl/fo/6ox1edzqo9oaim7hxhvrg/AL_WVtMQgXZc8kLp16AssQM?rlkey=jwhxpi18qqx8m2kudxpvs9fzn&dl=1",
-      "Packaging": "https://www.dropbox.com/scl/fo/pqnuhyasshlcp1yr9dar1/AG6DHyH-eE_TJhWj1qXVLJw?rlkey=0ikz54dv61m1jnw5z96bnyhnn&dl=1"
+      "Packaging": "https://www.dropbox.com/scl/fo/pqnuhyasshlcp1yr9dar1/AG6DHyH-eE_TJhWj1qXVLJw?rlkey=0ikz54dv61m1jnw5z96bnyhnn&dl=1",
+      "Accessories": "https://www.dropbox.com/scl/fo/j0psj8tcaa5h79xyhj0p5/AGN5SFKa02pFQhogGl9nI60?rlkey=9ak6o1zingsyjybeem8cpn19z&dl=1"
     },
-    "updated": "2026-11-11"
+    "updated": "2026-11-13"
   },
   "Micro II": {
     "folders": {
       "Product Photos": [
+        {
+          "name": "Accessories · Micro 2-Mouthpiece",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/vy3l1gft2j4xh89layb92/Micro-2-Mouthpiece.png?rlkey=lc6xb3ufgt7coewvejd56mjqj&dl=0",
+          "thumb": "assets/synced/micro-ii/3e4ded3ffc654b5177892b897bb98af54b16f10cfab49cf521daa9cb024aa63c.jpg",
+          "thumbS": "assets/synced/micro-ii/3e4ded3ffc654b5177892b897bb98af54b16f10cfab49cf521daa9cb024aa63c-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro 2-rigadapter_34",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/yb6mkh5misv2fk37prrmc/Micro-2-rigadapter_34.png?rlkey=hcmdjizydzufsoxzdh2x17tap&dl=0",
+          "thumb": "assets/synced/micro-ii/f8cb421efff7f88e22221297944d5a044353c69d7f77c905e19a1e46d5131065.jpg",
+          "thumbS": "assets/synced/micro-ii/f8cb421efff7f88e22221297944d5a044353c69d7f77c905e19a1e46d5131065-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro 2-rigadapter_connected",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/4n6djc7qxn5in3e48i40f/Micro-2-rigadapter_connected.png?rlkey=vz25wzmuoh8q6ip7fngvdsfwh&dl=0",
+          "thumb": "assets/synced/micro-ii/219eff9e5bfa4a2309af2a67df55d9c1d494496c05af1c8e8cc2bce452a83161.jpg",
+          "thumbS": "assets/synced/micro-ii/219eff9e5bfa4a2309af2a67df55d9c1d494496c05af1c8e8cc2bce452a83161-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro 2-rigadapter_side",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/7twzyft6o41w4bmat1531/Micro-2-rigadapter_side.png?rlkey=pdp0ib1v6zz4kaya4e50cikwc&dl=0",
+          "thumb": "assets/synced/micro-ii/4ab6469d4d9468aea1af6e656ca939568ccfe57798f8f20f9ce7a72c6e99e2b9.jpg",
+          "thumbS": "assets/synced/micro-ii/4ab6469d4d9468aea1af6e656ca939568ccfe57798f8f20f9ce7a72c6e99e2b9-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro 2-side",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/1me4csg9alpn4f61y65ma/Micro-2-side.png?rlkey=1yqbwfj4and4c72iy6nmh8d1q&dl=0",
+          "thumb": "assets/synced/micro-ii/87760e9a8bb2319f58760a13fa13d83ae5e39380b42b2aa9f452274fa67af614.jpg",
+          "thumbS": "assets/synced/micro-ii/87760e9a8bb2319f58760a13fa13d83ae5e39380b42b2aa9f452274fa67af614-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro 2-sidecar",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/lsgtsdmn78kjizykivazo/Micro-2-sidecar.png?rlkey=mfwmpav9g3v0mzj73ibt9yyer&dl=0",
+          "thumb": "assets/synced/micro-ii/582d775e1e5f8c0347a18dde50af6fcb52eabe6615fc3be24182f51999c4e43b.jpg",
+          "thumbS": "assets/synced/micro-ii/582d775e1e5f8c0347a18dde50af6fcb52eabe6615fc3be24182f51999c4e43b-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro 2-sidecar_connected",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/9ugjbzmayps75yygl07fg/Micro-2-sidecar_connected.png?rlkey=32ohp88nua0q6w34on66vrn7s&dl=0",
+          "thumb": "assets/synced/micro-ii/96d76daf4eb6afdb6bca22d329606f9ca32795a79de7507c70d0b90bedcf693f.jpg",
+          "thumbS": "assets/synced/micro-ii/96d76daf4eb6afdb6bca22d329606f9ca32795a79de7507c70d0b90bedcf693f-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2_rigattachment_023",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/9olkhbzh0w7o8vjf2gzxc/Micro2_rigattachment_023.jpg?rlkey=fq88o7qehohjkj446pbkzicw1&dl=0",
+          "thumb": "assets/synced/micro-ii/6a131524ed4610717932c9c74445ff10e8286055231f53ff18eb06c6ec4a2246.jpg",
+          "thumbS": "assets/synced/micro-ii/6a131524ed4610717932c9c74445ff10e8286055231f53ff18eb06c6ec4a2246-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2_rigattachment_025",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/b0jobh7607ovs0wfl00ei/Micro2_rigattachment_025.jpg?rlkey=ujfttndglgl04qu65qzy6ohl3&dl=0",
+          "thumb": "assets/synced/micro-ii/ab75fc04d3c121a49711c3fb32a76b2cf7004daa0bbe2bf570bc3ed1f6d5fe06.jpg",
+          "thumbS": "assets/synced/micro-ii/ab75fc04d3c121a49711c3fb32a76b2cf7004daa0bbe2bf570bc3ed1f6d5fe06-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2_rigattachment_026",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/yw4zzwsflwx5oh9l86wgx/Micro2_rigattachment_026.jpg?rlkey=eg4ym4vjffxe89dr54qep56ot&dl=0",
+          "thumb": "assets/synced/micro-ii/1c7230db546cc6c0d4b1bd2c20373173bf948640a91725d4ee12289a8bd126a6.jpg",
+          "thumbS": "assets/synced/micro-ii/1c7230db546cc6c0d4b1bd2c20373173bf948640a91725d4ee12289a8bd126a6-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2_rigtattchment_024",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/r6790bvo121iu5q82d5j4/Micro2_rigtattchment_024.jpg?rlkey=kfu6kd3ln01tqkf3905foyhji&dl=0",
+          "thumb": "assets/synced/micro-ii/347e2bc2c2d9b98f20fb824619a96f8a16347491088df660229ef8126d848a02.jpg",
+          "thumbS": "assets/synced/micro-ii/347e2bc2c2d9b98f20fb824619a96f8a16347491088df660229ef8126d848a02-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2_tank_027",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/dy81pip4qaazn2jdlqd7k/Micro2_tank_027.jpg?rlkey=wahl5ac58eaeiyvlhnf0fco8r&dl=0",
+          "thumb": "assets/synced/micro-ii/dbd6302af8bfa984ec7deb4001ffe4360727b75392a546c11d6ca49b9e005fe0.jpg",
+          "thumbS": "assets/synced/micro-ii/dbd6302af8bfa984ec7deb4001ffe4360727b75392a546c11d6ca49b9e005fe0-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2_tankabove_020",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/fvv53abwuuqkou5urn423/Micro2_tankabove_020.jpg?rlkey=j7fmvcxabfyn4skf3vh8t60uk&dl=0",
+          "thumb": "assets/synced/micro-ii/ea501bfb490fb04ae62fabf855aa5ca1dde9f2df5f390e3bdad61d473cdbbca3.jpg",
+          "thumbS": "assets/synced/micro-ii/ea501bfb490fb04ae62fabf855aa5ca1dde9f2df5f390e3bdad61d473cdbbca3-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2mouthpiece_thumb_014",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/9cl3dyg2s3v6bphq9s6cl/Micro2mouthpiece_thumb_014.jpg?rlkey=r2baaojpqvjaxkx73n0db723f&dl=0",
+          "thumb": "assets/synced/micro-ii/05b30bb94b2a178784653c46b061aba6a240c2a095f9ccb8caa3b6aa120003a4.jpg",
+          "thumbS": "assets/synced/micro-ii/05b30bb94b2a178784653c46b061aba6a240c2a095f9ccb8caa3b6aa120003a4-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2rigattachment_012",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/vssr0utjs7qol4uka4naf/Micro2rigattachment_012.jpg?rlkey=8gmv7lhc903i0cqpgild9tpad&dl=0",
+          "thumb": "assets/synced/micro-ii/9cb27f986a4d088f91d31d0306b1e5562ea0e566a4330ae3889eacd9c97617f0.jpg",
+          "thumbS": "assets/synced/micro-ii/9cb27f986a4d088f91d31d0306b1e5562ea0e566a4330ae3889eacd9c97617f0-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2rigattachment_013",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/s2ml421agmx9p4g3g8sj3/Micro2rigattachment_013.jpg?rlkey=83ncl2zd478xmaqas2slxyi2k&dl=0",
+          "thumb": "assets/synced/micro-ii/6741e851b7b4f23c1429f3d9ca9a97d42517025a7205e5491272dc85ed736a83.jpg",
+          "thumbS": "assets/synced/micro-ii/6741e851b7b4f23c1429f3d9ca9a97d42517025a7205e5491272dc85ed736a83-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2rigattachment_017",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/r2hzswgi68p4j12xb75dz/Micro2rigattachment_017.png?rlkey=2u41d5qjp0w83kubvgqcv567t&dl=0",
+          "thumb": "assets/synced/micro-ii/739ecc196846808c60eff49a6e3e8f69db43e4afcdb4a0e3320bf13c01fb0209.jpg",
+          "thumbS": "assets/synced/micro-ii/739ecc196846808c60eff49a6e3e8f69db43e4afcdb4a0e3320bf13c01fb0209-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2rigattachment_thumb_016",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/k0kao41othzzey68kiw7k/Micro2rigattachment_thumb_016.jpg?rlkey=oh1brn6eqgrd5s2t47tneobvh&dl=0",
+          "thumb": "assets/synced/micro-ii/2960b012c1e06bb23249aaa68a29f0ef7284606075a3122a4187452106bf318d.jpg",
+          "thumbS": "assets/synced/micro-ii/2960b012c1e06bb23249aaa68a29f0ef7284606075a3122a4187452106bf318d-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2rigattachment_thumb_019",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/49948xxfsv1oebb8r4sj5/Micro2rigattachment_thumb_019.jpg?rlkey=n1dqvdk6t620boy3n4jitqodl&dl=0",
+          "thumb": "assets/synced/micro-ii/588e76e5ea6701f49c560513206c1ac9fefbf8d10b85b498ef24d621b5e6e809.jpg",
+          "thumbS": "assets/synced/micro-ii/588e76e5ea6701f49c560513206c1ac9fefbf8d10b85b498ef24d621b5e6e809-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · micro2sidecar_thumb_09",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/ml26xklk9izd752eo7zhg/micro2sidecar_thumb_09.jpg?rlkey=mxnbta2bosceqrcmo35gabvim&dl=0",
+          "thumb": "assets/synced/micro-ii/bedf16733f76e998aa2c5cb361e89838bd7298d9b47aeb1d618ddf81e0cb8def.jpg",
+          "thumbS": "assets/synced/micro-ii/bedf16733f76e998aa2c5cb361e89838bd7298d9b47aeb1d618ddf81e0cb8def-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2sidecar_thumb_010",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/kqxfnlhdq0go07pcg34wb/Micro2sidecar_thumb_010.jpg?rlkey=x294h33w4qlwcnmcedgjmx9ls&dl=0",
+          "thumb": "assets/synced/micro-ii/aaee016d1f447f3a419df3ecaafcff8bb37585af89f8a7668c0e9fe02b819583.jpg",
+          "thumbS": "assets/synced/micro-ii/aaee016d1f447f3a419df3ecaafcff8bb37585af89f8a7668c0e9fe02b819583-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2sidecar_thumb_011",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/b4ic1mf38om0nskcd4mdg/Micro2sidecar_thumb_011.jpg?rlkey=py8ltwag4ba33jelmmo95p11k&dl=0",
+          "thumb": "assets/synced/micro-ii/232175df1cf001f9ef92b91705a5c744a875f3f8613852b8f8a0c46d909b643c.jpg",
+          "thumbS": "assets/synced/micro-ii/232175df1cf001f9ef92b91705a5c744a875f3f8613852b8f8a0c46d909b643c-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2sidecar_thumb_018",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/vj0r1fh2qsb1g3iln58xh/Micro2sidecar_thumb_018.jpg?rlkey=7gnfai6jzj3rb3esdgnz6t26q&dl=0",
+          "thumb": "assets/synced/micro-ii/34a07d4535a6d9510963c1523e7b5cb78af0ee6c17882de2ca660facbbe0f445.jpg",
+          "thumbS": "assets/synced/micro-ii/34a07d4535a6d9510963c1523e7b5cb78af0ee6c17882de2ca660facbbe0f445-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · Micro2tank_thumb_015",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/fmj8spfrnkk8zie14qr8u/Micro2tank_thumb_015.jpg?rlkey=xwfwqupix7muwlkhqbwl6wd4i&dl=0",
+          "thumb": "assets/synced/micro-ii/d02e96f441c00cb275b47eccd92f4fbc85c6571de4f9b75c14f98ca378ab517f.jpg",
+          "thumbS": "assets/synced/micro-ii/d02e96f441c00cb275b47eccd92f4fbc85c6571de4f9b75c14f98ca378ab517f-s.jpg",
+          "file": null
+        },
         {
           "name": "Micro 2-34",
           "type": "image",
@@ -1576,129 +1951,12 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "Micro 2-Mouthpiece",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/vy3l1gft2j4xh89layb92/Micro-2-Mouthpiece.png?rlkey=lc6xb3ufgt7coewvejd56mjqj&dl=0",
-          "thumb": "assets/synced/micro-ii/3e4ded3ffc654b5177892b897bb98af54b16f10cfab49cf521daa9cb024aa63c.jpg",
-          "thumbS": "assets/synced/micro-ii/3e4ded3ffc654b5177892b897bb98af54b16f10cfab49cf521daa9cb024aa63c-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro 2-rigadapter_34",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/yb6mkh5misv2fk37prrmc/Micro-2-rigadapter_34.png?rlkey=hcmdjizydzufsoxzdh2x17tap&dl=0",
-          "thumb": "assets/synced/micro-ii/f8cb421efff7f88e22221297944d5a044353c69d7f77c905e19a1e46d5131065.jpg",
-          "thumbS": "assets/synced/micro-ii/f8cb421efff7f88e22221297944d5a044353c69d7f77c905e19a1e46d5131065-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro 2-rigadapter_connected",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/4n6djc7qxn5in3e48i40f/Micro-2-rigadapter_connected.png?rlkey=vz25wzmuoh8q6ip7fngvdsfwh&dl=0",
-          "thumb": "assets/synced/micro-ii/219eff9e5bfa4a2309af2a67df55d9c1d494496c05af1c8e8cc2bce452a83161.jpg",
-          "thumbS": "assets/synced/micro-ii/219eff9e5bfa4a2309af2a67df55d9c1d494496c05af1c8e8cc2bce452a83161-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro 2-rigadapter_side",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/7twzyft6o41w4bmat1531/Micro-2-rigadapter_side.png?rlkey=pdp0ib1v6zz4kaya4e50cikwc&dl=0",
-          "thumb": "assets/synced/micro-ii/4ab6469d4d9468aea1af6e656ca939568ccfe57798f8f20f9ce7a72c6e99e2b9.jpg",
-          "thumbS": "assets/synced/micro-ii/4ab6469d4d9468aea1af6e656ca939568ccfe57798f8f20f9ce7a72c6e99e2b9-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro 2-side",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/1me4csg9alpn4f61y65ma/Micro-2-side.png?rlkey=1yqbwfj4and4c72iy6nmh8d1q&dl=0",
-          "thumb": "assets/synced/micro-ii/87760e9a8bb2319f58760a13fa13d83ae5e39380b42b2aa9f452274fa67af614.jpg",
-          "thumbS": "assets/synced/micro-ii/87760e9a8bb2319f58760a13fa13d83ae5e39380b42b2aa9f452274fa67af614-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro 2-sidecar_connected",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/9ugjbzmayps75yygl07fg/Micro-2-sidecar_connected.png?rlkey=32ohp88nua0q6w34on66vrn7s&dl=0",
-          "thumb": "assets/synced/micro-ii/96d76daf4eb6afdb6bca22d329606f9ca32795a79de7507c70d0b90bedcf693f.jpg",
-          "thumbS": "assets/synced/micro-ii/96d76daf4eb6afdb6bca22d329606f9ca32795a79de7507c70d0b90bedcf693f-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro 2-sidecar",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/lsgtsdmn78kjizykivazo/Micro-2-sidecar.png?rlkey=mfwmpav9g3v0mzj73ibt9yyer&dl=0",
-          "thumb": "assets/synced/micro-ii/582d775e1e5f8c0347a18dde50af6fcb52eabe6615fc3be24182f51999c4e43b.jpg",
-          "thumbS": "assets/synced/micro-ii/582d775e1e5f8c0347a18dde50af6fcb52eabe6615fc3be24182f51999c4e43b-s.jpg",
-          "file": null
-        },
-        {
           "name": "Micro2_inthebox_022",
           "type": "image",
           "format": "JPG",
           "url": "https://www.dropbox.com/scl/fi/87w8me4wtxt2m0elj3xyk/Micro2_inthebox_022.jpg?rlkey=2u06xnsilkpg8i602fojz9wed&dl=0",
           "thumb": "assets/synced/micro-ii/1764ad6a257c876860178a2c08a21d07e9aef8b0a9a835ed7655bc1ef4ec3cfd.jpg",
           "thumbS": "assets/synced/micro-ii/1764ad6a257c876860178a2c08a21d07e9aef8b0a9a835ed7655bc1ef4ec3cfd-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2_rigattachment_023",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/9olkhbzh0w7o8vjf2gzxc/Micro2_rigattachment_023.jpg?rlkey=fq88o7qehohjkj446pbkzicw1&dl=0",
-          "thumb": "assets/synced/micro-ii/6a131524ed4610717932c9c74445ff10e8286055231f53ff18eb06c6ec4a2246.jpg",
-          "thumbS": "assets/synced/micro-ii/6a131524ed4610717932c9c74445ff10e8286055231f53ff18eb06c6ec4a2246-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2_rigattachment_025",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/b0jobh7607ovs0wfl00ei/Micro2_rigattachment_025.jpg?rlkey=ujfttndglgl04qu65qzy6ohl3&dl=0",
-          "thumb": "assets/synced/micro-ii/ab75fc04d3c121a49711c3fb32a76b2cf7004daa0bbe2bf570bc3ed1f6d5fe06.jpg",
-          "thumbS": "assets/synced/micro-ii/ab75fc04d3c121a49711c3fb32a76b2cf7004daa0bbe2bf570bc3ed1f6d5fe06-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2_rigattachment_026",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/yw4zzwsflwx5oh9l86wgx/Micro2_rigattachment_026.jpg?rlkey=eg4ym4vjffxe89dr54qep56ot&dl=0",
-          "thumb": "assets/synced/micro-ii/1c7230db546cc6c0d4b1bd2c20373173bf948640a91725d4ee12289a8bd126a6.jpg",
-          "thumbS": "assets/synced/micro-ii/1c7230db546cc6c0d4b1bd2c20373173bf948640a91725d4ee12289a8bd126a6-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2_rigtattchment_024",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/r6790bvo121iu5q82d5j4/Micro2_rigtattchment_024.jpg?rlkey=kfu6kd3ln01tqkf3905foyhji&dl=0",
-          "thumb": "assets/synced/micro-ii/347e2bc2c2d9b98f20fb824619a96f8a16347491088df660229ef8126d848a02.jpg",
-          "thumbS": "assets/synced/micro-ii/347e2bc2c2d9b98f20fb824619a96f8a16347491088df660229ef8126d848a02-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2_tank_027",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/dy81pip4qaazn2jdlqd7k/Micro2_tank_027.jpg?rlkey=wahl5ac58eaeiyvlhnf0fco8r&dl=0",
-          "thumb": "assets/synced/micro-ii/dbd6302af8bfa984ec7deb4001ffe4360727b75392a546c11d6ca49b9e005fe0.jpg",
-          "thumbS": "assets/synced/micro-ii/dbd6302af8bfa984ec7deb4001ffe4360727b75392a546c11d6ca49b9e005fe0-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2_tankabove_020",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/fvv53abwuuqkou5urn423/Micro2_tankabove_020.jpg?rlkey=j7fmvcxabfyn4skf3vh8t60uk&dl=0",
-          "thumb": "assets/synced/micro-ii/ea501bfb490fb04ae62fabf855aa5ca1dde9f2df5f390e3bdad61d473cdbbca3.jpg",
-          "thumbS": "assets/synced/micro-ii/ea501bfb490fb04ae62fabf855aa5ca1dde9f2df5f390e3bdad61d473cdbbca3-s.jpg",
           "file": null
         },
         {
@@ -1798,105 +2056,6 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/5anj9rkyjcs3vetkv6zj9/Micro2_thumb_023.jpg?rlkey=k5jp92tojq1l5kjtgq2xo9cbh&dl=0",
           "thumb": "assets/synced/micro-ii/8f0c0f644db5ce18410b42c66330780edaf01d3d527f8da0deb0f10974e13f43.jpg",
           "thumbS": "assets/synced/micro-ii/8f0c0f644db5ce18410b42c66330780edaf01d3d527f8da0deb0f10974e13f43-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2mouthpiece_thumb_014",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/9cl3dyg2s3v6bphq9s6cl/Micro2mouthpiece_thumb_014.jpg?rlkey=r2baaojpqvjaxkx73n0db723f&dl=0",
-          "thumb": "assets/synced/micro-ii/05b30bb94b2a178784653c46b061aba6a240c2a095f9ccb8caa3b6aa120003a4.jpg",
-          "thumbS": "assets/synced/micro-ii/05b30bb94b2a178784653c46b061aba6a240c2a095f9ccb8caa3b6aa120003a4-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2rigattachment_012",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/vssr0utjs7qol4uka4naf/Micro2rigattachment_012.jpg?rlkey=8gmv7lhc903i0cqpgild9tpad&dl=0",
-          "thumb": "assets/synced/micro-ii/9cb27f986a4d088f91d31d0306b1e5562ea0e566a4330ae3889eacd9c97617f0.jpg",
-          "thumbS": "assets/synced/micro-ii/9cb27f986a4d088f91d31d0306b1e5562ea0e566a4330ae3889eacd9c97617f0-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2rigattachment_013",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/s2ml421agmx9p4g3g8sj3/Micro2rigattachment_013.jpg?rlkey=83ncl2zd478xmaqas2slxyi2k&dl=0",
-          "thumb": "assets/synced/micro-ii/6741e851b7b4f23c1429f3d9ca9a97d42517025a7205e5491272dc85ed736a83.jpg",
-          "thumbS": "assets/synced/micro-ii/6741e851b7b4f23c1429f3d9ca9a97d42517025a7205e5491272dc85ed736a83-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2rigattachment_017",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/r2hzswgi68p4j12xb75dz/Micro2rigattachment_017.png?rlkey=2u41d5qjp0w83kubvgqcv567t&dl=0",
-          "thumb": "assets/synced/micro-ii/739ecc196846808c60eff49a6e3e8f69db43e4afcdb4a0e3320bf13c01fb0209.jpg",
-          "thumbS": "assets/synced/micro-ii/739ecc196846808c60eff49a6e3e8f69db43e4afcdb4a0e3320bf13c01fb0209-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2rigattachment_thumb_016",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/k0kao41othzzey68kiw7k/Micro2rigattachment_thumb_016.jpg?rlkey=oh1brn6eqgrd5s2t47tneobvh&dl=0",
-          "thumb": "assets/synced/micro-ii/2960b012c1e06bb23249aaa68a29f0ef7284606075a3122a4187452106bf318d.jpg",
-          "thumbS": "assets/synced/micro-ii/2960b012c1e06bb23249aaa68a29f0ef7284606075a3122a4187452106bf318d-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2rigattachment_thumb_019",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/49948xxfsv1oebb8r4sj5/Micro2rigattachment_thumb_019.jpg?rlkey=n1dqvdk6t620boy3n4jitqodl&dl=0",
-          "thumb": "assets/synced/micro-ii/588e76e5ea6701f49c560513206c1ac9fefbf8d10b85b498ef24d621b5e6e809.jpg",
-          "thumbS": "assets/synced/micro-ii/588e76e5ea6701f49c560513206c1ac9fefbf8d10b85b498ef24d621b5e6e809-s.jpg",
-          "file": null
-        },
-        {
-          "name": "micro2sidecar_thumb_09",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/ml26xklk9izd752eo7zhg/micro2sidecar_thumb_09.jpg?rlkey=mxnbta2bosceqrcmo35gabvim&dl=0",
-          "thumb": "assets/synced/micro-ii/bedf16733f76e998aa2c5cb361e89838bd7298d9b47aeb1d618ddf81e0cb8def.jpg",
-          "thumbS": "assets/synced/micro-ii/bedf16733f76e998aa2c5cb361e89838bd7298d9b47aeb1d618ddf81e0cb8def-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2sidecar_thumb_010",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/kqxfnlhdq0go07pcg34wb/Micro2sidecar_thumb_010.jpg?rlkey=x294h33w4qlwcnmcedgjmx9ls&dl=0",
-          "thumb": "assets/synced/micro-ii/aaee016d1f447f3a419df3ecaafcff8bb37585af89f8a7668c0e9fe02b819583.jpg",
-          "thumbS": "assets/synced/micro-ii/aaee016d1f447f3a419df3ecaafcff8bb37585af89f8a7668c0e9fe02b819583-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2sidecar_thumb_011",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/b4ic1mf38om0nskcd4mdg/Micro2sidecar_thumb_011.jpg?rlkey=py8ltwag4ba33jelmmo95p11k&dl=0",
-          "thumb": "assets/synced/micro-ii/232175df1cf001f9ef92b91705a5c744a875f3f8613852b8f8a0c46d909b643c.jpg",
-          "thumbS": "assets/synced/micro-ii/232175df1cf001f9ef92b91705a5c744a875f3f8613852b8f8a0c46d909b643c-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2sidecar_thumb_018",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/vj0r1fh2qsb1g3iln58xh/Micro2sidecar_thumb_018.jpg?rlkey=7gnfai6jzj3rb3esdgnz6t26q&dl=0",
-          "thumb": "assets/synced/micro-ii/34a07d4535a6d9510963c1523e7b5cb78af0ee6c17882de2ca660facbbe0f445.jpg",
-          "thumbS": "assets/synced/micro-ii/34a07d4535a6d9510963c1523e7b5cb78af0ee6c17882de2ca660facbbe0f445-s.jpg",
-          "file": null
-        },
-        {
-          "name": "Micro2tank_thumb_015",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/fmj8spfrnkk8zie14qr8u/Micro2tank_thumb_015.jpg?rlkey=xwfwqupix7muwlkhqbwl6wd4i&dl=0",
-          "thumb": "assets/synced/micro-ii/d02e96f441c00cb275b47eccd92f4fbc85c6571de4f9b75c14f98ca378ab517f.jpg",
-          "thumbS": "assets/synced/micro-ii/d02e96f441c00cb275b47eccd92f4fbc85c6571de4f9b75c14f98ca378ab517f-s.jpg",
           "file": null
         }
       ],
@@ -3294,7 +3453,7 @@ window.PORTAL_SYNCED = {
       "In Store Marketing Materials": "https://www.dropbox.com/scl/fo/wpkywovfwqzht61fi3iy7/AD1h_pWNcg3PtII1wxhJnGo?rlkey=x5ilflreeyywtx9y7uh47i95e&dl=1",
       "UGC Videos": "https://www.dropbox.com/scl/fo/urvini9ktpj70lajmdi7m/ADgh9jVSGzmpuaYZHebibj0?rlkey=jgkiorvg1ghy8anucm8dus18r&dl=1"
     },
-    "updated": "2026-11-05"
+    "updated": "2026-11-13"
   },
   "Slim 3-Piece Grinder": {
     "folders": {
@@ -6279,12 +6438,84 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "Dash+ Filter Screens",
+          "name": "Accessories · Dash+ Filter Screens",
           "type": "image",
           "format": "JPG",
           "url": "https://www.dropbox.com/scl/fi/ezayx7stcimehbne7l6e5/Dash-Filter-Screens.jpg?rlkey=z01gkghtl6e09lp5vz0kn2muy&dl=0",
           "thumb": "assets/synced/dash-plus/72cc8099c788ab11f9e61d16e4c1eb6e76135cb2b6623e4370261bd7d8003fe5.jpg",
           "thumbS": "assets/synced/dash-plus/72cc8099c788ab11f9e61d16e4c1eb6e76135cb2b6623e4370261bd7d8003fe5-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_05",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/bm6zsp8tet3kq4jnlqrey/dash-_vape_thumb_05.png?rlkey=4cqrfkksg5eeo1y10i50wzma8&dl=0",
+          "thumb": "assets/synced/dash-plus/3dffe538623f41689af678a97855f796ec7722a0e5b0e32af4a6aa174a43b2c2.jpg",
+          "thumbS": "assets/synced/dash-plus/3dffe538623f41689af678a97855f796ec7722a0e5b0e32af4a6aa174a43b2c2-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/is1tw9satjpoirq8nn7cf/dash-_vape_thumb_05.jpg?rlkey=gmhjrdbjbfx9sm7mc8zz6a3rv&dl=0",
+          "thumb": "assets/synced/dash-plus/99579c2bfb21d30e9f27299e621d81cf604aa023ad4072ad34d6d35ab435d668.jpg",
+          "thumbS": "assets/synced/dash-plus/99579c2bfb21d30e9f27299e621d81cf604aa023ad4072ad34d6d35ab435d668-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/imkcv68la1gi0ig2ri782/dash-_vape_thumb_06.jpg?rlkey=70670nq9fvyrzbv0atjim74rm&dl=0",
+          "thumb": "assets/synced/dash-plus/d768f1a8ed29b8bbc4171e02190d60901b4945269cc8180fa2a7855203613116.jpg",
+          "thumbS": "assets/synced/dash-plus/d768f1a8ed29b8bbc4171e02190d60901b4945269cc8180fa2a7855203613116-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_06",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/43c319sk1zz5ublr4b28w/dash-_vape_thumb_06.png?rlkey=bxpmysgr30vwtf6gd6axqnpto&dl=0",
+          "thumb": "assets/synced/dash-plus/35ba370d56d2ab81de8529d9e5a9d5a37c9ab53306a88649ed0bb65e947b75b8.jpg",
+          "thumbS": "assets/synced/dash-plus/35ba370d56d2ab81de8529d9e5a9d5a37c9ab53306a88649ed0bb65e947b75b8-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_07",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/8pc7rhpuprimslcoft2dt/dash-_vape_thumb_07.png?rlkey=cs0x9ceqix1uplj4hyq50x2m0&dl=0",
+          "thumb": "assets/synced/dash-plus/708a57fa95d7e954cbe40c007e49653ff4e15f369c9df9283315e4936d2ad949.jpg",
+          "thumbS": "assets/synced/dash-plus/708a57fa95d7e954cbe40c007e49653ff4e15f369c9df9283315e4936d2ad949-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/1dfgtu9t6m26vew1830dd/dash-_vape_thumb_07.jpg?rlkey=rig2aj4tw218crpui5uv8i9mi&dl=0",
+          "thumb": "assets/synced/dash-plus/3c00666d9be86fcaced3e074638c288060dc180de7397b04abe6fc6f76e30dc6.jpg",
+          "thumbS": "assets/synced/dash-plus/3c00666d9be86fcaced3e074638c288060dc180de7397b04abe6fc6f76e30dc6-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_09",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/8xk9szj1ekp5km1iuxoxh/dash-_vape_thumb_09.jpg?rlkey=xp14uh8zcrht8a3321y9kwc34&dl=0",
+          "thumb": "assets/synced/dash-plus/6b8585d95279eacbe5b8c23b4c4c257bcb2d3c522e01f9af0a2be6909ef0f681.jpg",
+          "thumbS": "assets/synced/dash-plus/6b8585d95279eacbe5b8c23b4c4c257bcb2d3c522e01f9af0a2be6909ef0f681-s.jpg",
+          "file": null
+        },
+        {
+          "name": "Accessories · dash+_vape_thumb_09",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/bjoxqhjatsvhnwto9nrts/dash-_vape_thumb_09.png?rlkey=wmfd4dzqsba1ma3k23dx03dur&dl=0",
+          "thumb": "assets/synced/dash-plus/5165b19f574b883e82eda57be322cfff03747621e2d3dae021ff6c6ca79b37ce.jpg",
+          "thumbS": "assets/synced/dash-plus/5165b19f574b883e82eda57be322cfff03747621e2d3dae021ff6c6ca79b37ce-s.jpg",
           "file": null
         },
         {
@@ -6351,60 +6582,6 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "dash+_vape_thumb_05",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/is1tw9satjpoirq8nn7cf/dash-_vape_thumb_05.jpg?rlkey=gmhjrdbjbfx9sm7mc8zz6a3rv&dl=0",
-          "thumb": "assets/synced/dash-plus/99579c2bfb21d30e9f27299e621d81cf604aa023ad4072ad34d6d35ab435d668.jpg",
-          "thumbS": "assets/synced/dash-plus/99579c2bfb21d30e9f27299e621d81cf604aa023ad4072ad34d6d35ab435d668-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash+_vape_thumb_05",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/bm6zsp8tet3kq4jnlqrey/dash-_vape_thumb_05.png?rlkey=4cqrfkksg5eeo1y10i50wzma8&dl=0",
-          "thumb": "assets/synced/dash-plus/3dffe538623f41689af678a97855f796ec7722a0e5b0e32af4a6aa174a43b2c2.jpg",
-          "thumbS": "assets/synced/dash-plus/3dffe538623f41689af678a97855f796ec7722a0e5b0e32af4a6aa174a43b2c2-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash+_vape_thumb_06",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/imkcv68la1gi0ig2ri782/dash-_vape_thumb_06.jpg?rlkey=70670nq9fvyrzbv0atjim74rm&dl=0",
-          "thumb": "assets/synced/dash-plus/d768f1a8ed29b8bbc4171e02190d60901b4945269cc8180fa2a7855203613116.jpg",
-          "thumbS": "assets/synced/dash-plus/d768f1a8ed29b8bbc4171e02190d60901b4945269cc8180fa2a7855203613116-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash+_vape_thumb_06",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/43c319sk1zz5ublr4b28w/dash-_vape_thumb_06.png?rlkey=bxpmysgr30vwtf6gd6axqnpto&dl=0",
-          "thumb": "assets/synced/dash-plus/35ba370d56d2ab81de8529d9e5a9d5a37c9ab53306a88649ed0bb65e947b75b8.jpg",
-          "thumbS": "assets/synced/dash-plus/35ba370d56d2ab81de8529d9e5a9d5a37c9ab53306a88649ed0bb65e947b75b8-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash+_vape_thumb_07",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/1dfgtu9t6m26vew1830dd/dash-_vape_thumb_07.jpg?rlkey=rig2aj4tw218crpui5uv8i9mi&dl=0",
-          "thumb": "assets/synced/dash-plus/3c00666d9be86fcaced3e074638c288060dc180de7397b04abe6fc6f76e30dc6.jpg",
-          "thumbS": "assets/synced/dash-plus/3c00666d9be86fcaced3e074638c288060dc180de7397b04abe6fc6f76e30dc6-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash+_vape_thumb_07",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/8pc7rhpuprimslcoft2dt/dash-_vape_thumb_07.png?rlkey=cs0x9ceqix1uplj4hyq50x2m0&dl=0",
-          "thumb": "assets/synced/dash-plus/708a57fa95d7e954cbe40c007e49653ff4e15f369c9df9283315e4936d2ad949.jpg",
-          "thumbS": "assets/synced/dash-plus/708a57fa95d7e954cbe40c007e49653ff4e15f369c9df9283315e4936d2ad949-s.jpg",
-          "file": null
-        },
-        {
           "name": "dash+_vape_thumb_08",
           "type": "image",
           "format": "JPG",
@@ -6420,24 +6597,6 @@ window.PORTAL_SYNCED = {
           "url": "https://www.dropbox.com/scl/fi/j5xt3f7ihjdkexczl79yc/dash-_vape_thumb_08.png?rlkey=2a0kk2ypnsrjjh8zsxdrl593f&dl=0",
           "thumb": "assets/synced/dash-plus/6743d30cc6b543bd2b0e37255049d0f7d5067a2a6f76dda6b10d5e03d762213f.jpg",
           "thumbS": "assets/synced/dash-plus/6743d30cc6b543bd2b0e37255049d0f7d5067a2a6f76dda6b10d5e03d762213f-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash+_vape_thumb_09",
-          "type": "image",
-          "format": "JPG",
-          "url": "https://www.dropbox.com/scl/fi/8xk9szj1ekp5km1iuxoxh/dash-_vape_thumb_09.jpg?rlkey=xp14uh8zcrht8a3321y9kwc34&dl=0",
-          "thumb": "assets/synced/dash-plus/6b8585d95279eacbe5b8c23b4c4c257bcb2d3c522e01f9af0a2be6909ef0f681.jpg",
-          "thumbS": "assets/synced/dash-plus/6b8585d95279eacbe5b8c23b4c4c257bcb2d3c522e01f9af0a2be6909ef0f681-s.jpg",
-          "file": null
-        },
-        {
-          "name": "dash+_vape_thumb_09",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/bjoxqhjatsvhnwto9nrts/dash-_vape_thumb_09.png?rlkey=wmfd4dzqsba1ma3k23dx03dur&dl=0",
-          "thumb": "assets/synced/dash-plus/5165b19f574b883e82eda57be322cfff03747621e2d3dae021ff6c6ca79b37ce.jpg",
-          "thumbS": "assets/synced/dash-plus/5165b19f574b883e82eda57be322cfff03747621e2d3dae021ff6c6ca79b37ce-s.jpg",
           "file": null
         },
         {
@@ -7239,6 +7398,89 @@ window.PORTAL_SYNCED = {
           "thumbS": "assets/synced/dash-plus/f602fd8de8589a7bcfaa5095deaa6f9527206262fe59a783c9c0b733703c179a-s.jpg",
           "file": null
         }
+      ],
+      "Accessories": [
+        {
+          "name": "Dash+ Filter Screens",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/ezayx7stcimehbne7l6e5/Dash-Filter-Screens.jpg?rlkey=z01gkghtl6e09lp5vz0kn2muy&dl=0",
+          "thumb": "assets/synced/dash-plus/72cc8099c788ab11f9e61d16e4c1eb6e76135cb2b6623e4370261bd7d8003fe5.jpg",
+          "thumbS": "assets/synced/dash-plus/72cc8099c788ab11f9e61d16e4c1eb6e76135cb2b6623e4370261bd7d8003fe5-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_05",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/bm6zsp8tet3kq4jnlqrey/dash-_vape_thumb_05.png?rlkey=4cqrfkksg5eeo1y10i50wzma8&dl=0",
+          "thumb": "assets/synced/dash-plus/3dffe538623f41689af678a97855f796ec7722a0e5b0e32af4a6aa174a43b2c2.jpg",
+          "thumbS": "assets/synced/dash-plus/3dffe538623f41689af678a97855f796ec7722a0e5b0e32af4a6aa174a43b2c2-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_05",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/is1tw9satjpoirq8nn7cf/dash-_vape_thumb_05.jpg?rlkey=gmhjrdbjbfx9sm7mc8zz6a3rv&dl=0",
+          "thumb": "assets/synced/dash-plus/99579c2bfb21d30e9f27299e621d81cf604aa023ad4072ad34d6d35ab435d668.jpg",
+          "thumbS": "assets/synced/dash-plus/99579c2bfb21d30e9f27299e621d81cf604aa023ad4072ad34d6d35ab435d668-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_06",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/imkcv68la1gi0ig2ri782/dash-_vape_thumb_06.jpg?rlkey=70670nq9fvyrzbv0atjim74rm&dl=0",
+          "thumb": "assets/synced/dash-plus/d768f1a8ed29b8bbc4171e02190d60901b4945269cc8180fa2a7855203613116.jpg",
+          "thumbS": "assets/synced/dash-plus/d768f1a8ed29b8bbc4171e02190d60901b4945269cc8180fa2a7855203613116-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_06",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/43c319sk1zz5ublr4b28w/dash-_vape_thumb_06.png?rlkey=bxpmysgr30vwtf6gd6axqnpto&dl=0",
+          "thumb": "assets/synced/dash-plus/35ba370d56d2ab81de8529d9e5a9d5a37c9ab53306a88649ed0bb65e947b75b8.jpg",
+          "thumbS": "assets/synced/dash-plus/35ba370d56d2ab81de8529d9e5a9d5a37c9ab53306a88649ed0bb65e947b75b8-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_07",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/8pc7rhpuprimslcoft2dt/dash-_vape_thumb_07.png?rlkey=cs0x9ceqix1uplj4hyq50x2m0&dl=0",
+          "thumb": "assets/synced/dash-plus/708a57fa95d7e954cbe40c007e49653ff4e15f369c9df9283315e4936d2ad949.jpg",
+          "thumbS": "assets/synced/dash-plus/708a57fa95d7e954cbe40c007e49653ff4e15f369c9df9283315e4936d2ad949-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_07",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/1dfgtu9t6m26vew1830dd/dash-_vape_thumb_07.jpg?rlkey=rig2aj4tw218crpui5uv8i9mi&dl=0",
+          "thumb": "assets/synced/dash-plus/3c00666d9be86fcaced3e074638c288060dc180de7397b04abe6fc6f76e30dc6.jpg",
+          "thumbS": "assets/synced/dash-plus/3c00666d9be86fcaced3e074638c288060dc180de7397b04abe6fc6f76e30dc6-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_09",
+          "type": "image",
+          "format": "JPG",
+          "url": "https://www.dropbox.com/scl/fi/8xk9szj1ekp5km1iuxoxh/dash-_vape_thumb_09.jpg?rlkey=xp14uh8zcrht8a3321y9kwc34&dl=0",
+          "thumb": "assets/synced/dash-plus/6b8585d95279eacbe5b8c23b4c4c257bcb2d3c522e01f9af0a2be6909ef0f681.jpg",
+          "thumbS": "assets/synced/dash-plus/6b8585d95279eacbe5b8c23b4c4c257bcb2d3c522e01f9af0a2be6909ef0f681-s.jpg",
+          "file": null
+        },
+        {
+          "name": "dash+_vape_thumb_09",
+          "type": "image",
+          "format": "PNG",
+          "url": "https://www.dropbox.com/scl/fi/bjoxqhjatsvhnwto9nrts/dash-_vape_thumb_09.png?rlkey=wmfd4dzqsba1ma3k23dx03dur&dl=0",
+          "thumb": "assets/synced/dash-plus/5165b19f574b883e82eda57be322cfff03747621e2d3dae021ff6c6ca79b37ce.jpg",
+          "thumbS": "assets/synced/dash-plus/5165b19f574b883e82eda57be322cfff03747621e2d3dae021ff6c6ca79b37ce-s.jpg",
+          "file": null
+        }
       ]
     },
     "dropbox": "https://www.dropbox.com/scl/fo/5wps4y20eqmpbzj0j4ijq/h?rlkey=5bna5as30dz79lmqumcml47x7&st=xt8upom3&dl=1",
@@ -7251,9 +7493,10 @@ window.PORTAL_SYNCED = {
       "Packaging": "https://www.dropbox.com/scl/fo/e1ci8uad1eqkrtzlz24ib/AFfmiwFlTHe6KMykuwC2IbM?rlkey=ckhxvz6yp5vw5p5g05q1jeg09&dl=1",
       "Documents": "https://www.dropbox.com/scl/fo/e8f1pwhsmb4kglz4ikie3/ACinlb4iLIQ2cVHKqofKuZw?rlkey=g7ke7xpuzz3apbgdkfzts4xnw&dl=1",
       "In Store Marketing Materials": "https://www.dropbox.com/scl/fo/p4ipqa1un5pexeb80tbdk/AOJcGN9Du8Sw_fK3ODVMYX8?rlkey=bey7o5p4faalwnfh2z3k1l4ki&dl=1",
-      "UGC Videos": "https://www.dropbox.com/scl/fo/6817exaevh7jdaklk25h9/APi3P67LqFUomPZKCTUHs-8?rlkey=yrlunr09bsk7qi35y03dssa3f&dl=1"
+      "UGC Videos": "https://www.dropbox.com/scl/fo/6817exaevh7jdaklk25h9/APi3P67LqFUomPZKCTUHs-8?rlkey=yrlunr09bsk7qi35y03dssa3f&dl=1",
+      "Accessories": "https://www.dropbox.com/scl/fo/qgh6d87l6rg1i0vgoqz4r/AECrm_6nlSUs3eIplHJnWIo?rlkey=ld27a5clcetw9t5lr34ijb9dv&dl=1"
     },
-    "updated": "2026-10-01"
+    "updated": "2026-11-13"
   },
   "Hydout": {
     "folders": {
