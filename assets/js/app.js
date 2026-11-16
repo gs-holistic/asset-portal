@@ -26,7 +26,7 @@
   var LANGS = { en: "English", es: "Español", de: "Deutsch", it: "Italiano", fr: "Français", pt: "Português (Brasil)",
                 sv: "Svenska", pl: "Polski", da: "Dansk" };
   function isLang(l) { return Object.prototype.hasOwnProperty.call(LANGS, l); }
-  var LANG_VER = "20261113a";   // bump with the other asset tokens
+  var LANG_VER = "20261116a";   // bump with the other asset tokens
   // Load a language pack once. English is a no-op (it IS the source).
   var _langLoading = {};
   function loadLangPack(l, cb) {
@@ -137,6 +137,88 @@
     return (cat && p && p.ui && p.ui[s + "|" + cat]) || tr(s);
   }
   function plural(n, one, many) { return n === 1 ? tr(one) : trn(many, n); }
+  // ---- pricing region (MSRP shown in US $, CA $ or EU €) --------------------
+  // Nobody should have to pick: the region comes from the computer's own time
+  // zone (America/Toronto → Canada, any Europe/* zone → Europe, else US), with
+  // the browser's language region (en-CA, fr-CA, de-AT…) as a tie-breaker when
+  // the zone says nothing. It all runs in the browser — no location prompt, no
+  // IP-lookup service, and a VPN or office network routed abroad doesn't fool
+  // it. The small US · CA · EU switch is only for the odd case (a US rep quoting
+  // a Canadian store); a manual pick is remembered and beats detection.
+  var REGIONS = {
+    US: { cur: "USD", sym: "$", name: "United States" },
+    CA: { cur: "CAD", sym: "$", name: "Canada" },
+    EU: { cur: "EUR", sym: "€", name: "Europe" },
+  };
+  var REGION_ORDER = ["US", "CA", "EU"];
+  var CA_TZ = /^(Canada\/|America\/(Toronto|Montreal|Vancouver|Edmonton|Winnipeg|Regina|Swift_Current|Halifax|Glace_Bay|Moncton|Goose_Bay|St_Johns|Whitehorse|Dawson|Dawson_Creek|Fort_Nelson|Creston|Yellowknife|Inuvik|Iqaluit|Pangnirtung|Rankin_Inlet|Resolute|Cambridge_Bay|Atikokan|Coral_Harbour|Rainy_River|Thunder_Bay|Nipigon|Blanc-Sablon)$)/;
+  var EU_TZ = /^(Europe\/|Atlantic\/(Canary|Madeira|Azores|Faroe|Faeroe|Reykjavik)$|Arctic\/Longyearbyen$)/;
+  var EU_LANG = /-(AT|BE|BG|CH|CY|CZ|DE|DK|EE|ES|FI|FR|GB|GR|HR|HU|IE|IS|IT|LI|LT|LU|LV|MT|NL|NO|PL|PT|RO|SE|SI|SK)$/i;
+  function isRegion(r) { return own(REGIONS, r); }
+  function detectRegion() {
+    var tz = "";
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ""; } catch (e) {}
+    if (CA_TZ.test(tz)) return "CA";
+    if (EU_TZ.test(tz)) return "EU";
+    // An American zone outside Canada is decisive (US). Otherwise (UTC, Asia,
+    // unknown) let the browser's language region speak.
+    if (!/^America\//.test(tz)) {
+      var langs = (navigator.languages && navigator.languages.length) ? navigator.languages : [navigator.language || ""];
+      for (var i = 0; i < langs.length; i++) {
+        if (/-CA$/i.test(langs[i])) return "CA";
+        if (EU_LANG.test(langs[i])) return "EU";
+      }
+    }
+    return "US";
+  }
+  // → { region, auto }. A ?region= link (us|ca|eu) wins and sticks, like ?lang=.
+  function readRegion() {
+    try {
+      var q = ((location.search.match(/[?&]region=([a-z]{2})\b/i) || [])[1] || "").toUpperCase();
+      if (isRegion(q)) { try { localStorage.setItem("portal_region", q); } catch (e2) {} return { region: q, auto: false }; }
+      var s = localStorage.getItem("portal_region");
+      if (isRegion(s)) return { region: s, auto: false };
+    } catch (e) {}
+    return { region: detectRegion(), auto: true };
+  }
+  function fmtMoney(n, r) {
+    var R = REGIONS[r];
+    // Formatted for the portal's language: $49.95 / 49,95 € / 69,95 $. The
+    // currency is already named in the label (MSRP (CAD)), so the narrow "$".
+    try {
+      return new Intl.NumberFormat(locale(), { style: "currency", currency: R.cur, currencyDisplay: "narrowSymbol" }).format(n);
+    } catch (e) { return R.sym + Number(n).toFixed(2); }
+  }
+  // The product's MSRP in the current region, or null when that region's price
+  // list doesn't carry it. Products with no regional table fall back to the
+  // hand-entered USD figure — in the US only.
+  function msrpFor(info, r) {
+    r = r || state.region;
+    if (info.msrpRegion) return info.msrpRegion[r] != null ? fmtMoney(info.msrpRegion[r], r) : null;
+    return r === "US" ? (info.msrp || null) : null;
+  }
+  function regionSwitchHTML() {
+    return '<div class="regionseg" role="group" aria-label="' + escapeHTML(tr("Pricing region")) + '">' +
+      REGION_ORDER.map(function (r) {
+        var on = r === state.region;
+        return '<button type="button" class="regionseg-b' + (on ? " on" : "") + '" data-region="' + r +
+          '" aria-pressed="' + on + '" title="' + escapeHTML(tr(REGIONS[r].name)) + '">' + r + "</button>";
+      }).join("") +
+    "</div>";
+  }
+  function setRegion(r) {
+    if (!isRegion(r)) return;
+    try { localStorage.setItem("portal_region", r); } catch (e) {}
+    var same = r === state.region;
+    state.region = r; state.regionAuto = false;
+    if (same) { route(); return; }
+    var dv = $("#detail"), y = window.pageYOffset;
+    keepDetail = (detailState && dv && dv.style.display !== "none") ? detailState() : null;
+    route();
+    if (y) window.scrollTo(0, y);
+    var b = $('.regionseg-b[data-region="' + r + '"]'); if (b) b.focus({ preventScroll: true });
+  }
+
   // Localized product prose (description / highlights / warranty).
   function infoOf(p) {
     var en = p.info || {};
@@ -491,7 +573,10 @@
     fileFacet: "",     // transient: active file-results facet (Photos, Videos, …)
     sort: "featured",  // featured (curated order) | az
     layout: "grid",    // grid | list (applies to the All-products grid)
+    region: "US",      // US | CA | EU — MSRP pricing region (set just below)
+    regionAuto: true,  // true = detected from the computer's location, not picked
   };
+  (function () { var rr = readRegion(); state.region = rr.region; state.regionAuto = rr.auto; })();
 
   function pid(p) { return p.brand + "::" + p.name; }
   function fileKey(folder, file) { return folder + "::" + file.name + "." + (file.format || ""); }
@@ -2632,6 +2717,7 @@
         highlightsHTML(p) +
         fullDescHTML(p) +
         whatsInBoxHTML(p) +
+        partsHTML(p) +
         // FAQs are built and ready (28 of them on the Micro II) but pulled from
         // the page at the owner's request, 2026-08-26. The renderer and the data
         // both stay put — restore by uncommenting this one line.
@@ -2995,13 +3081,36 @@
       (missing ? '<p class="pkg-note">' + icon("info") + " " + tr("Fields shown as <strong>—</strong> are still to be confirmed.") + "</p>" : "");
   }
 
+  // Accessories & replacement parts sold on their own, MSRP in the current region.
+  function partsHTML(p) {
+    var parts = (p.info && p.info.parts) || [];
+    if (!parts.length) return "";
+    var R = REGIONS[state.region];
+    return '<div class="section-head"><h2>' + tr("Accessories & Replacement Parts") + '</h2></div>' +
+      '<div class="parts-table" role="table" aria-label="' + escapeHTML(tr("Accessories & Replacement Parts")) + '">' +
+        '<div class="parts-row parts-head" role="row"><span role="columnheader">' + tr("Part") + '</span><span role="columnheader">' + tr("SKU") + '</span><span role="columnheader">' + tr("MSRP (" + R.cur + ")") + "</span></div>" +
+        parts.map(function (x) {
+          var v = x.msrp && x.msrp[state.region] != null ? fmtMoney(x.msrp[state.region], state.region) : "—";
+          return '<div class="parts-row" role="row"><span role="cell" class="parts-n">' + escapeHTML(tr(x.name)) + '</span><span role="cell" class="parts-sku">' + escapeHTML(x.sku) + '</span><span role="cell" class="parts-p">' + v + "</span></div>";
+        }).join("") +
+      "</div>" +
+      (parts.some(function (x) { return !x.msrp || x.msrp[state.region] == null; })
+        ? '<p class="pkg-note">' + icon("info") + " " + tr("— = not on the {region} price list.").replace("{region}", tr(R.name)) + "</p>" : "");
+  }
   // MSRP / warranty facts + FAQ/site CTAs (sits in the hero info column).
   function overviewFactsHTML(p) {
     var info = infoOf(p);
     var faq = p.isLogo ? null : (info.faqUrl || BRANDS[p.brand].faqUrl);
     var manual = helpPageUrl(p) || info.manual;
     var factItems =
-      (info.msrp ? '<div class="ov-fact">' + icon("tag") + '<div class="ov-fact-t"><div class="ov-fact-l">' + tr("MSRP (USD)") + '</div><div class="ov-fact-v">' + info.msrp + "</div></div></div>" : "") +
+      ((info.msrp || info.msrpRegion) ? (function () {
+        var R = REGIONS[state.region], price = msrpFor(info);
+        return '<div class="ov-fact ov-msrp">' + icon("tag") + '<div class="ov-fact-t"><div class="ov-fact-l">' + tr("MSRP (" + R.cur + ")") + '</div>' +
+          '<div class="ov-fact-v">' + (price || '<span class="ov-na">' + tr("Not on the {region} price list").replace("{region}", tr(R.name)) + "</span>") + "</div>" +
+          '<div class="ov-region">' + regionSwitchHTML() +
+            (state.regionAuto ? '<span class="ov-region-note">' + tr("Set by your location") + "</span>" : "") +
+          "</div></div></div>";
+      })() : "") +
       (info.warranty ? '<div class="ov-fact">' + icon("shield") + '<div class="ov-fact-t"><div class="ov-fact-l">' + tr("Warranty") + '</div><div class="ov-fact-v">' +
         // "…see policy" names a page — link it.
         (BRANDS[p.brand].warrantyUrl ? '<a class="ov-fact-link" href="' + BRANDS[p.brand].warrantyUrl + '" target="_blank" rel="noopener noreferrer">' + info.warranty + "</a>" : info.warranty) +
@@ -3842,6 +3951,11 @@
       // language blurs the menu with no relatedTarget — closing then hid the item before the
       // click landed, and the selector did nothing. Ignore focus loss mid-press; clicks
       // outside are still closed by the document click handler above.
+      // Pricing-region switch (rendered inside product pages, so delegated).
+      document.addEventListener("click", function (e) {
+        var b = e.target.closest && e.target.closest(".regionseg-b");
+        if (b) setRegion(b.getAttribute("data-region"));
+      });
       var ls = $("#lang-select"), langPress = false;
       if (ls) {
         ls.addEventListener("pointerdown", function () { langPress = true; });

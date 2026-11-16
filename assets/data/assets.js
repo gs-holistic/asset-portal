@@ -761,6 +761,50 @@ var PRODUCT_MSRP = {
   "Melt Hot Knife": "$24.95",
 };
 
+/* MSRP by pricing region (US $, CA $, EU €) — the region toggle on each product
+   page picks one. From the Hub price lists (GP US WS / GP CA WS / GP EU WS),
+   pulled 2026-11-16. The lists price devices as 10- or 20-pack POPs; these are
+   the per-unit figures (POP MSRP ÷ pack count). A region missing here isn't on
+   that region's list, and the page says so instead of guessing. */
+var REGION_MSRP = {
+  "Dash II":                       { US: 49.95, CA: 69.95, EU: 49.95 },
+  "Dash II Retro Collection":      { US: 49.95, CA: 69.95, EU: 49.95 },
+  "Dash+":                         { US: 99.95, CA: 139.95, EU: 99.95 },
+  "Micro II":                      { US: 49.95, CA: 69.95, EU: 49.95 },
+  "Slim 3-Piece Grinder":          { US: 19.95, CA: 29.95, EU: 19.95 },
+  "Melt Hot Knife":                { US: 24.95, CA: 34.95, EU: 24.95 },
+  "Hydout":                        { US: 24.95, CA: 34.95, EU: 24.95 },
+  "Hydout Retro Collection":       { US: 24.95, CA: 34.95, EU: 24.95 },
+  "510 Original":                  { US: 12.95, CA: 17.95, EU: 12.95 },
+  "510 Original Retro Collection": { US: 12.95, CA: 17.95, EU: 12.95 },
+  "Connect":                       { US: 74.95, CA: 99.95, EU: 74.95 },
+  "Roam":                          { US: 49.95, EU: 49.95 },
+  "Hyer":                          { US: 149.95 },
+};
+/* Accessories & replacement parts sold on their own, per product, with MSRP by
+   region (same Hub lists). Shown as a table under the product's overview. */
+var PRODUCT_PARTS = {
+  "Dash II": [
+    { name: "Mouthpiece Assembly", sku: "GPD-002-APZZ", msrp: { US: 9.95, CA: 12.95, EU: 9.95 } },
+  ],
+  "Dash II Retro Collection": [
+    { name: "Mouthpiece Assembly — Neon Green", sku: "GPD-002-APGR", msrp: { US: 9.95, CA: 12.95, EU: 9.95 } },
+    { name: "Mouthpiece Assembly — Purple", sku: "GPD-002-APPU", msrp: { US: 9.95, CA: 12.95, EU: 9.95 } },
+  ],
+  "Dash+": [
+    { name: "Mouthpiece Assembly", sku: "GPD-002-AMZZ", msrp: { US: 14.95, CA: 19.95, EU: 14.95 } },
+    { name: "Mouthpiece Insert", sku: "GPD-003-AMZZ", msrp: { US: 9.95, CA: 13.95, EU: 9.95 } },
+    { name: "Mouthpiece Filter Screens, 5-Pack", sku: "GPD-004-AMZZ", msrp: { US: 4.95, EU: 4.95 } },
+  ],
+  "Micro II": [
+    { name: "Mouthpiece", sku: "GPM-002-APZZ", msrp: { US: 7.95, CA: 10.95, EU: 7.95 } },
+    { name: "Ceramic Tank", sku: "GPM-003-APZZ", msrp: { US: 14.95, CA: 20.95, EU: 14.95 } },
+    { name: "Battery", sku: "GPM-004-APZZ", msrp: { US: 29.95, CA: 41.95, EU: 29.95 } },
+    { name: "Rig Adapter", sku: "GPM-005-APZZ", msrp: { US: 19.95, CA: 27.95, EU: 19.95 } },
+    { name: "Sidecar Showerhead", sku: "GPM-006-APZZ", msrp: { US: 34.95, CA: 48.95, EU: 34.95 } },
+  ],
+};
+
 /* Full official product descriptions (scraped from the Shopify product
    pages — VERIFY/replace with official copy). Shown in the product hub
    under "Official product description" with a copy-to-clipboard button. */
@@ -947,6 +991,8 @@ var PRODUCT_BOX = {
 window.PORTAL_PRODUCTS.forEach(function (p) {
   p.info = PRODUCT_INFO[p.name] || {};
   if (PRODUCT_MSRP[p.name] && !p.info.msrp) p.info.msrp = PRODUCT_MSRP[p.name];
+  if (REGION_MSRP[p.name]) p.info.msrpRegion = REGION_MSRP[p.name];
+  if (PRODUCT_PARTS[p.name]) p.info.parts = PRODUCT_PARTS[p.name];
   if (PRODUCT_DESCRIPTION[p.name] && !p.info.fullDescription) p.info.fullDescription = PRODUCT_DESCRIPTION[p.name];
   var sk = PRODUCT_SKU[p.name];
   if (sk) Object.keys(sk).forEach(function (k) { if (p.info[k] === undefined) p.info[k] = sk[k]; });
