@@ -50,7 +50,11 @@ const PRODUCTS = [
   { name: "510 Original Retro Collection", slug: "510-original-retro", link: "https://www.dropbox.com/scl/fo/shfo4arqn8cb0hgs7wbi5/AH9A3v7LBdLMtbzkJRi15zE?rlkey=4hyypo3a92gplotrlfp55rlxk&st=te4ygopg&dl=0" },
   { name: "Dash+", slug: "dash-plus", link: "https://www.dropbox.com/scl/fo/5wps4y20eqmpbzj0j4ijq/h?rlkey=5bna5as30dz79lmqumcml47x7&st=xt8upom3&dl=0",
     extra: [{ folder: "Accessories", link: "https://www.dropbox.com/scl/fo/qgh6d87l6rg1i0vgoqz4r/AECrm_6nlSUs3eIplHJnWIo?rlkey=ld27a5clcetw9t5lr34ijb9dv&dl=0" }] },
-  { name: "Hydout", slug: "hydout", link: "https://www.dropbox.com/scl/fo/n9ddtzpx0x057qsdmfwoy/AHXmj-4gwaME5kQLZSmcBgw?rlkey=jy88uxm10tctjt6759gw015r4&st=frr8irpc&dl=0" },
+  { name: "Hydout", slug: "hydout", link: "https://www.dropbox.com/scl/fo/n9ddtzpx0x057qsdmfwoy/AHXmj-4gwaME5kQLZSmcBgw?rlkey=jy88uxm10tctjt6759gw015r4&st=frr8irpc&dl=0",
+    // `variants`: another colorway's full product folder on its own link. Each of
+    // its subfolders becomes "<variant> / <folder>" on this product's page (the
+    // portal's color switch shows one colorway or both).
+    variants: [{ name: "Khalifa Kush", link: "https://www.dropbox.com/scl/fo/xjb8alyzdwcwaj5zlg70z/AMilOjftPQdZTSlkVnkalLQ?rlkey=m3w8qfyb6z36nb4un2w88wyo7&dl=0" }] },
   { name: "Hydout Retro Collection", slug: "hydout-retro", link: "https://www.dropbox.com/scl/fo/fnsys0ijwhl2059nu45u5/AEE18ADvSJZ1RYdf0EDDk0Q?rlkey=2cz8o729ku9u1c9unhewv55wr&st=5lrpymts&dl=0" },
   { name: "Melt Hot Knife", slug: "melt", link: "https://www.dropbox.com/scl/fo/qvw93szg11i4ka3d9yuaq/AC8I-n2z09RvRGiA__rNYEs?rlkey=a0yhcy2ok0j1l4dnmk6ktwcoy&st=zx3371he&dl=0" },
   // Additional (legacy) products. `deep` = group by colorway/type and recurse the
@@ -441,6 +445,23 @@ for (const p of PRODUCTS) {
     folderSpecs.push({ name: p.flat || "Files", prefix: "", files: top.filter((e) => e[".tag"] === "file") });
   }
 
+  // Colorway variants: walk the variant's own product folder the same way (one
+  // nested level flattened), each folder named "<variant> / <canonical name>".
+  for (const v of p.variants || []) {
+    const vtop = await listFolder(tok, v.link, "");
+    const vsubs = vtop.filter((e) => e[".tag"] === "folder").map((e) => ({ raw: e.name, disp: FOLDER_ALIAS[e.name] || e.name, id: e.id }));
+    vsubs.sort((a, b) => {
+      var ia = FOLDER_ORDER.indexOf(a.disp), ib = FOLDER_ORDER.indexOf(b.disp);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    });
+    for (const { raw, disp, id } of vsubs) {
+      const files = await collectDeep(tok, v.link, "/" + raw, "");
+      // collectDeep labels nothing at depth 1; keep plain names there like the main walk.
+      files.forEach((f) => { if (f.relPath.split("/").length === 3) delete f.displayName; });
+      folderSpecs.push({ name: v.name + " / " + disp, prefix: "/" + raw, files, id, link: v.link });
+    }
+  }
+
   // Extra folders on their own share link: every file under it (any depth) is
   // one folder on the page; downloads, thumbnails and the folder zip use that link.
   for (const x of p.extra || []) {
@@ -580,7 +601,7 @@ for (const p of PRODUCTS) {
       try { fl = await sharedFileLink(tok, spec.id); } catch { fl = null; }
       if (fl) linkCache[spec.id] = fl;
     }
-    folderLinks[spec.name] = dlLink(fl || p.link);
+    folderLinks[spec.name] = dlLink(fl || spec.link || p.link);
   }
 
   // Prune thumbnails / originals for files that no longer exist.
