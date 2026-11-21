@@ -356,6 +356,11 @@ window.PORTAL_I18N.es = {
     "Purple": "Morado",
     "Neon Green": "Verde neón",
     "POP SKU": "SKU POP",
+    "POP UPC": "UPC POP",
+    "All colors": "Todos los colores",
+    "Colorways": "Colores",
+    "Colorway": "Color",
+    "Black": "Negro",
     "Red": "Rojo",
     "Regional Catalogs": "Catálogos regionales",
     "Retail POP display": "Exhibidor POP para tienda",
@@ -672,7 +677,7 @@ window.PORTAL_I18N.es = {
       }
     },
     "Hydout": {
-      "description": "El G Pen Hydout es una batería para cartuchos 510 compacta y discreta, con cubierta magnética oculta para la boquilla, voltaje ajustable y pantalla LED, para sesiones suaves, personalizables y de bajo perfil.",
+      "description": "El G Pen Hydout es una batería para cartuchos 510 compacta y discreta, con cubierta magnética oculta para la boquilla, voltaje ajustable y pantalla LED, para sesiones suaves, personalizables y de bajo perfil. Ahora en dos colores: el clásico negro y el Khalifa Kush x G Pen Hydout, una colaboración translúcida en negro y amarillo con Wiz Khalifa.",
       "highlights": [
         "Cubierta magnética oculta para la boquilla",
         "5 ajustes de calor (2,4V – 3,8V)",

@@ -358,6 +358,11 @@ window.PORTAL_I18N.da = {
     "Purple": "Lilla",
     "Neon Green": "Neongrøn",
     "POP SKU": "POP-SKU",
+    "POP UPC": "POP-UPC",
+    "All colors": "Alle farver",
+    "Colorways": "Farver",
+    "Colorway": "Farve",
+    "Black": "Sort",
     "Red": "Rød",
     "Regional Catalogs": "Regionale kataloger",
     "Retail POP display": "POP-display til butikken",
@@ -680,7 +685,7 @@ window.PORTAL_I18N.da = {
       }
     },
     "Hydout": {
-      "description": "G Pen Hydout er et kompakt og diskret batteri til 510-patroner med skjult magnetisk mundstykkedæksel, justerbar spænding og LED-display til bløde, tilpassede og diskrete sessioner.",
+      "description": "G Pen Hydout er et kompakt og diskret batteri til 510-patroner med skjult magnetisk mundstykkedæksel, justerbar spænding og LED-display til bløde, tilpassede og diskrete sessioner. Nu i to farver: klassisk sort og Khalifa Kush x G Pen Hydout, et gennemsigtigt samarbejde i sort og gul med Wiz Khalifa.",
       "highlights": [
         "Skjult magnetisk mundstykkedæksel",
         "5 varmeindstillinger (2,4 V – 3,8 V)",

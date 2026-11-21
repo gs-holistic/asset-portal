@@ -364,6 +364,11 @@ window.PORTAL_I18N.pl = {
     "Purple": "Fioletowy",
     "Neon Green": "Neonowy zielony",
     "POP SKU": "SKU POP",
+    "POP UPC": "UPC POP",
+    "All colors": "Wszystkie kolory",
+    "Colorways": "Wersje kolorystyczne",
+    "Colorway": "Wersja kolorystyczna",
+    "Black": "Czarny",
     "Red": "Czerwony",
     "Regional Catalogs": "Katalogi regionalne",
     "Retail POP display": "Ekspozytor POP",
@@ -698,7 +703,7 @@ window.PORTAL_I18N.pl = {
       }
     },
     "Hydout": {
-      "description": "G Pen Hydout to kompaktowa, dyskretna bateria do kartridży 510 z ukrytą magnetyczną osłoną ustnika, regulowanym napięciem i wyświetlaczem LED do płynnych, dopasowanych i dyskretnych sesji.",
+      "description": "G Pen Hydout to kompaktowa, dyskretna bateria do kartridży 510 z ukrytą magnetyczną osłoną ustnika, regulowanym napięciem i wyświetlaczem LED do płynnych, dopasowanych i dyskretnych sesji. Teraz w dwóch wersjach kolorystycznych: klasycznej czarnej i Khalifa Kush x G Pen Hydout, półprzezroczystej czarno-żółtej kolaboracji z Wiz Khalifą.",
       "highlights": [
         "Ukryta magnetyczna osłona ustnika",
         "5 ustawień mocy (2,4 V – 3,8 V)",

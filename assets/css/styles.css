@@ -1240,3 +1240,14 @@ main.body:focus { outline: none; }
   .parts-p { grid-column: 2; grid-row: 1 / span 2; }
   .parts-head span:nth-child(2) { display: none; }
 }
+
+/* ---- Colorway switch (products with colorway folders, e.g. Hydout: Black /
+   Khalifa Kush) — sits under the Photo / Video Assets heading. ---- */
+.cwseg { display: flex; flex-wrap: wrap; gap: 8px; margin: -4px 0 16px; }
+.cwseg-b { font: inherit; font-size: 13px; font-weight: 700; color: var(--ink); background: #fff; border: 1px solid var(--hair);
+  border-radius: 999px; padding: 8px 14px; min-height: 40px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; line-height: 1.2; }
+.cwseg-b:hover { border-color: var(--ink); }
+.cwseg-b.on { background: var(--ink); border-color: var(--ink); color: #fff; }
+.cwseg-b:focus-visible { outline: 2px solid var(--gold-ink); outline-offset: 2px; }
+.cwseg-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--c); flex: 0 0 auto; box-shadow: inset 0 0 0 1px rgba(0,0,0,.15); }
+.cwseg-b.on .cwseg-dot { box-shadow: 0 0 0 1.5px #fff; }

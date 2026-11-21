@@ -185,8 +185,11 @@ window.PORTAL_PRODUCTS = [
   },
   {
     name: "Hydout", brand: "gpen", category: "510 Battery", type: "510 Cartridge Battery",
-    cover: CDN + "Hydout_vape_01.png?v=1762467078",
-    added: "2025-12-10",
+    // Two colorways on one page since 2026-11-20: Black and the Khalifa Kush x
+    // G Pen collab (its Dropbox folder syncs in as "Khalifa Kush / …" folders).
+    // Cover: the two transparent hero renders side by side.
+    cover: "assets/img/hydout-black-khalifa-kush.webp?v=20261120",
+    added: "2025-12-10", newBadge: true,
     oneSheet: "#",
     folders: {},   // real folders + thumbnails come from synced.js (Dropbox sync)
   },
@@ -483,7 +486,7 @@ var PRODUCT_INFO = {
     productUrl: "https://www.gpen.com/products/g-pen-510-original-purple-translucent",
   },
   "Hydout": {
-    description: "The G Pen Hydout is a compact, discreet 510 cartridge battery with a hidden magnetic mouthpiece cover, adjustable voltage, and LED display for smooth, customizable low-key sessions.",
+    description: "The G Pen Hydout is a compact, discreet 510 cartridge battery with a hidden magnetic mouthpiece cover, adjustable voltage, and LED display for smooth, customizable low-key sessions. Now in two colorways: classic Black and the Khalifa Kush x G Pen Hydout, a translucent black and yellow collab with Wiz Khalifa.",
     highlights: ["Hidden magnetic mouthpiece cover", "5 heat settings (2.4V – 3.8V)", "1.8V preheat mode", "400mAh rechargeable battery", "Bright LED display", "USB-C pass-through charging", "Fits 510 carts up to 2g", "Breath activation"],
     warranty: "Limited warranty — see policy",
     manual: "https://cdn.shopify.com/s/files/1/0185/1576/files/20250528_GPen_Hydout_Manual.pdf?v=1749240232",
@@ -929,7 +932,9 @@ var PRODUCT_SKU = {
   "Dash II Retro Collection": { pop: true, fullName: "DASH II VAPORIZER — RETRO COLLECTION", dimensions: "97 × 35 × 21 mm", unitWeight: "59.5 g", innerPack: "10", htsCode: "8543.70.9940" },
   "Dash+":                { sku: "GPD-001-AMZZ", pop: false, fullName: "DASH+ VAPORIZER", upc: "811736027489", dimensions: "135 × 100 × 35 mm", unitWeight: "276 g", innerPack: "N/A", masterCarton: "48", caseWeight: "14.3 kg", caseDimensions: "330 × 320 × 320 mm", htsCode: "8543.70.9940" },
   "Melt Hot Knife":       { sku: "GHK-001-AOZZ", pop: true,  fullName: "MELT", upc: "811736029711", popSku: "GHK-001-AOZZ-Inner Pack", popUpc: "10811736029718", dimensions: "122.5 × 42 × 12 mm", unitWeight: "17 g", innerPack: "20", masterCarton: "720", caseWeight: "14.74 kg", caseDimensions: "513 × 482 × 262 mm", htsCode: "8543.70.9940" },
-  "Hydout":               { sku: "GHO-001-AOZZ", pop: true,  fullName: "HYDOUT", upc: "811736029254", popSku: "GHO-001-AOZZ-Inner Pack", popUpc: "10811736029251", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
+  "Hydout":               { sku: "GHO-001-AOZZ", pop: true,  fullName: "HYDOUT", upc: "811736029254", popSku: "GHO-001-AOZZ-Inner Pack", popUpc: "10811736029251", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940",
+    // Khalifa Kush box + POP renders, named by file in its synced folders.
+    variantPkg: { "Khalifa Kush": { boxFile: "_STZ6328", popFile: "_STZ6320e" } } },
   "510 Original":         { sku: "GSB-001-AOZZ", pop: true,  fullName: "510 ORIGINAL", upc: "811736029742", popSku: "GSB-001-AOZZ-Inner Pack", popUpc: "10811736029749", dimensions: "24 × 21.1 × 56.7 mm", unitWeight: "30 g", innerPack: "20", masterCarton: "400", caseWeight: "13.4 kg", caseDimensions: "510 × 330 × 310 mm", htsCode: "8543.70.9940" },
   "Hydout Retro Collection":       { sku: "GHO-006-AOZZ", pop: true,  fullName: "HYDOUT — RETRO COLLECTION", upc: "00811736029889", popSku: "GHO-006-AOZZ", popUpc: "00811736029889", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
   "510 Original Retro Collection": { sku: "GSB-006-APZZ", pop: true,  fullName: "510 ORIGINAL — RETRO COLLECTION", upc: "00811736021791", popSku: "GSB-006-APZZ", popUpc: "00811736021791", dimensions: "24 × 21.1 × 56.7 mm", unitWeight: "30 g", innerPack: "20", masterCarton: "400", caseWeight: "13.4 kg", caseDimensions: "510 × 330 × 310 mm", htsCode: "8543.70.9940" },
@@ -1063,6 +1068,12 @@ window.PORTAL_PRODUCTS.forEach(function (p) {
    "Collection Colorways" section on those product pages. `hex` drives the fun,
    colour-coded card design. */
 window.PORTAL_COLORWAYS = {
+  // Hydout: Black + the Khalifa Kush x G Pen collab (Hub, 2026-11-20). Each color
+  // ships in its own 10-pack POP display. The first entry is the base color.
+  "Hydout": [
+    { color: "Black",        hex: "#1d1d1f", sku: "GHO-001-AOZZ", upc: "811736029254", popSku: "GHO-001-AOZZ-Inner Pack", popUpc: "10811736029251", name: "G Pen Hydout — Black" },
+    { color: "Khalifa Kush", hex: "#F2CF1D", sku: "GHO-001-APKK", upc: "811736029735", popSku: "GHO-001-APKK-Inner Pack", popUpc: "20811736029739", name: "Khalifa Kush x G Pen Hydout — Black & Yellow" },
+  ],
   // Dash II: each color has its own 10-pack POP display (popSku per card).
   "Dash II Retro Collection": [
     { color: "Neon Green", hex: "#7CDA24", sku: "GPD-001-APGR", upc: "811736020763", popSku: "GPD-001-APGR-Inner Pack", name: "Dash II Retro Collection — Neon Green" },
@@ -1082,6 +1093,13 @@ window.PORTAL_COLORWAYS = {
     { color: "Pink",   hex: "#E8479E", sku: "GSB-004-APZZ", upc: "852570004779", name: "Retro Collection 510 Original — Pink" },
     { color: "Purple", hex: "#8B4AD6", sku: "GSB-005-APZZ", upc: "852570004878", name: "Retro Collection 510 Original — Purple" },
   ],
+};
+
+/* Colorways whose assets live in their own Dropbox folder, synced onto the
+   product page as "<color> / <folder>" (see dropbox-sync.mjs `variants`). The
+   product page gets a color switch; packaging shows one box + POP per color. */
+window.PORTAL_FOLDER_VARIANTS = {
+  "Hydout": ["Khalifa Kush"],
 };
 
 /* Central POP-display library (synced from the "POP Displays" Dropbox folder) →
@@ -1395,7 +1413,9 @@ window.PORTAL_FOLDER_COVERS = {
   "Micro II":             { "User Generated Content": "highwithkay Micro II Sept" },              // "try the gpen micro II with me"
   "Slim 3-Piece Grinder": { "User Generated Content": "zach_tha_ripper Grinder trim" },           // grinder close-up
   "Dash+":                { "User Generated Content": "Bentley Rolling Dash+ Review" },           // creator review, device in hand
-  "Hydout":               { "User Generated Content": "Grand Illumination Hydout lets_rhi.up" },  // Hydout in hand, colorful house
+  "Hydout":               { "User Generated Content": "Grand Illumination Hydout lets_rhi.up",   // Hydout in hand, colorful house
+                            "Khalifa Kush / Product Photos": "KK Hydout_01",                      // KK hero render, not the POP
+                            "Khalifa Kush / Packaging": "_STZ6328" },                             // KK box, front
   "Hydout Retro Collection":       { "User Generated Content": "iproch Purple Hydout June" },              // purple Retro outdoors
   "Melt Hot Knife":       { "User Generated Content": "blazzedange melt jar march" },             // creator holding the Melt
 };

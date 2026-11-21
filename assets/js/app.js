@@ -26,7 +26,7 @@
   var LANGS = { en: "English", es: "Español", de: "Deutsch", it: "Italiano", fr: "Français", pt: "Português (Brasil)",
                 sv: "Svenska", pl: "Polski", da: "Dansk" };
   function isLang(l) { return Object.prototype.hasOwnProperty.call(LANGS, l); }
-  var LANG_VER = "20261116a";   // bump with the other asset tokens
+  var LANG_VER = "20261120a";   // bump with the other asset tokens
   // Load a language pack once. English is a no-op (it IS the source).
   var _langLoading = {};
   function loadLangPack(l, cb) {
@@ -517,6 +517,14 @@
     // Dropbox's own UGC folder ("UGC Videos", "UGC"…) IS the card, Dropbox link
     // and all — spelled out as "User Generated Content".
     Object.keys(p.folders).forEach(function (f) {
+      var vc = variantColor(f);
+      if (vc && /^ugc\b/i.test(variantBase(f))) {
+        var to = vc + " / " + UGC_FOLDER;
+        p.folders[to] = (p.folders[to] || []).concat(p.folders[f]);
+        if (p.folderLinks && p.folderLinks[f] && !p.folderLinks[to]) p.folderLinks[to] = p.folderLinks[f];
+        delete p.folders[f]; if (p.folderLinks) delete p.folderLinks[f];
+        return;
+      }
       if (f === UGC_FOLDER || !/^ugc\b/i.test(f)) return;
       p.folders[UGC_FOLDER] = (p.folders[UGC_FOLDER] || []).concat(p.folders[f]);
       if (p.folderLinks && p.folderLinks[f] && !p.folderLinks[UGC_FOLDER]) p.folderLinks[UGC_FOLDER] = p.folderLinks[f];
@@ -529,7 +537,7 @@
     var have = {}, moved = [], from = {};
     (p.folders[UGC_FOLDER] || []).forEach(function (x) { have[x.name] = 1; });
     Object.keys(p.folders).forEach(function (f) {
-      if (f === UGC_FOLDER) return;
+      if (f === UGC_FOLDER || variantColor(f)) return;
       var keep = [];
       (p.folders[f] || []).forEach(function (x) {
         if (x.type === "video" && /(^|[^a-z])ugc([^a-z]|$)/i.test(x.name || "")) {
@@ -727,7 +735,31 @@
     // English in all five languages.
     "In Store Marketing Materials": "In-Store Marketing Materials",
   };
-  function typeLabel(t) { return t ? tr(own(TYPE_LABELS, t) ? TYPE_LABELS[t] : t) : tr("Assets"); }
+  // Colorway variants synced as "<color> / <folder>" (Hydout: "Khalifa Kush /
+  // Product Photos"). PORTAL_FOLDER_VARIANTS names them per product; every
+  // folder rule below reads the folder's own name with the color stripped.
+  // (Function declarations, built on first use: splitUGC runs at load, above here.)
+  var variantColorsCache;
+  function variantColors() {
+    if (variantColorsCache) return variantColorsCache;
+    variantColorsCache = [];
+    Object.keys(window.PORTAL_FOLDER_VARIANTS || {}).forEach(function (k) {
+      (window.PORTAL_FOLDER_VARIANTS[k] || []).forEach(function (c) { if (variantColorsCache.indexOf(c) === -1) variantColorsCache.push(c); });
+    });
+    return variantColorsCache;
+  }
+  function variantColor(f) {
+    var vc = variantColors(); f = String(f);
+    for (var i = 0; i < vc.length; i++) if (f.indexOf(vc[i] + " / ") === 0) return vc[i];
+    return null;
+  }
+  function variantBase(f) { var c = variantColor(f); return c ? String(f).slice(c.length + 3) : f; }
+  function typeLabel1(t) { return tr(own(TYPE_LABELS, t) ? TYPE_LABELS[t] : t); }
+  function typeLabel(t) {
+    if (!t) return tr("Assets");
+    var c = variantColor(t);
+    return c ? tr(c) + " · " + typeLabel1(variantBase(t)) : typeLabel1(t);
+  }
   // Bind click + keyboard (Enter/Space) so role="button" elements are operable
   // by keyboard, not just mouse.
   function clickKey(el, fn) {
@@ -738,10 +770,10 @@
   }
   // Canonical Digital Assets tab order (matches the Dropbox-sync FOLDER_ORDER).
   var FOLDER_TAB_ORDER = ["Product Photos", "E-Comm Render Photos", "Lifestyle Photos", "Accessories", "Web Banners", "Logos", "Social Videos", "TV Screen Videos", "User Generated Content", "Packaging", "Documents", "Misc"];
-  function folderRank(f) { var i = FOLDER_TAB_ORDER.indexOf(f); return i < 0 ? 99 : i; }
+  function folderRank(f) { var i = FOLDER_TAB_ORDER.indexOf(variantBase(f)); return i < 0 ? 99 : i; }
   // The Documents folder (manual + regional one-sheets) is its own "Sales assets"
   // section on the product page, not one of the photo/video folder cards.
-  function isSalesFolder(f) { return f === "Documents" || f === "Misc"; }
+  function isSalesFolder(f) { f = variantBase(f); return f === "Documents" || f === "Misc"; }
   // One-sheets come as one PDF per region: "… - CAD", "… - EU", "… - UK", and the
   // US edition with no suffix. Sales Assets shows them as ONE card with a region
   // picker instead of four near-identical filenames.
@@ -779,6 +811,7 @@
     { label: "Other",  order: ["Logos", INSTORE_FOLDER] },
   ];
   function folderGroup(f) {
+    f = variantBase(f);
     for (var i = 0; i < FOLDER_GROUPS.length; i++) if (FOLDER_GROUPS[i].order.indexOf(f) !== -1) return i;
     if (/video|reel|tv screen|user generated/i.test(f)) return 1;
     if (/photo|render|lifestyle|banner|packag|carton/i.test(f)) return 0;
@@ -2430,8 +2463,15 @@
     folderNames.sort(function (a, b) {
       if (a === INSTORE_FOLDER) return 1;
       if (b === INSTORE_FOLDER) return -1;
-      return (folderRank(a) - folderRank(b)) || ((p.folders[b] || []).length - (p.folders[a] || []).length);
+      return (folderRank(a) - folderRank(b)) ||
+        // A colorway's copy of a folder sits right after the base color's.
+        ((variantColor(a) ? 1 : 0) - (variantColor(b) ? 1 : 0)) ||
+        ((p.folders[b] || []).length - (p.folders[a] || []).length);
     });
+    // Colorway switch (Hydout: Black / Khalifa Kush): "all", or one color's folders.
+    var vWays = ((window.PORTAL_FOLDER_VARIANTS || {})[p.name] || []).length ? ((window.PORTAL_COLORWAYS || {})[p.name] || []) : [];
+    var colorSel = vWays.some(function (w) { return w.color === colorPick[p.name]; }) ? colorPick[p.name] : "all";
+    if (colorSel !== "all") folderNames = folderNames.filter(function (f) { return (variantColor(f) || vWays[0].color) === colorSel; });
     // Photo / video folders are cards; the Documents folder is "Sales assets".
     var cardFolders = folderNames.filter(function (f) { return !isSalesFolder(f); });
     var docFolders = folderNames.filter(isSalesFolder);
@@ -2619,7 +2659,7 @@
           (first ? '<img src="' + escapeHTML(first.thumb) + '" alt="" loading="lazy" decoding="async" onerror="window.__thumbRetry(this,\'card\')"/>' : "") +
           '<span class="fcard-fb">' + icon(folderIcon(f)) + "</span>" +
         "</span>" +
-        '<span class="fcard-cap"><span class="fcard-tx"><span class="fcard-name">' + escapeHTML(typeLabel(f)) + '</span><span class="fcard-c">' + countLabel(files.length) + "</span></span>" +
+        '<span class="fcard-cap"><span class="fcard-tx"><span class="fcard-name">' + escapeHTML(colorSel !== "all" ? typeLabel(variantBase(f)) : typeLabel(f)) + '</span><span class="fcard-c">' + countLabel(files.length) + "</span></span>" +
           '<span class="fcard-chev">' + icon("chevronDown") + "</span></span>" +
       "</button>";
     }
@@ -2629,7 +2669,7 @@
         if (!fs.length) return "";
         // User Generated Content always closes the Videos group, after the brand's
         // own videos (legacy colorway folders included).
-        var rank = function (f) { var i = g.order.indexOf(f); return f === UGC_FOLDER ? 999 : i < 0 ? 99 : i; };
+        var rank = function (f) { var b = variantBase(f), i = g.order.indexOf(b); return b === UGC_FOLDER ? 999 : i < 0 ? 99 : i; };
         fs.sort(function (a, b) { return rank(a) - rank(b); });   // stable: ties keep page order
         // A product whose folders all fall in one group (the Logos page) needs no group header.
         var groups = FOLDER_GROUPS.filter(function (gg, gj) { return cardFolders.some(function (x) { return folderGroup(x) === gj; }); }).length;
@@ -2680,6 +2720,15 @@
       syncSelection();
     }
 
+    function colorSwitchHTML() {
+      if (!vWays.length) return "";
+      var opts = [{ color: "all", label: tr("All colors") }].concat(vWays.map(function (w) { return { color: w.color, label: tr(w.color), hex: w.hex }; }));
+      return '<div class="cwseg" role="group" aria-label="' + escapeHTML(tr("Colorway")) + '">' + opts.map(function (o) {
+        var on = o.color === colorSel;
+        return '<button type="button" class="cwseg-b' + (on ? " on" : "") + '" data-color="' + escapeHTML(o.color) + '" aria-pressed="' + on + '">' +
+          (o.hex ? '<span class="cwseg-dot" style="--c:' + o.hex + '"></span>' : "") + escapeHTML(o.label) + "</button>";
+      }).join("") + "</div>";
+    }
     function render() {
       var pvTotal = cardFolders.reduce(function (s, f) { return s + p.folders[f].length; }, 0);
       var docTotal = docFolders.reduce(function (s, f) { return s + p.folders[f].length; }, 0);
@@ -2724,6 +2773,7 @@
         // faqHTML(p) +
         // ---- Photo / video assets: one square card per folder, all collapsed ----
         '<div class="section-head" id="docs-head"><h2>' + tr(p.isLogo ? "Logo files" : "Photo / Video Assets") + '</h2><span class="badge">' + countLabel(pvTotal) + "</span></div>" +
+        colorSwitchHTML() +
         (cardFolders.length ? '<div id="pv-assets"></div>'
           : '<div class="gallery"><div class="gallery-empty">' + icon("photo") + "<p>" + tr("Assets are coming soon — check back shortly.") + "</p></div></div>") +
         // ---- Sales assets: the Documents folder (manual, one-sheets), open ----
@@ -2761,6 +2811,21 @@
       $$(".onesheet", d).forEach(function (card) { wireOneSheet(card, fullName); });
       $$(".sales-folder", d).forEach(wireTools);
       renderCards();
+      // Colorway switch: re-render this page showing one color's folders (or all),
+      // keeping the scroll position, the open folder and the ticked files.
+      $$(".cwseg-b", d).forEach(function (b) {
+        b.addEventListener("click", function () {
+          var c = b.getAttribute("data-color");
+          if (c === colorSel) return;
+          colorPick[p.name] = c;
+          var y = window.pageYOffset;
+          keepDetail = detailState();
+          route();
+          if (y) window.scrollTo(0, y);
+          var nb = $$(".cwseg-b", $("#detail")).filter(function (x) { return x.getAttribute("data-color") === c; })[0];
+          if (nb) nb.focus({ preventScroll: true });
+        });
+      });
       $$("[data-play]", d).forEach(function (el) {
         clickKey(el, function () {
           openVideoModal(el.getAttribute("data-play"), el.getAttribute("data-title"), el.getAttribute("data-dl"), el.getAttribute("data-dlname"), el.getAttribute("data-share"));
@@ -2835,6 +2900,7 @@
   // The open product page's folder + ticked files (set by openDetail), carried
   // across a language switch's re-render via keepDetail.
   var detailState = null, keepDetail = null;
+  var colorPick = {};   // product name -> colorway picked on its page (Hydout: Black / Khalifa Kush)
   // A thumbnail that fails once (a transient 503) gets one retry before the
   // file-type icon replaces it for good.
   window.__thumbRetry = function (img, kind) {
@@ -2974,7 +3040,33 @@
         if (pool[0]) colorPops += pk(popLabel + " — " + tr(w.color), pool[0].thumb, pool[0].url);
       });
     }
-    if (colorPops) {
+    // Colorway folders (Hydout: Khalifa Kush): the base color's box and POP from
+    // the product's own Packaging / POP library, each colorway's from its own
+    // synced folders, named by file in info.variantPkg.
+    var vCols = (window.PORTAL_FOLDER_VARIANTS || {})[p.name] || [];
+    if (vCols.length && ways.length) {
+      var findV = function (c, want) {
+        if (!want) return null;
+        var hit = null, t = String(want).toLowerCase();
+        Object.keys(p.folders || {}).forEach(function (f) {
+          if (variantColor(f) !== c) return;
+          (p.folders[f] || []).forEach(function (x) { if (!hit && x.thumb && String(x.name).toLowerCase() === t) hit = x; });
+        });
+        return hit;
+      };
+      var srp = tr("Single Retail Packaging"), baseC = tr(ways[0].color);
+      var vBox = "", vPop = "";
+      vCols.forEach(function (c) {
+        var want = (info.variantPkg || {})[c] || {};
+        var b = findV(c, want.boxFile), q = findV(c, want.popFile);
+        if (b) vBox += pk(srp + " — " + tr(c), b.thumb, b.url);
+        if (q) vPop += pk(popLabel + " — " + tr(c), q.thumb, q.url);
+      });
+      cards = boxCard(srp + " — " + baseC, info.boxImg, info.boxImgDl, boxFile) + vBox +
+        boxCard(popLabel + " — " + baseC, info.popImg, info.popImgDl, popFile) + vPop +
+        pk(tr("Master carton"), info.cartonImg);
+      note = tr("Each colorway ships in its own retail-ready POP display — see SKU details for inner-pack &amp; master-carton quantities.");
+    } else if (colorPops) {
       cards = colorCards + colorPops + pk(tr("Master carton"), info.cartonImg);
       note = tr("Each colorway ships in its own retail-ready POP display — see SKU details for inner-pack &amp; master-carton quantities.");
     } else if (colorCards) {
@@ -3012,10 +3104,11 @@
         '<div class="cway-top"><span class="cway-dot"></span><span class="cway-color">' + tr(w.color) + "</span></div>" +
         '<div class="cway-name">' + escapeHTML(w.name) + "</div>" +
         '<div class="cway-codes">' + code("SKU", w.sku) + code("UPC", w.upc) +
-          (w.popSku ? code(tr("POP SKU"), w.popSku) : "") + "</div>" +
+          (w.popSku ? code(tr("POP SKU"), w.popSku) : "") +
+          (w.popUpc ? code(tr("POP UPC"), w.popUpc) : "") + "</div>" +
       "</div>";
     }).join("");
-    return '<div class="section-head cways-head"><h2>' + tr("Collection Colorways") + '</h2>' +
+    return '<div class="section-head cways-head"><h2>' + tr(/collection/i.test(p.name) ? "Collection Colorways" : "Colorways") + '</h2>' +
       '<span class="badge">' + tr("{n} colors").replace("{n}", ways.length) + "</span></div>" +
       '<div class="cways">' + cards + "</div>";
   }

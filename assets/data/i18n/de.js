@@ -354,6 +354,11 @@ window.PORTAL_I18N.de = {
     "Purple": "Lila",
     "Neon Green": "Neongrün",
     "POP SKU": "POP-SKU",
+    "POP UPC": "POP-UPC",
+    "All colors": "Alle Farben",
+    "Colorways": "Farbvarianten",
+    "Colorway": "Farbvariante",
+    "Black": "Schwarz",
     "Red": "Rot",
     "Regional Catalogs": "Regionale Kataloge",
     "Retail POP display": "Retail-POP-Display",
@@ -670,7 +675,7 @@ window.PORTAL_I18N.de = {
       }
     },
     "Hydout": {
-      "description": "Der G Pen Hydout ist ein kompakter, diskreter Akku für 510-Kartuschen mit verdeckter magnetischer Mundstückabdeckung, einstellbarer Spannung und LED-Display für geschmeidige, individuell anpassbare und unauffällige Sessions.",
+      "description": "Der G Pen Hydout ist ein kompakter, diskreter Akku für 510-Kartuschen mit verdeckter magnetischer Mundstückabdeckung, einstellbarer Spannung und LED-Display für geschmeidige, individuell anpassbare und unauffällige Sessions. Jetzt in zwei Farbvarianten: klassisches Schwarz und der Khalifa Kush x G Pen Hydout, eine transparente Kollaboration in Schwarz und Gelb mit Wiz Khalifa.",
       "highlights": [
         "Verdeckte magnetische Mundstückabdeckung",
         "5 Heizstufen (2,4V – 3,8V)",

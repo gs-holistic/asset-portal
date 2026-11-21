@@ -358,6 +358,11 @@ window.PORTAL_I18N.pt = {
     "Purple": "Roxo",
     "Neon Green": "Verde neon",
     "POP SKU": "SKU POP",
+    "POP UPC": "UPC POP",
+    "All colors": "Todas as cores",
+    "Colorways": "Cores",
+    "Colorway": "Cor",
+    "Black": "Preto",
     "Red": "Vermelho",
     "Regional Catalogs": "Catálogos regionais",
     "Retail POP display": "Expositor POP",
@@ -674,7 +679,7 @@ window.PORTAL_I18N.pt = {
       }
     },
     "Hydout": {
-      "description": "A G Pen Hydout é uma bateria compacta e discreta para cartuchos 510, com tampa magnética oculta para a piteira, voltagem ajustável e visor LED para sessões suaves e personalizáveis sem chamar atenção.",
+      "description": "A G Pen Hydout é uma bateria compacta e discreta para cartuchos 510, com tampa magnética oculta para a piteira, voltagem ajustável e visor LED para sessões suaves e personalizáveis sem chamar atenção. Agora em duas cores: o clássico preto e a Khalifa Kush x G Pen Hydout, uma colaboração translúcida preta e amarela com Wiz Khalifa.",
       "warranty": "Garantia limitada — consulte a política",
       "fullDescription": [
         "Procurando a melhor bateria para cartuchos 510 para sessões discretas em qualquer lugar? Conheça a Bateria para Cartuchos 510 G Pen Hydout — uma bateria de vape compacta e camuflada para cartuchos 510 que entrega desempenho de verdade sem entregar o seu jogo.",
