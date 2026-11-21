@@ -8807,30 +8807,21 @@ window.PORTAL_SYNCED = {
           "file": null
         },
         {
-          "name": "_STZ6320e",
+          "name": "Khalifa Kush 510 Battery Display-2",
           "type": "image",
           "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/n4x3xrn40rge04lusmsyb/_STZ6320e.png?rlkey=g894l8zlaqnvyxatwskvb7v4n&dl=0",
-          "thumb": "assets/synced/hydout/2fbebcc8764922e40f86dedcf4b719b17cf38a1afcc3bff9aa2590956ab59bd6.jpg",
-          "thumbS": "assets/synced/hydout/2fbebcc8764922e40f86dedcf4b719b17cf38a1afcc3bff9aa2590956ab59bd6-s.jpg",
+          "url": "https://www.dropbox.com/scl/fi/u2zyq6eurr59716dio6ya/Khalifa-Kush-510-Battery-Display-2.png?rlkey=jqv057wu0hizhexumbygmzjbi&dl=0",
+          "thumb": "assets/synced/hydout/4473bac3880a2690269c9c865059ef14e13f2e498cb81e3bf55ae00048b1cd8e.jpg",
+          "thumbS": "assets/synced/hydout/4473bac3880a2690269c9c865059ef14e13f2e498cb81e3bf55ae00048b1cd8e-s.jpg",
           "file": null
         },
         {
-          "name": "_STZ6321e",
+          "name": "Khalifa Kush 510 Battery Display",
           "type": "image",
           "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/ye4njlye2sth5dmnjtvlm/_STZ6321e.png?rlkey=92izca48xrvlfpk43xg2rtnsd&dl=0",
-          "thumb": "assets/synced/hydout/8d8ca7d33abd58914dd1338fa8e72c22728bc78e8f1f0e39e827b52b753bb4f2.jpg",
-          "thumbS": "assets/synced/hydout/8d8ca7d33abd58914dd1338fa8e72c22728bc78e8f1f0e39e827b52b753bb4f2-s.jpg",
-          "file": null
-        },
-        {
-          "name": "_STZ6324e",
-          "type": "image",
-          "format": "PNG",
-          "url": "https://www.dropbox.com/scl/fi/nbguez3uc5gq4hzk4ki1n/_STZ6324e.png?rlkey=drjqhnobjsqveoet82rmf9cmh&dl=0",
-          "thumb": "assets/synced/hydout/66f23abc455882d3bc3fcbd907492115036f765aaf97aefd911e6141129b3784.jpg",
-          "thumbS": "assets/synced/hydout/66f23abc455882d3bc3fcbd907492115036f765aaf97aefd911e6141129b3784-s.jpg",
+          "url": "https://www.dropbox.com/scl/fi/pjtg30njmkmfs5tcmlzwy/Khalifa-Kush-510-Battery-Display.png?rlkey=jek12n10yxvqyykgymz5s1bvt&dl=0",
+          "thumb": "assets/synced/hydout/8f58cb645a0930829cd5ef9d832921c7b30ea0fc4b987522d93094e9d7b45aa4.jpg",
+          "thumbS": "assets/synced/hydout/8f58cb645a0930829cd5ef9d832921c7b30ea0fc4b987522d93094e9d7b45aa4-s.jpg",
           "file": null
         },
         {
@@ -9127,7 +9118,7 @@ window.PORTAL_SYNCED = {
       "Khalifa Kush / Packaging": "https://www.dropbox.com/scl/fo/rrc0sfnve71ejuw3n4z4s/AGFQI0dJUO0IoWJe7RQvSQk?rlkey=1zvn53bsvlw4yu1253cr8uh0n&dl=1",
       "Khalifa Kush / Documents": "https://www.dropbox.com/scl/fo/hhosayhh06kcz8cik32y0/AGM_HXKYAe-AxQL1MYvnSaM?rlkey=xk407j12d3pgng5lmrlw9tjv2&dl=1"
     },
-    "updated": "2026-11-20"
+    "updated": "2026-11-21"
   },
   "Hydout Retro Collection": {
     "folders": {
