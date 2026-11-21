@@ -596,6 +596,10 @@
     var lbl = INSTORE_LABELS[file.name];
     if (lbl) return lbl.name;   // curated in-store material name (no extension)
     var f = file.format || "";
+    // Display names for files Dropbox has under a meaningless name ("image (239)").
+    // Keeps the extension, so downloads still save as .png / .pdf.
+    var nice = own(window.PORTAL_FILE_NAMES || {}, file.name) ? window.PORTAL_FILE_NAMES[file.name] : null;
+    if (nice) return f ? nice + "." + f.toLowerCase() : nice;
     if (!f || f === "YouTube" || f === "Link") return file.name;  // links keep their title, no fake extension
     return file.name + "." + f.toLowerCase();
   }
@@ -3471,7 +3475,7 @@
           // The format tag on the thumbnail already says JPG/PNG/MP4, so the visible
           // name drops the extension (and stops "_ALF2043.j/pg" splitting); the
           // tooltip, aria label and download keep the full filename.
-          '<div class="gbar"><span class="gn" title="' + nm + '">' + (file.format ? escapeHTML(file.name) : nm) + '</span>' +
+          '<div class="gbar"><span class="gn" title="' + nm + '">' + (file.format ? escapeHTML(own(window.PORTAL_FILE_NAMES || {}, file.name) ? window.PORTAL_FILE_NAMES[file.name] : file.name) : nm) + '</span>' +
           '<span class="ga">' +
             '<span role="button" tabindex="0" data-copy="' + escapeHTML(file.url || "#") + '" aria-label="' + tr("Copy link to {name}").replace("{name}", nm) + '" title="' + tr("Copy link") + '">' + icon("link") + "</span>" +
             '<span role="button" tabindex="0" data-dl="' + escapeHTML(file.file || file.url || "#") + '" data-name="' + nm + '"' + (file.file ? ' data-direct="1"' : "") +  ' aria-label="' + tr(ext ? "Watch {name}" : "Download {name}").replace("{name}", nm) + '" title="' + tr(ext ? "Watch on YouTube" : "Download") + '">' + icon(ext ? "play" : "download") + "</span>" +

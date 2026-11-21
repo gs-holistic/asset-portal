@@ -934,7 +934,7 @@ var PRODUCT_SKU = {
   "Melt Hot Knife":       { sku: "GHK-001-AOZZ", pop: true,  fullName: "MELT", upc: "811736029711", popSku: "GHK-001-AOZZ-Inner Pack", popUpc: "10811736029718", dimensions: "122.5 × 42 × 12 mm", unitWeight: "17 g", innerPack: "20", masterCarton: "720", caseWeight: "14.74 kg", caseDimensions: "513 × 482 × 262 mm", htsCode: "8543.70.9940" },
   "Hydout":               { sku: "GHO-001-AOZZ", pop: true,  fullName: "HYDOUT", upc: "811736029254", popSku: "GHO-001-AOZZ-Inner Pack", popUpc: "10811736029251", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940",
     // Khalifa Kush box + POP renders, named by file in its synced folders.
-    variantPkg: { "Khalifa Kush": { boxFile: "_STZ6328", popFile: "_STZ6320e" } } },
+    variantPkg: { "Khalifa Kush": { boxFile: "_STZ6328", popFile: "Khalifa Kush 510 Battery Display" } } },
   "510 Original":         { sku: "GSB-001-AOZZ", pop: true,  fullName: "510 ORIGINAL", upc: "811736029742", popSku: "GSB-001-AOZZ-Inner Pack", popUpc: "10811736029749", dimensions: "24 × 21.1 × 56.7 mm", unitWeight: "30 g", innerPack: "20", masterCarton: "400", caseWeight: "13.4 kg", caseDimensions: "510 × 330 × 310 mm", htsCode: "8543.70.9940" },
   "Hydout Retro Collection":       { sku: "GHO-006-AOZZ", pop: true,  fullName: "HYDOUT — RETRO COLLECTION", upc: "00811736029889", popSku: "GHO-006-AOZZ", popUpc: "00811736029889", dimensions: "55 × 20 × 105 mm", unitWeight: "50 g", innerPack: "10", masterCarton: "300", caseWeight: "16 kg", caseDimensions: "580 × 380 × 250 mm", htsCode: "8543.70.9940" },
   "510 Original Retro Collection": { sku: "GSB-006-APZZ", pop: true,  fullName: "510 ORIGINAL — RETRO COLLECTION", upc: "00811736021791", popSku: "GSB-006-APZZ", popUpc: "00811736021791", dimensions: "24 × 21.1 × 56.7 mm", unitWeight: "30 g", innerPack: "20", masterCarton: "400", caseWeight: "13.4 kg", caseDimensions: "510 × 330 × 310 mm", htsCode: "8543.70.9940" },
@@ -1098,6 +1098,12 @@ window.PORTAL_COLORWAYS = {
 /* Colorways whose assets live in their own Dropbox folder, synced onto the
    product page as "<color> / <folder>" (see dropbox-sync.mjs `variants`). The
    product page gets a color switch; packaging shows one box + POP per color. */
+/* Display names for synced files whose Dropbox name means nothing (matched by
+   filename without extension). Rename the file in Dropbox and this goes unused. */
+window.PORTAL_FILE_NAMES = {
+  "image (239)": "Khalifa Kush x G Pen Hydout One Sheet",   // Wiz with the KK Hydout, 10-pack POP, $24.95
+};
+
 window.PORTAL_FOLDER_VARIANTS = {
   "Hydout": ["Khalifa Kush"],
 };
